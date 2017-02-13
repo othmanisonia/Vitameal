@@ -1,6 +1,6 @@
 # Projet Vitameal
 
-Bienvenue sur le projet Vitamean. Ce projet est réaliser dans le cadre de la première année de formation de l'Ipst-Cnam de Toulouse.
+Bienvenue sur le projet Vitameal. Ce projet est réaliser dans le cadre de la première année de formation de l'Ipst-Cnam de Toulouse.
 
 ## Problème
 
