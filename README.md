@@ -1,6 +1,6 @@
-# Projet VitaMeal
+# Projet Vitameal
 
-Bienvenue sur le projet de gestion de menu personalisée pour les patients d'un hôpital : *Vitameal*.
+Bienvenue sur le projet de gestion de menu personalisée pour les patients d'un hôpital.
 
 ## Problème
 
