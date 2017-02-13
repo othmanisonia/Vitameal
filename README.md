@@ -51,21 +51,35 @@ Mise en place d’un outil informatique permettant d’élaborer les menus des p
 
 #### Profil patient
 
+Il est renseigné par le dététicien sous les directives du médecin.
 - Allergies
 - Affections (induisant une diététique particulière)
-  - Contre-indications (sel, …)
-  - Aliments sous forme
+  - Contre-indications (repas sans …)
+    - Gluten
+    - Produits laitiers
+    - Oeufs
+    - Arachide
+    - Sel
+    - Alcool
+    - Iode
+  - Traitement en cours: si cortisone --> régime sans sel.
+- Aliments sous forme
   - Liquide
+  - Mixé
   - Solide
   - Liquide et solide
   - Chaud
   - Froid
+  - Boissons gélifiées (fausse route)
+- Repas
+  - Hyper / hypo protéiné
+  - Hyper / hypo calorique
 - Physique (pour évaluer le besoin énergétique)
   - Poids
   - Taille
   - Age
   - Sexe
-- Tempérament
+- Tempérament (Manifestement pas utilisé...)
   - Nerveux (sec et froid) est dominé par l'élément de la terre.
   - Bileux (sec et chaud) est dominé par l'élément du feu.
   - Sanguin (humide et chaud) est dominé par l'élément de l'air.
@@ -73,6 +87,7 @@ Mise en place d’un outil informatique permettant d’élaborer les menus des p
 	
 #### Nutriments
 
+Il semblerait que nous n'ayons pas besoin de rentrer dans ces considérations là.
 - Protéines
 - Lipides (Corps gras) : 1 g de lipides procure 9 kcal, soit 38 kJ 
 - Glucides (Sucres) : 1 g de glucides procure 4 kilocalories (kcal), soit 17 kilojoules (kJ)
@@ -112,6 +127,7 @@ Mise en place d’un outil informatique permettant d’élaborer les menus des p
 Devrait être composé de :
 - Lipides : 35% à 40% des calories totales.
 - Glucides : < 55 % des calories totales.
+Gouter matin / après-midi.
 
 #### Sources
 
