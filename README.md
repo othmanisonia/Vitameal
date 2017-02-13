@@ -127,6 +127,7 @@ Il semblerait que nous n'ayons pas besoin de rentrer dans ces considérations l�
 Devrait être composé de :
 - Lipides : 35% à 40% des calories totales.
 - Glucides : < 55 % des calories totales.
+
 Gouter matin / après-midi.
 
 #### Sources
