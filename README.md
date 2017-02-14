@@ -43,6 +43,10 @@ Mise en place d’un outil informatique permettant d’élaborer les menus des p
 - Liste des plats à préparer
 - Liste des menus par patients
 
+*Proposition de diagramme de cas d'utilisation* : `TODO` *définir un outil commun de modelisation UML*
+
+![Diagramme de cas d'utilisation](doc/UseCaseDiagram.svg)
+
 ---
 
 ## Infomations complémentaires
