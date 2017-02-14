@@ -45,7 +45,7 @@ Mise en place d’un outil informatique permettant d’élaborer les menus des p
 
 *Proposition de diagramme de cas d'utilisation* : `TODO` *définir un outil commun de modelisation UML*
 
-![Diagramme de cas d'utilisation](doc/UseCaseDiagram.svg)
+![Diagramme de cas d'utilisation](https://seikomi.github.io/Vitameal/doc/UseCaseDiagram.svg)
 
 ---
 
