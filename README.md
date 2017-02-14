@@ -12,11 +12,11 @@ Mise en place d’un outil informatique permettant d’élaborer les menus des p
 
 ## Equipe projet
 
-|Nom       |Prenom    |Compétences|Rôle              |Mail                        |
-|----------|----------|-----------|------------------|----------------------------|
-|Othamani  |Sonia     |BP PM      |`TODO` *à définir*|[oth.sonia@gmail.com](mailto:oth.sonia@gmail.com)         |
+|Nom       |Prenom    |Compétences|Rôle              |Mail                                                               |
+|----------|----------|-----------|------------------|-------------------------------------------------------------------|
+|Othamani  |Sonia     |BP PM      |`TODO` *à définir*|[oth.sonia@gmail.com](mailto:oth.sonia@gmail.com)                  |
 |Symphorien|Nicolas   |SI PG DO   |`TODO` *à définir*|[nicolas.symphorien@gmail.com](mailto:nicolas.symphorien@gmail.com)|
-|Benitez   |Jean-Félix|PM PG      |`TODO` *à définir*|[jeanfelix.benitez@gmail.com](mailto:jeanfelix.benitez@gmail.com) |
+|Benitez   |Jean-Félix|PM PG      |`TODO` *à définir*|[jeanfelix.benitez@gmail.com](mailto:jeanfelix.benitez@gmail.com)  |
 
 
 **BP** : Métier **PM** : Gestion / Animation **SI** : Processus d'informatisation **PG** : Programmation **DO** : Documentation / Outils  
