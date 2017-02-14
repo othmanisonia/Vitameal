@@ -14,9 +14,9 @@ Mise en place d’un outil informatique permettant d’élaborer les menus des p
 
 |Nom       |Prenom    |Compétences|Rôle              |Mail                        |
 |----------|----------|-----------|------------------|----------------------------|
-|Othamani  |Sonia     |BP PM      |`TODO` *à définir*|oth.sonia@gmail.com         |
-|Symphorien|Nicolas   |SI PG DO   |`TODO` *à définir*|nicolas.symphorien@gmail.com|
-|Benitez   |Jean-Félix|PM PG      |`TODO` *à définir*|jeanfelix.benitez@gmail.com |
+|Othamani  |Sonia     |BP PM      |`TODO` *à définir*|[oth.sonia@gmail.com](mailto:oth.sonia@gmail.com)         |
+|Symphorien|Nicolas   |SI PG DO   |`TODO` *à définir*|[nicolas.symphorien@gmail.com](mailto:nicolas.symphorien@gmail.com)|
+|Benitez   |Jean-Félix|PM PG      |`TODO` *à définir*|[jeanfelix.benitez@gmail.com](mailto:jeanfelix.benitez@gmail.com) |
 
 
 **BP** : Métier **PM** : Gestion / Animation **SI** : Processus d'informatisation **PG** : Programmation **DO** : Documentation / Outils  
@@ -131,6 +131,7 @@ Il semblerait que nous n'ayons pas besoin de rentrer dans ces considérations l�
 #### Repas
 
 Devrait être composé de :
+
 - Lipides : 35% à 40% des calories totales.
 - Glucides : < 55 % des calories totales.
 
@@ -138,8 +139,8 @@ Gouter matin / après-midi.
 
 #### Sources
 
-https://fr.wikipedia.org/wiki/Diététique  
-https://fr.wikipedia.org/wiki/Nutriment  
-https://fr.wikipedia.org/wiki/Tempérament_(psychologie)  
-https://fr.wikipedia.org/wiki/Nutrition  
-https://fr.wikipedia.org/wiki/Protide  
+[fr.wikipedia.org/wiki/Diététique](https://fr.wikipedia.org/wiki/Diététique)  
+[fr.wikipedia.org/wiki/Nutriment](https://fr.wikipedia.org/wiki/Nutriment)  
+[fr.wikipedia.org/wiki/Tempérament_(psychologie)](https://fr.wikipedia.org/wiki/Tempérament_(psychologie))  
+[fr.wikipedia.org/wiki/Nutrition](https://fr.wikipedia.org/wiki/Nutrition)  
+[fr.wikipedia.org/wiki/Protide](https://fr.wikipedia.org/wiki/Protide)  
