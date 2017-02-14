@@ -55,7 +55,8 @@ Mise en place d’un outil informatique permettant d’élaborer les menus des p
 
 #### Profil patient
 
-Il est renseigné par le dététicien sous les directives du médecin.  
+Il est renseigné par le dététicien sous les directives du médecin.
+
 - Allergies
 - Affections (induisant une diététique particulière)
   - Contre-indications (repas sans …)
@@ -91,7 +92,8 @@ Il est renseigné par le dététicien sous les directives du médecin.
 	
 #### Nutriments
 
-Il semblerait que nous n'ayons pas besoin de rentrer dans ces considérations là.  
+Il semblerait que nous n'ayons pas besoin de rentrer dans ces considérations là.
+
 - Protéines
 - Lipides (Corps gras) : 1 g de lipides procure 9 kcal, soit 38 kJ 
 - Glucides (Sucres) : 1 g de glucides procure 4 kilocalories (kcal), soit 17 kilojoules (kJ)
