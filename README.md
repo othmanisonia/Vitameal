@@ -29,16 +29,13 @@ Mise en place d’un outil informatique permettant d’élaborer les menus des p
 
 ## Cas d’utilisation
 
-- Enregistrement d’un nouveau patient
-- Modification d’un patient
+- Enregistrement d’un nouveau patient avec son profil diététique
+- Modification du profil diététique d'un patient
 - Retrait d’un patient
-- Enregistrement d’un nouveau profil diététique
-- Modification d’un profil diététique
-- Retrait d’un profil diététique
-- Enregistrement d’un plat
-- Modification d’un plat
+- Enregistrement d’un plat et de son profil diététique
+- Modification d’un plat et de son profil diététique
 - Retrait d’un plat
-- Génération des menus
+- Élaboration des menus
 - Liste des achats, pour les menus générés
 - Liste des plats à préparer
 - Liste des menus par patients
