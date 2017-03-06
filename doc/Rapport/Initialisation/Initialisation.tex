@@ -1,0 +1,62 @@
+%-*- coding: utf-8 -*-
+\textcolor[RGB]{46, 116, 181}{\chapter{Initialisation}}
+\section{Définition du problème}
+L'élaboration de menus dans un hôpital pour la restauration des patients
+est une tâche complexe, et doit tenir compte des différentes pathologies
+rencontrées. Faute de moyens (temps et argent) seules quelques grandes
+lignes de restauration sont retenues; alors qu'idéalement, chaque
+patient devrait pourvoir avoir un repas adapté à sa pathologie.
+
+\section{Vision du projet}
+\subsection{Solution envisagée}
+Mise en place d'un outil informatique permettant d'élaborer les menus
+des patients en fonction des profils diététiques, paramétré par le corps
+médical.
+
+\subsection{Périmètre}
+C'est un diététicien qui renseigne le profil diététique des patients,
+sous les directives des médecins. C'est aussi un diététicien qui élabore
+les menus des patients. L'outil permettra donc au diététicien d'élaborer
+les menus par filtrage des produits correspondants aux profils
+diététiques des patients.
+
+\section{Analyse des exigences}
+\subsection{Partie prenantes}
+\begin{itemize}
+\item Participantes~: les diététiciens, le service restauration
+\item Concernés~: les médecins, la direction (budget)
+\item Impactées~: les patients
+\end{itemize}
+
+\subsection{Les besoins}
+\begin{itemize}
+\item Les diététiciens renseignent les profils diététiques de chaque patient.
+\item Les diététiciens élaborent les menus.
+\item Le service restauration commande les produits et ingrédients mis en œuvre dans les menus
+\item Le service restauration prépare les menus élaborés.
+\end{itemize}
+
+\subsection{Les contraintes}
+\begin{itemize}
+\item Les médecins doivent pouvoir vérifier / valider les profils diététiques des patients.
+\item La direction fixe un budget maximum par menu.
+\end{itemize}
+
+\subsection{Exigences}
+\begin{itemize}
+\item Fonctionnelles
+  \begin{itemize}
+  \item Chaque patient a un profil diététique, renseigné par le diététicien
+  \item Chaque menu élaboré par le diététicien, correspond à un ou plusieurs profils diététiques patients.
+  \item À l'issue de l'élaboration des menus, la liste des produits et
+    ingrédients (avec leur quantité) est faite afin que le service
+    restauration puisse les commander.
+  \item La liste des différents menus à réaliser est mise à disposition du service restauration.
+  \end{itemize}
+\item Non fonctionnelles
+  \begin{itemize}
+  \item \colorbox{yellow}{À évaluer !}
+  \end{itemize}
+\end{itemize}
+
+\section{\colorbox{yellow}{TODO} Estimation globale}
