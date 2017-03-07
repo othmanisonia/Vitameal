@@ -46,7 +46,7 @@ Mise en place d’un outil informatique permettant d’élaborer les menus des p
 
 ## How to
 
-[Vitameal How to](https://seikomi.github.io/Vitameal/doc/how_to.md)
+[Vitameal How to](doc/how_to.md)
 
 ---
 
