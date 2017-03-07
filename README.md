@@ -44,6 +44,10 @@ Mise en place d’un outil informatique permettant d’élaborer les menus des p
 
 ![Diagramme de cas d'utilisation](https://seikomi.github.io/Vitameal/doc/UseCaseDiagram.svg)
 
+## How to
+
+[Vitameal How to](https://seikomi.github.io/Vitameal/doc/how_to.md)
+
 ---
 
 ## Infomations complémentaires
