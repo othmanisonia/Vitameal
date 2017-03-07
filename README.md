@@ -12,11 +12,11 @@ Mise en place d’un outil informatique permettant d’élaborer les menus des p
 
 ## Equipe projet
 
-|Nom       |Prenom    |Compétences|Rôle              |Mail                                                               |
-|----------|----------|-----------|------------------|-------------------------------------------------------------------|
-|Othamani  |Sonia     |BP PM      |`TODO` *à définir*|[oth.sonia@gmail.com](mailto:oth.sonia@gmail.com)                  |
-|Symphorien|Nicolas   |SI PG DO   |`TODO` *à définir*|[nicolas.symphorien@gmail.com](mailto:nicolas.symphorien@gmail.com)|
-|Benitez   |Jean-Félix|PM PG      |`TODO` *à définir*|[jeanfelix.benitez@gmail.com](mailto:jeanfelix.benitez@gmail.com)  |
+|Nom       |Prenom    |Compétences|Mail                                                               |
+|----------|----------|-----------|-------------------------------------------------------------------|
+|Othamani  |Sonia     |BP PM      |[oth.sonia@gmail.com](mailto:oth.sonia@gmail.com)                  |
+|Symphorien|Nicolas   |SI PG DO   |[nicolas.symphorien@gmail.com](mailto:nicolas.symphorien@gmail.com)|
+|Benitez   |Jean-Félix|PM PG      |[jeanfelix.benitez@gmail.com](mailto:jeanfelix.benitez@gmail.com)  |
 
 
 **BP** : Métier **PM** : Gestion / Animation **SI** : Processus d'informatisation **PG** : Programmation **DO** : Documentation / Outils  
@@ -40,104 +40,11 @@ Mise en place d’un outil informatique permettant d’élaborer les menus des p
 - Liste des plats à préparer
 - Liste des menus par patients
 
-*Proposition de diagramme de cas d'utilisation* : `TODO` *définir un outil commun de modelisation UML*
+*Proposition de diagramme de cas d'utilisation* :
 
 ![Diagramme de cas d'utilisation](https://seikomi.github.io/Vitameal/doc/UseCaseDiagram.svg)
 
----
+## Comptes rendus de réunion
 
-## Infomations complémentaires
+[Compte rendu de la réunion du 3 mars 2017](https://seikomi.github.io/Vitameal/doc/CompteRendu_20170303/CompteRendu.md)
 
-### Diététique
-
-#### Profil patient
-
-Il est renseigné par le dététicien sous les directives du médecin.
-
-- Allergies
-- Affections (induisant une diététique particulière)
-  - Contre-indications (repas sans …)
-    - Gluten
-    - Produits laitiers
-    - Oeufs
-    - Arachide
-    - Sel
-    - Alcool
-    - Iode
-  - Traitement en cours: si cortisone --> régime sans sel.
-- Aliments sous forme
-  - Liquide
-  - Mixé
-  - Solide
-  - Liquide et solide
-  - Chaud
-  - Froid
-  - Boissons gélifiées (fausse route)
-- Repas
-  - Hyper / hypo protéiné
-  - Hyper / hypo calorique
-- Physique (pour évaluer le besoin énergétique)
-  - Poids
-  - Taille
-  - Age
-  - Sexe
-- Tempérament (Manifestement pas utilisé...)
-  - Nerveux (sec et froid) est dominé par l'élément de la terre.
-  - Bileux (sec et chaud) est dominé par l'élément du feu.
-  - Sanguin (humide et chaud) est dominé par l'élément de l'air.
-  - Lymphatique (humide et froid) est dominé par l'élément de l'eau.
-	
-#### Nutriments
-
-Il semblerait que nous n'ayons pas besoin de rentrer dans ces considérations là.
-
-- Protéines
-- Lipides (Corps gras) : 1 g de lipides procure 9 kcal, soit 38 kJ 
-- Glucides (Sucres) : 1 g de glucides procure 4 kilocalories (kcal), soit 17 kilojoules (kJ)
-- Protides (Acides aminés) : 1 g de protides procure 4 kcal, soit 17 kJ
-- Vitamines
-- Minéraux
-  - Calcium
-  - Phosphore
-  - Potassium
-  - Chlore
-  - Sodium
-  - Magnésium
-- Oligo-éléments
-  - Fer
-  - Zinc
-  - Cuivre
-  - Manganèse
-  - Iode
-  - Molybdène
-- Fibres alimentaires
-
-#### Plats
-
-- Catégorie
-  - Entrée
-  - Plat
-  - Dessert
-- Composition (liste et proportion des ingrédients)
-- Forme solide ou liquide
-- Chaud ou Froid
-- Nombre de calories pour 100g (la quantité délivrée devrait, dans la mesure du possible, pouvoir être variable).
-- Analyse en termes de nutriments.
-- Aliments de saison : il faudra connaitre par saisons la liste des aliments disponibles
-
-#### Repas
-
-Devrait être composé de :
-
-- Lipides : 35% à 40% des calories totales.
-- Glucides : < 55 % des calories totales.
-
-Gouter matin / après-midi.
-
-#### Sources
-
-[fr.wikipedia.org/wiki/Diététique](https://fr.wikipedia.org/wiki/Diététique)  
-[fr.wikipedia.org/wiki/Nutriment](https://fr.wikipedia.org/wiki/Nutriment)  
-[fr.wikipedia.org/wiki/Tempérament_(psychologie)](https://fr.wikipedia.org/wiki/Tempérament_(psychologie))  
-[fr.wikipedia.org/wiki/Nutrition](https://fr.wikipedia.org/wiki/Nutrition)  
-[fr.wikipedia.org/wiki/Protide](https://fr.wikipedia.org/wiki/Protide)  
