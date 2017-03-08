@@ -44,7 +44,15 @@ Mise en place d’un outil informatique permettant d’élaborer les menus des p
 
 ![Diagramme de cas d'utilisation](https://seikomi.github.io/Vitameal/doc/UseCaseDiagram.svg)
 
+## Outils
+
+[L'usine logicielle de Vitameal](doc/outils/outils.md)
+
 ## Comptes rendus de réunion
 
-[Compte rendu de la réunion du 3 mars 2017](https://seikomi.github.io/Vitameal/doc/CompteRendu_20170303/CompteRendu.md)
+[Compte rendu de la réunion du 3 mars 2017](doc/CompteRendu_20170303/CompteRendu.md)
+
+## How to
+
+[Vitameal How to](doc/how_to.md)
 
