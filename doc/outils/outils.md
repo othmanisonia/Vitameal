@@ -18,20 +18,26 @@ Les outils utilisées par l'usine logicielle de Vitameal ce sépare en deux cat�
 * Le côté poste de développemnt qui correspond aux outils installés par chaque développeur sur sa machine ;
 * Le côté espace d'integration continue qui correspond aux outils composant l'espace communs de collaborations.
 
+Le language cible de cette usine est Java, mais elle peut facilement être adapté à d'autre language (notamment LaTex).
+
 ### Côté poste de développement
 
-* Eclipse + un ensemble de plugins specifiques
-* Maven
-* Git
-* StarUML
-* TEXMaker (optionnel)
+* **Eclipse** comme IDE pour écrire/éditer le code de l'application ;
+* **Maven** comme constructeur du projet (gestion des dépendances, automatisation de la construction
+* **JUnit** pour ecrire les tests unitaires de l'application et **Codertura** pour analyser la couverture du projet par
+ ces tests ;
+* **Git** pour versionner les sources du projet ;
+* **StarUML** pour modéliser selon le standart UML le projet ;
+* **GanttProject** pour plannifier le projet avec un diagramme de Gantt ;
+* **TEXMaker** pour éditer les fichiers`.tex` avec un comportement proche des *WYSIWYG* (optionnel).
 
 ### Côté espace d'integration continue
 
-* GitHub
-* OpenProject ou Trello `TODO à definir`
-* Jenkins
-* Sonar
+* **GitHub** comme gestionnaire à distance du repositorie Git principal, comme tracker de bug et comme affichage visuel
+ des taches à faire ;
+* **Jenkins** comme serveur d'intégration continue ;
+* **SonarQube** comme analyseur de qualité du code.
+
 
 Notes de Nicolas Symphorien (@Seikomi):  
 OpenProject, Jenkins, Sonar nécessite de mettre en place un serveur dédiée, je vais regarder les offres disponibles
@@ -39,7 +45,7 @@ sur internet et, en parallèle, voir si je peux auto-héberger ces outils chez m
 
 ## Schema de fonctionnement
 
-`TODO`
+![Usine Vitameal](Diagramme.png)
 
 ## Installation des outils du poste développeur
 
