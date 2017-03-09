@@ -15,7 +15,7 @@ sa simplicité de mise en oeuvre.
 
 <figure>
 	<img src="https://seikomi.github.io/Vitameal/doc/CompteRendu_20170303/MethodeMinimale.png"
-		 alt="Méthode minimale" width="50%" height="50%">
+		 alt="Méthode minimale" width="75%" height="75%">
 	<figcaption><i>Figure 1 - Méthode minimale</i></figcaption>
 </figure>
 
@@ -82,7 +82,8 @@ Livraisons
 Nous avonc convenus de livrer notre travails défini dans cette réunion
 le vendredi 10 mars.
 
-#### Télécharger le compte rendu
+Télécharger le compte rendu
+---------------------------
 
 Au format pdf : [CompteRendu.pdf](https://seikomi.github.io/Vitameal/doc/CompteRendu_20170303/CompteRendu.pdf)  
 Au format tex : [CompteRendu.tex](https://seikomi.github.io/Vitameal/doc/CompteRendu_20170303/CompteRendu.tex)  
