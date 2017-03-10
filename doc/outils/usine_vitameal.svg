@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
 <svg width="65cm" height="40cm" viewBox="320 82 1282 791" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-  <image x="400" y="320" width="100" height="94.1176" xlink:href="https://seikomi.github.io/blob/master/Vitameal/doc/outils/eclipse_logo.svg"/>
-  <image x="780" y="320" width="100" height="100" xlink:href="https://seikomi.github.io/Vitameal/blob/master/doc/outils/git_logo.svg"/>
-  <image x="1080" y="300" width="140" height="140" xlink:href="https://seikomi.github.io/Vitameal/blob/master/doc/outils/github_logo.svg"/>
-  <image x="1080" y="540" width="120" height="165.664" xlink:href="https://seikomi.github.io/Vitameal/blob/master/doc/outils/jenkins_logo.svg"/>
+  <image x="400" y="320" width="100" height="94.1176" xlink:href="https://seikomi.github.io/Vitameal/doc/outils/eclipse_logo.svg"/>
+  <image x="780" y="320" width="100" height="100" xlink:href="https://seikomi.github.io/Vitameal/doc/outils/git_logo.svg"/>
+  <image x="1080" y="300" width="140" height="140" xlink:href="https://seikomi.github.io/Vitameal/doc/outils/github_logo.svg"/>
+  <image x="1080" y="540" width="120" height="165.664" xlink:href="https://seikomi.github.io/Vitameal/doc/outils/jenkins_logo.svg"/>
   <g>
     <line style="fill: none; fill-opacity:0; stroke-width: 10; stroke: #000000" x1="529.005" y1="367.67" x2="750.995" y2="369.389"/>
     <polygon style="fill: #000000" points="529.051,361.67 517.005,367.577 528.958,373.67 "/>
@@ -60,11 +60,11 @@
     <polygon style="fill: #000000" points="463.731,275.837 466.681,265.053 468.736,270.251 474.128,271.726 "/>
     <polygon style="fill: none; fill-opacity:0; stroke-width: 5; stroke: #000000" points="463.731,275.837 466.681,265.053 468.736,270.251 474.128,271.726 "/>
   </g>
-  <image x="400" y="560" width="100" height="95.3125" xlink:href="https://seikomi.github.io/Vitameal/doc/blob/master/outils/staruml_logo.svg"/>
-  <image x="400" y="760" width="100" height="111.642" xlink:href="https://seikomi.github.io/Vitameal/doc/blob/master/outils/ganttproject_logo.svg"/>
+  <image x="400" y="560" width="100" height="95.3125" xlink:href="https://seikomi.github.io/Vitameal/doc/outils/staruml_logo.svg"/>
+  <image x="400" y="760" width="100" height="111.642" xlink:href="https://seikomi.github.io/Vitameal/doc/outils/ganttproject_logo.svg"/>
   <text font-size="36.1244" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:700" x="450" y="309.15">
     <tspan x="450" y="309.15">Eclipse</tspan>
   </text>
-  <image x="740" y="600" width="211.852" height="39.8354" xlink:href="https://seikomi.github.io/Vitameal/blob/master/doc/outils/maven_logo.svg"/>
-  <image x="1360" y="580" width="240.812" height="80" xlink:href="https://seikomi.github.io/Vitameal/blob/master/doc/outils/sonarqude_logo.svg"/>
+  <image x="740" y="600" width="211.852" height="39.8354" xlink:href="https://seikomi.github.io/Vitameal/doc/outils/maven_logo.svg"/>
+  <image x="1360" y="580" width="240.812" height="80" xlink:href="https://seikomi.github.io/Vitameal/doc/outils/sonarqude_logo.svg"/>
 </svg>
