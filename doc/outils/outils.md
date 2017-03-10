@@ -45,7 +45,6 @@ sur internet et, en parallèle, voir si je peux auto-héberger ces outils chez m
 
 ## Schema de fonctionnement
 
-![Usine Vitameal](
 ### Côté poste de développement
 * **Eclipse** comme IDE pour écrire/éditer le code de l'application ;
 * **Maven** comme constructeur du projet (gestion des dépendances, automatisation de la construction
@@ -55,6 +54,7 @@ sur internet et, en parallèle, voir si je peux auto-héberger ces outils chez m
 * **StarUML** pour modéliser selon le standart UML le projet ;
 * **GanttProject** pour plannifier le projet avec un diagramme de Gantt ;
 * **TEXMaker** pour éditer les fichiers`.tex` avec un comportement proche des *WYSIWYG* (optionnel).
+
 ### Côté espace d'integration continue
 * **GitHub** comme gestionnaire à distance du repositorie Git principal, comme tracker de bug et comme affichage visuel
  des taches à faire ;
@@ -63,7 +63,9 @@ sur internet et, en parallèle, voir si je peux auto-héberger ces outils chez m
 Notes de Nicolas Symphorien (@Seikomi):  
 OpenProject, Jenkins, Sonar nécessite de mettre en place un serveur dédiée, je vais regarder les offres disponibles
 sur internet et, en parallèle, voir si je peux auto-héberger ces outils chez moi.
+
 ## Schema de fonctionnement
+
 ![Usine Vitameal](https://seikomi.github.io/Vitameal/doc/outils/usine_vitameal.svg)
 
 ## Installation des outils du poste développeur
