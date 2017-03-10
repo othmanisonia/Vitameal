@@ -45,7 +45,7 @@ sur internet et, en parallèle, voir si je peux auto-héberger ces outils chez m
 
 ## Schema de fonctionnement
 
-![Usine Vitameal](Diagramme.png)
+![Usine Vitameal](usine_vitameal.svg)
 
 ## Installation des outils du poste développeur
 

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="65cm" height="40cm" viewBox="320 82 1282 791" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <image x="400" y="320" width="100" height="94.1176" xlink:href="eclipse_logo.svg"/>
+  <image x="780" y="320" width="100" height="100" xlink:href="git_logo.svg"/>
+  <image x="1080" y="300" width="140" height="140" xlink:href="github_logo.svg"/>
+  <image x="1080" y="540" width="120" height="165.664" xlink:href="jenkins_logo.svg"/>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 10; stroke: #000000" x1="529.005" y1="367.67" x2="750.995" y2="369.389"/>
+    <polygon style="fill: #000000" points="529.051,361.67 517.005,367.577 528.958,373.67 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 10; stroke: #000000" points="529.051,361.67 517.005,367.577 528.958,373.67 "/>
+    <polygon style="fill: #000000" points="750.949,375.388 762.995,369.481 751.042,363.389 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 10; stroke: #000000" points="750.949,375.388 762.995,369.481 751.042,363.389 "/>
+  </g>
+  <text font-size="36.1244" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:700" x="830" y="309.15">
+    <tspan x="830" y="309.15">Git</tspan>
+  </text>
+  <text font-size="36.1244" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:700" x="1150" y="289.15">
+    <tspan x="1150" y="289.15">GitHub</tspan>
+  </text>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 10; stroke: #000000" x1="909.002" y1="370" x2="1051" y2="370"/>
+    <polygon style="fill: #000000" points="909.002,364 897.002,370 909.002,376 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 10; stroke: #000000" points="909.002,364 897.002,370 909.002,376 "/>
+    <polygon style="fill: #000000" points="1051,376 1063,370 1051,364 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 10; stroke: #000000" points="1051,376 1063,370 1051,364 "/>
+  </g>
+  <text font-size="36.1244" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:700" x="1140" y="529.15">
+    <tspan x="1140" y="529.15">Jenkins</tspan>
+  </text>
+  <text font-size="36.1244" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:700" x="450" y="749.15">
+    <tspan x="450" y="749.15">GanttProject</tspan>
+  </text>
+  <text font-size="36.1244" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:700" x="450" y="549.15">
+    <tspan x="450" y="549.15">StarUML</tspan>
+  </text>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 10; stroke: #000000" x1="978.849" y1="620.336" x2="1051.04" y2="621.454"/>
+    <polygon style="fill: #000000" points="978.942,614.337 966.85,620.15 978.756,626.335 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 10; stroke: #000000" points="978.942,614.337 966.85,620.15 978.756,626.335 "/>
+    <polygon style="fill: #000000" points="1050.94,627.453 1063.04,621.64 1051.13,615.455 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 10; stroke: #000000" points="1050.94,627.453 1063.04,621.64 1051.13,615.455 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 10; stroke: #000000" x1="1229.01" y1="622.091" x2="1331.03" y2="621.243"/>
+    <polygon style="fill: #000000" points="1228.96,616.092 1217.01,622.191 1229.06,628.091 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 10; stroke: #000000" points="1228.96,616.092 1217.01,622.191 1229.06,628.091 "/>
+    <polygon style="fill: #000000" points="1331.08,627.242 1343.03,621.143 1330.98,615.243 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 10; stroke: #000000" points="1331.08,627.242 1343.03,621.143 1330.98,615.243 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 10; stroke: #000000" x1="522.336" y1="430.131" x2="719.649" y2="602.174"/>
+    <polygon style="fill: #000000" points="526.279,425.608 513.291,422.244 518.393,434.653 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 10; stroke: #000000" points="526.279,425.608 513.291,422.244 518.393,434.653 "/>
+    <polygon style="fill: #000000" points="715.706,606.696 728.694,610.06 723.593,597.651 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 10; stroke: #000000" points="715.706,606.696 728.694,610.06 723.593,597.651 "/>
+  </g>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 5; stroke: #000000" d="M 1475.19,578.001 A 586.133,586.133 0 0 0 468.843,270.351"/>
+    <polygon style="fill: #000000" points="463.731,275.837 466.681,265.053 468.736,270.251 474.128,271.726 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 5; stroke: #000000" points="463.731,275.837 466.681,265.053 468.736,270.251 474.128,271.726 "/>
+  </g>
+  <image x="400" y="560" width="100" height="95.3125" xlink:href="staruml_logo.svg"/>
+  <image x="400" y="760" width="100" height="111.642" xlink:href="ganttproject_logo.svg"/>
+  <text font-size="36.1244" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:700" x="450" y="309.15">
+    <tspan x="450" y="309.15">Eclipse</tspan>
+  </text>
+  <image x="740" y="600" width="211.852" height="39.8354" xlink:href="maven_logo.svg"/>
+  <image x="1360" y="580" width="240.812" height="80" xlink:href="sonarqude_logo.svg"/>
+</svg>
