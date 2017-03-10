@@ -66,7 +66,7 @@ sur internet et, en parallèle, voir si je peux auto-héberger ces outils chez m
 
 ## Schema de fonctionnement
 
-![Usine Vitameal](https://seikomi.github.io/Vitameal/doc/outils/usine_vitameal.svg)
+<img src="https://seikomi.github.io/Vitameal/doc/outils/usine_vitameal.svg" height="200" width="200" />
 
 ## Installation des outils du poste développeur
 
