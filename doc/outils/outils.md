@@ -64,7 +64,7 @@ Notes de Nicolas Symphorien (@Seikomi):  
 OpenProject, Jenkins, Sonar nécessite de mettre en place un serveur dédiée, je vais regarder les offres disponibles
 sur internet et, en parallèle, voir si je peux auto-héberger ces outils chez moi.
 ## Schema de fonctionnement
-![Usine Vitameal](https://github.com/Seikomi/Vitameal/blob/master/doc/outils/usine_vitameal.svg)
+![Usine Vitameal](https://seikomi.github.io/Vitameal/doc/outils/usine_vitameal.svg)
 
 ## Installation des outils du poste développeur
 
