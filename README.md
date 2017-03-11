@@ -40,9 +40,13 @@ Mise en place d’un outil informatique permettant d’élaborer les menus des p
 - Liste des plats à préparer
 - Liste des menus par patients
 
-*Proposition de diagramme de cas d'utilisation* :
+#### Proposition 1 :
 
 ![Diagramme de cas d'utilisation](https://seikomi.github.io/Vitameal/doc/UseCaseDiagram.svg)
+
+#### Proposition 2 :
+
+![Diagramme de cas d'utilisation](https://seikomi.github.io/Vitameal/doc/UseCaseDiagram2.svg)
 
 ## Outils
 

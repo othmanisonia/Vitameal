@@ -4,7 +4,8 @@
 [Optenir un rendu Github des .md avec eclipse](#optenir-un-rendu-github-des-md-avec-eclipse)  
 [Activer la coloration syntaxique des `.tex` dans eclipse](#activer-la-coloration-syntaxique-des-tex-dans-eclipse)  
 [Inclure des images dans les fichiers `.md` sur Github](#inclure-des-images-dans-les-fichiers-md-sur-github)  
-[Utiliser pandoc pour convertir les fichiers `.md` en `.tex`](#utiliser-pandoc-pour-convertir-les-fichiers-md-en-tex)
+[Utiliser pandoc pour convertir les fichiers `.md` en `.tex`](#utiliser-pandoc-pour-convertir-les-fichiers-md-en-tex)  
+[Modifier la taille d'affichage des `.svg` dans les `.md`](#modifier-la-taille-d-affichage-des-svg-dans-les-md)
 
 ## Installer le projet dans eclipse
 
@@ -21,9 +22,7 @@ Les .md sont des fichiers mardown respectant la syntaxe ` TODO GitHub Flavored M
 correcte de ces fichiers avec le plugin *GitHub Flavored Markdown viewer*.  
 Cliquer sur le fichier que vous voulez voir et sélectionner `Show on GFM view`.
 
-#### Lien d'installation du plugin :
-
-![GitHub Flavored Markdown viewer](https://marketplace.eclipse.org/sites/default/files/styles/ds_medium/public/egit-github-marketplace-logo-GFM.png?itok=1j-O1GVq)
+##### Eclipse drag & drop installeur :
 
 <a href="http://marketplace.eclipse.org/marketplace-client-intro?mpc_install=900708" class="drag" title="Drag to your running Eclipse workspace.">
   <img class="img-responsive" src="http://marketplace.eclipse.org/sites/all/themes/solstice/public/images/marketplace/btn-install.png" alt="Drag to your running Eclipse workspace." />
@@ -34,9 +33,7 @@ Cliquer sur le fichier que vous voulez voir et sélectionner `Show on GFM view`.
 
 Pour activer la coloration syntaxique des `.tex`, installer le plugin eclipse *TeXclispe*.
 
-#### Lien d'installation du plugin :
-
-![TeXclispe](http://marketplace.eclipse.org/sites/default/files/styles/ds_medium/public/default_images/default_2.png?itok=hA89-j9Y)
+##### Eclipse drag & drop installeur :
 
 <a href="http://marketplace.eclipse.org/marketplace-client-intro?mpc_install=139"" class="drag" title="Drag to your running Eclipse workspace.">
   <img class="img-responsive" src="http://marketplace.eclipse.org/sites/all/themes/solstice/public/images/marketplace/btn-install.png" alt="Drag to your running Eclipse workspace." />
@@ -65,4 +62,13 @@ pandoc -o [nom du fichier source].md [nom du fichier destination].tex
 ```
 
 Vous pouver ensuite éditer le `.tex` généré pour une meilleure présentation.
+
+## Modifier la taille d'affichage des `.svg` dans les `.md`
+
+Utiliser la balise html suivante, en passant bien à utiliser `https://seikomi.github.io/Vitameal/` comme
+dossier racine  :
+
+```html
+<img alt=[alt_text] src=[image_URL] width=[image_width] height=[image_height] />
+```
 
