@@ -5,14 +5,14 @@ Nous fixons la date de livraison à 2 semaines avant la présentation. La prése
 
 Nous avons identifié huit étapes de développement:
 \begin{itemize}
-\item Analyse des exigences
-\item Cas d'utilisation
-\item Modèle de domaine.
-\item Séquences système
-\item Classes participantes.
-\item Diagramme d'intéractions.
-\item Classes de conception.
-\item Code.
+	\item Analyse des exigences
+	\item Cas d'utilisation
+	\item Modèle de domaine.
+	\item Séquences système
+	\item Classes participantes.
+	\item Diagramme d'interactions.
+	\item Classes de conception.
+	\item Code.
 \end{itemize}
 Pour évaluer la part de chaque étapes de développement, nous nous basons sur l'affirmation suivante \enquote{Aujourd'hui, un projet c'est 80\% de réflexion et 20\% de développement} (voir \url{http://www.logadap.fr/methodologie-creation-logiciel/}). Ainsi, le code va occuper 20\% de notre temps, soit 35 jours; reste 139 jours à répartir entre les 7 étapes précédentes, soit 20 jours chacunes.
 Le diagramme de GANTT est donc le suivant:
@@ -39,14 +39,14 @@ Les ressources sont affectées comme suit:
 \hiderowcolors
   \hline
   Tâches & Ressources \\ \hline
-  Analyse des exigences & Nicola, Sonia, Jean-Félix \\
+  Analyse des exigences & Nicolas, Sonia, Jean-Félix \\
   Cas d'utilisation & Jean-Félix 67\%, Sonia 33\% \\
   Modèle de domaine & Nicolas 67\%, Sonia 33\% \\
   Séquences système & Jean-Félix 67\%, Sonia 33\% \\
-  Classes participantes & Nicola 67\%, Sonia 33\% \\
-  Diagramme d'intéractions & Nicola, Sonia, Jean-Félix \\
-  Classes de conception & Nicola, Sonia, Jean-Félix \\
-  Code & Nicola, Sonia, Jean-Félix \\ \hline
+  Classes participantes & Nicolas 67\%, Sonia 33\% \\
+  Diagramme d'interactions & Nicolas, Sonia, Jean-Félix \\
+  Classes de conception & Nicolas, Sonia, Jean-Félix \\
+  Code & Nicolas, Sonia, Jean-Félix \\ \hline
 \end{tabular}
 
 \begin{figure}[H]
@@ -54,6 +54,63 @@ Les ressources sont affectées comme suit:
   \centering
       \includegraphics[width=1.0\textwidth]{Vitameal_ressources} %
 \caption{Ressources}
+\end{figure}
+
+\section{Description de l'usine logicielle}
+
+L'usine logicielle de Vitameal répond aux exigences suivantes :
+
+\begin{itemize}
+	\item respecter les règles de qualités ;
+	\item avoir une documentation claire et intégrée au projet ;
+	\item gérer les erreurs et assurer leurs suivies ;
+	\item versionnionner le code source et la documentation ;
+	\item avoir un espace commun accessible à distance ;
+	\item gérer un espace de livraison générant des indicateurs de santé sur le projet ;
+	\item avoir un outil de conception UML couvrant la methode minimal UML ;
+	\item gérer la planification du projet.
+\end{itemize}
+
+\subsection{Outils utilisés}
+
+Les outils utilisés par l'usine logicielle de Vitameal se sépare en deux catégories :
+
+\begin{itemize}
+	\item Le côté poste de développement qui correspond aux outils installés par chaque développeur sur sa machine ;
+	\item Le côté espace d'intégration continue qui correspond aux outils composant l'espace communs de collaborations.
+\end{itemize}
+
+La documentation du projet est assurée par l'utilisation de la syntaxe \emph{markdown} intégrée à l'outil \emph{GitHub} et le langage de génération des livrables est \emph{LaTex}.
+
+Le langage cible de cette usine est Java, mais elle peut facilement être adaptée à d'autre langage.
+
+\subsubsection{Côté poste de développement}
+
+\begin{itemize}
+	\item \textbf{Eclipse} comme IDE pour écrire/éditer le code de l'application ;
+	\item \textbf{Maven} comme constructeur du projet (gestion des dépendances, automatisation de la construction ;
+	\item \textbf{JUnit} pour écrire les tests unitaires de l'application et \textbf{Codertura} pour analyser la couverture du projet par ces tests ;
+	\item \textbf{Git} pour versionner les sources du projet ;
+	\item \textbf{StarUML} pour modéliser selon le standard UML le projet ;
+	\item \textbf{GanttProject} pour planifier le projet avec un diagramme de Gantt ;
+	\item \textbf{TEXMaker} pour éditer les fichiers\texttt{.tex} avec un comportement proche des \emph{WYSIWYG} (optionnel).
+\end{itemize}
+
+\subsubsection{Côté espace d'intégration continue}
+
+\begin{itemize}
+	\item \textbf{GitHub} comme gestionnaire à distance du repositorie Git principal, comme tracker de bug et comme affichage visuel des taches à faire ;
+	\item \textbf{Jenkins} comme serveur d'intégration continue ;
+	\item \textbf{SonarQube} comme analyseur de qualité du code.
+\end{itemize}
+
+\subsection{Schema de fonctionnement}
+
+\begin{figure}[H]
+	\label{Usine logicielle de Vitameal}
+	\centering
+	\includegraphics[width=0.6\textwidth]{usine_vitameal} %
+	\caption{Usine logicielle de Vitameal}
 \end{figure}
 
 \section{\colorbox{yellow}{TODO} Analyse}
