@@ -44,6 +44,12 @@ Le language cible de cette usine est Java, mais elle peut facilement être adapt
 
 ![Usine logicielle de Vitameal](https://seikomi.github.io/Vitameal/doc/outils/usine_vitameal.svg)
 
+L'usine logicielle du projet Vitameal à pour porte d'entrée principale L'IDE **Eclipse**, qui munis de plugins adequat permet d'éditer la plupart des fichiers composants le fichier.  
+La collaboration sur le projet est assurée par le gestionnaire de version **Git**, avec un repositorie central hébérgé par **GitHub**.
+Le *feedback* sur la santé du projet (qualitée, couverture par les tests, build réussi, ...) est géré par le server d'intégration continue **Jenkins**, utilisant **Maven** comme outils de configurations du projet et se branchant sur **SonarQube** pour obtenir les metrics.
+
+L' outil **StarUML** est dédié à la conception UML de l'application, et l'outil **GanttProject** à la gestion du planning. 
+
 ## Installation des outils du poste développeur
 
 `TODO`
