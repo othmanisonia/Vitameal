@@ -1,0 +1,69 @@
+%-*- coding: utf-8 -*-
+\documentclass[11pt,a4paper,french,twoside,openright]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}%pour insérer images et pdf entre autres
+	\graphicspath{{images/}}%pour spécifier le chemin d'accès aux images
+\usepackage[left=2.5cm,right=2.5cm,top=2.5cm,bottom=2.5cm]{geometry}%réglages des marges du document selon vos préférences ou celles de votre établissemant
+\usepackage[Lenny]{fncychap}%pour de jolis titres de chapitres voir la doc pour d'autres styles.
+\usepackage{babel}
+\usepackage[babel=true]{csquotes} % csquotes va utiliser la langue définie dans babel
+
+\usepackage{fancyhdr}%pour les entêtes et pieds de pages
+	\setlength{\headheight}{14.2pt}% hauteur de l'entête
+        \chead{\textbf{VITAMEAL}}
+        \lhead{}
+        \rhead{}
+	\cfoot{Formation Ingénieur Informatique en alternance - Première année}
+	\lfoot{\textbf{CNAM}}%
+  	\rfoot{\textbf{\thepage/\pageref{LastPage}}}
+ 	\renewcommand{\headrulewidth}{0.4pt}%trait horizontal pour l'entête
+  	\renewcommand{\footrulewidth}{0.4pt}%trait horizontal pour les pieds de pages
+
+\usepackage[french]{nomencl}
+\makenomenclature
+\usepackage{hyperref}
+\begin{document}
+\pagestyle{fancy}
+
+\begin{center}\bfseries\Huge
+COMPTE RENDU DE RÉUNION
+\end{center}
+
+\textbf{Du      :} 16/03/2017 à 14h30
+
+\textbf{Objet   :} Avancement projet VITAMEAL
+
+\textbf{Présents:} Nicolas SYMPHORIEN, Sonia OTHMANI, Jean-Félix BENITEZ
+
+\textbf{Absent :} Personne.
+
+\textbf{Diffusion:} Nicolas SYMPHORIEN, Sonia OTHMANI, Jean-Félix BENITEZ
+
+\hrulefill
+
+\section{Analyse des exigences}
+Nous avons convenu, que chacun allait enrichir l'analyse des exigences de son coté, et que nous nous rencontrerions pour faire une synthèse de nos travaux. Nous devons préciser les différentes terminologies utilisées. Chacun va travailler sur sa branche de dépôt GitHub et nous en ferons la synthèse après notre prochaine réunion.
+Nicolas, nous prépare une note sur comment travailler avec les branches sous Git.
+\subsection{Rappel}
+M BATATIA, lors de la présentation du projet, nous avait suggéré de \enquote{Sélectionner des recettes par filtrage des produits pour des profils diététiques.}
+
+Avec un découpage en trois parties:
+\begin{enumerate}
+\item Produits
+  \begin{itemize}
+    \item nutriments
+    \item ingredients
+  \end{itemize}
+\item Profil patient
+  \begin{itemize}
+    \item nutriments
+  \end{itemize}
+\item Recettes
+\end{enumerate}
+
+\section{Synthèse}
+Notre prochain cours sur le projet pédagogique étant le vendredi 31 mars, nous avons convenue de faire la synthèse de nos travaux sur l'analyse des exigences le mercredi 29 mars à 17h après les cours.
+
+\label{LastPage}
+\end{document}
