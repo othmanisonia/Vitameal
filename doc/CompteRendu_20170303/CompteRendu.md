@@ -51,7 +51,7 @@ Pour évaluer la part de chaque étapes de développement, nous nous basons
 sur l’affirmation suivante “Aujourd’hui, un projet c’est 80% de
 réflexion et 20% de développement” (voir
 <http://www.logadap.fr/methodologie-creation-logiciel/>). Ainsi, le code
-va occuper 20% de notre temps et le 4 étapes précédentes 80%, soit 20%
+va occuper 20% de notre temps et les 4 étapes précédentes 80%, soit 20%
 par étapes.
 
 C’est Jean-Félix qui prend en charge la définition du planning.
@@ -79,7 +79,7 @@ Nous devons l’enrichir.
 Livraisons
 ----------
 
-Nous avonc convenus de livrer notre travails défini dans cette réunion
+Nous avons convenus de livrer notre travails défini dans cette réunion
 le vendredi 10 mars.
 
 Télécharger le compte rendu
