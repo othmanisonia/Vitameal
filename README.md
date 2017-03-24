@@ -54,9 +54,10 @@ Mise en place d’un outil informatique permettant d’élaborer les menus des p
 
 ## Comptes rendus de réunion
 
-[Compte rendu de la réunion du 3 mars 2017](doc/CompteRendu_20170303/CompteRendu.md)
+[Compte rendu de la réunion du 3 mars 2017](doc/CompteRendu_20170303/CompteRendu.md)  
+[Compte rendu de la réunion du 16 mars 2017](doc/CompteRendu_20170316/CompteRendu.md)
 
-## How to
+## Guide du développeur
 
-[Vitameal How to](doc/how_to.md)
-
+[Vitameal How to](doc/dev_guide/how_to.md)  
+[Git branches How to](doc/dev_guide/git_branch.md)
