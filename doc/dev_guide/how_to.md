@@ -35,7 +35,7 @@ Pour activer la coloration syntaxique des `.tex`, installer le plugin eclipse *T
 
 ##### Eclipse drag & drop installeur :
 
-<a href="http://marketplace.eclipse.org/marketplace-client-intro?mpc_install=139"" class="drag" title="Drag to your running Eclipse workspace.">
+<a href="http://marketplace.eclipse.org/marketplace-client-intro?mpc_install=139" class="drag" title="Drag to your running Eclipse workspace.">
   <img class="img-responsive" src="http://marketplace.eclipse.org/sites/all/themes/solstice/public/images/marketplace/btn-install.png" alt="Drag to your running Eclipse workspace." />
 </a>
 
