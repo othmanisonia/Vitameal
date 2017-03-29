@@ -10,6 +10,11 @@ L’élaboration de menu dans un hôpital pour la restauration des patients est 
 
 Mise en place d’un outil informatique permettant d’élaborer les menus des patients en fonction des profils diététiques, paramétré par le corps médical.
 
+## Modélisation du problème
+
+![Modélisation du problème](https://seikomi.github.io/Vitameal/doc/probleme_model.svg)
+
+
 ## Equipe projet
 
 |Nom       |Prenom    |Compétences|Mail                                                               |
