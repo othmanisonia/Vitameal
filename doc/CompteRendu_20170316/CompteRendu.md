@@ -25,12 +25,12 @@ M BATATIA, lors de la présentation du projet, nous avait suggéré de
 diététiques.”**
 
 Avec un découpage en trois parties:  
-  1. Produits
-    - nutriments
-    - ingredients
-  2. Profil patient
-    - nutriments
-  3. Recettes
+  1. Produits  
+    a) nutriments  
+    b) ingredients  
+  2. Profil patient  
+    a) nutriments  
+  3. Recettes  
 
 Synthèse
 ========
