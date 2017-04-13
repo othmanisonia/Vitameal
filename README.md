@@ -34,9 +34,9 @@ Mise en place d’un outil informatique permettant d’élaborer les menus des p
 
 [Avancement au 03 mars 2017](doc/Avancement/20170303/CompteRendu.md)  
 [Avancement au 16 mars 2017](doc/Avancement/20170316/CompteRendu.md)  
-[Avancement au 29 mars 2017](doc/Avancement/20170329/CompteRendu.md)
-[Avancement au 05 avril 2017](doc/Avancement/20170405/CompteRendu.md)
-[Avancement au 13 avril 2017](doc/Avancement/20170413/CompteRendu.md)
+[Avancement au 29 mars 2017](doc/Avancement/20170329/CompteRendu.md)  
+[Avancement au 05 avril 2017](doc/Avancement/20170405/CompteRendu.md)  
+[Avancement au 13 avril 2017](doc/Avancement/20170413/CompteRendu.md)  
 
 ## Guide du développeur
 
