@@ -34,8 +34,8 @@ Mise en place d’un outil informatique permettant d’élaborer les menus des p
 
 [Compte rendu de la réunion du 3 mars 2017](doc/CompteRendu_20170303/CompteRendu.md)  
 [Compte rendu de la réunion du 16 mars 2017](doc/CompteRendu_20170316/CompteRendu.md)  
-[Compte rendu de la réunion du 29 mars 2017](doc/CompteRendu_20170329/CompteRendu.md)
-[Compte rendu de la réunion du 04 avril 2017](doc/doc/CompteRendu_20170405/CompteRendu.md)
+[Compte rendu de la réunion du 29 mars 2017](doc/CompteRendu_20170329/CompteRendu.md)  
+[Compte rendu de la réunion du 04 avril 2017](doc/CompteRendu_20170405/CompteRendu.md)
 
 ## Guide du développeur
 
