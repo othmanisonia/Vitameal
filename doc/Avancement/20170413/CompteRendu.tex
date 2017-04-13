@@ -1,0 +1,67 @@
+%-*- coding: utf-8 -*-
+\documentclass[11pt,a4paper,french,twoside,openright]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}%pour insérer images et pdf entre autres
+	\graphicspath{{images/}}%pour spécifier le chemin d'accès aux images
+\usepackage[left=2.5cm,right=2.5cm,top=2.5cm,bottom=2.5cm]{geometry}%réglages des marges du document selon vos préférences ou celles de votre établissemant
+\usepackage[Lenny]{fncychap}%pour de jolis titres de chapitres voir la doc pour d'autres styles.
+\usepackage{babel}
+\usepackage[babel=true]{csquotes} % csquotes va utiliser la langue définie dans babel
+
+\usepackage{fancyhdr}%pour les entêtes et pieds de pages
+	\setlength{\headheight}{14.2pt}% hauteur de l'entête
+        \chead{\textbf{VITAMEAL}}
+        \lhead{}
+        \rhead{}
+	\cfoot{Formation Ingénieur Informatique en alternance - Première année}
+	\lfoot{\textbf{CNAM}}%
+  	\rfoot{\textbf{\thepage/\pageref{LastPage}}}
+ 	\renewcommand{\headrulewidth}{0.4pt}%trait horizontal pour l'entête
+  	\renewcommand{\footrulewidth}{0.4pt}%trait horizontal pour les pieds de pages
+
+\usepackage[french]{nomencl}
+\makenomenclature
+\usepackage{hyperref}
+\usepackage{mathtools}
+\begin{document}
+\pagestyle{fancy}
+
+\begin{center}\bfseries\Huge
+COMPTE RENDU DE RÉUNION
+\end{center}
+
+\textbf{Du      :} jeudi 13/04/2017 à 17h00
+
+\textbf{Objet   :} Avancement projet VITAMEAL
+
+\textbf{Présents:} Nicolas SYMPHORIEN, Sonia OTHMANI, Jean-Félix BENITEZ
+
+\textbf{Absent :} Personne.
+
+\textbf{Diffusion:} Nicolas SYMPHORIEN, Sonia OTHMANI, Jean-Félix BENITEZ
+
+\hrulefill
+
+\section{Évaluation des besoins}
+Nous avons ajouté dans le rapport les besoins évalués par Sonia; il reste à faire une petite mise en forme et à remonter sous GitHub, c'est Jean-Félix qui s'en charge ce soir.
+Nous avons convenus de mettre dans une annexe toutes les énumérations métiers; c'est Nicolas qui s'en charge ce soir.
+Sonia fera la relecture des besoins ainsi redéfinis pour vendredi soir. Jean-Félix fera la relecture du résultat pour dimanche soir.
+Objectif \textbf{terminer l'évaluation des besoins cette semaine} pour passer au exigences la semaine prochaine.
+
+\section{Exigences}
+Nous prévoyons une téléconférence mercredi 19 avril à 20h30.
+
+\textbf{Objectif:} Faire un premier bilan de notre travail sur les exigences.
+
+\textbf{pré-requis:} Avoir extrait des besoins la liste des exigences.
+
+\section{Divers}
+Nous avons convenu d'utiliser les \enquote{issues} de GitHub pour suivre nos discutions sur les différents problèmes rencontrés.
+Nous prévoyions d'utiliser les \enquote{Tags} de GitHub pour garder une trace de nos livraisons. C'est Jean-Félix qui s'en occupe.
+Nicolas va revoir la hiérarchie des dossiers de notre dépôts gitHub. Il va aussi prospecter pour trouver un logiciel de gestion des exigences (suggestion: \url{http://reqchecker.eu/}).
+Jean-Félix va planifier nos réunions de travail, ainsi que les jalons de livraisons.
+Sonia va faire un bilan des solutions existantes, similaires à notre projet, et de ce qu'elles proposent.
+
+\label{LastPage}
+\end{document}
