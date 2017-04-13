@@ -26,33 +26,6 @@ Mise en place d’un outil informatique permettant d’élaborer les menus des p
 
 **BP** : Métier **PM** : Gestion / Animation **SI** : Processus d'informatisation **PG** : Programmation **DO** : Documentation / Outils  
 
-## Outils et techniques
-
-- Base de données : `TODO` *technologie à définir*
-- Back-end : JavaEE `TODO` *à debattre*
-- Front-end : `TODO` *technologie à définir*
-
-## Cas d’utilisation
-
-- Enregistrement d’un nouveau patient avec son profil diététique
-- Modification du profil diététique d'un patient
-- Retrait d’un patient
-- Enregistrement d’un plat et de son profil diététique
-- Modification d’un plat et de son profil diététique
-- Retrait d’un plat
-- Élaboration des menus
-- Liste des achats, pour les menus générés
-- Liste des plats à préparer
-- Liste des menus par patients
-
-#### Proposition 1 :
-
-![Diagramme de cas d'utilisation](https://seikomi.github.io/Vitameal/doc/UseCaseDiagram.svg)
-
-#### Proposition 2 :
-
-![Diagramme de cas d'utilisation](https://seikomi.github.io/Vitameal/doc/UseCaseDiagram2.svg)
-
 ## Outils
 
 [L'usine logicielle de Vitameal](doc/outils/outils.md)
