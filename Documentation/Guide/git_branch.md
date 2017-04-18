@@ -4,11 +4,11 @@
 
 Créer une branche signifie diverger de la ligne principale de développement et continuer à travailler sans se préoccuper de cette ligne principale.
 
-![Git branches](https://seikomi.github.io/Vitameal/doc/dev_guide/git_branch.png)
+![Git branches](https://seikomi.github.io/Vitameal/Documentation/Guide/image/git_branch.png)
 
 ### Créer une nouvelle branche
 
-Créer une nouvelle branche permet de diverger de la branche principale (par convention `master`) pour faire évoluer le code sans inpacter le travail des autres collaborateurs.  
+Créer une nouvelle branche permet de diverger de la branche principale (par convention `master`) pour faire évoluer le code sans impacter le travail des autres collaborateurs.  
 
 ```
 $ git branch testing
@@ -79,7 +79,7 @@ $ git commit
 
 Valide la fusion.
 
-![Git merge](https://seikomi.github.io/Vitameal/doc/dev_guide/git_merge.png)
+![Git merge](https://seikomi.github.io/Vitameal/Documentation/Guide/image/git_merge.png)
 
 ### Pousser les branches
 

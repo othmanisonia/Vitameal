@@ -42,7 +42,7 @@ Le language cible de cette usine est Java, mais elle peut facilement être adapt
 
 ## Schema de fonctionnement
 
-![Usine logicielle de Vitameal](https://seikomi.github.io/Vitameal/doc/outils/usine_vitameal.svg)
+![Usine logicielle de Vitameal](https://seikomi.github.io/Vitameal/Documentation/Guide/image/usine_vitameal.svg)
 
 L'usine logicielle du projet Vitameal à pour porte d'entrée principale L'IDE **Eclipse**, qui munis de plugins adequat permet d'éditer la plupart des fichiers composants le projet.  
 La collaboration sur le projet est assurée par le gestionnaire de version **Git**, avec un repositorie central hébérgé par **GitHub**.

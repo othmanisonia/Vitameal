@@ -50,7 +50,7 @@ Respecter la syntaxe suivante :
 Exemple:
 
 ```markdown
-![Diagramme de cas d'utilisation](https://seikomi.github.io/Vitameal/doc/UseCaseDiagram.svg)
+![Diagramme de cas d'utilisation](https://seikomi.github.io/Vitameal/problem_model.svg)
 ```
 
 ## Utiliser pandoc pour convertir les fichiers `.md` en `.tex`

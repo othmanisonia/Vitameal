@@ -12,7 +12,7 @@ Mise en place d’un outil informatique permettant d’élaborer les menus des p
 
 ## Modélisation du problème
 
-![Modélisation du problème](https://seikomi.github.io/Vitameal/doc/probleme_model.svg)
+![Modélisation du problème](https://seikomi.github.io/Vitameal/probleme_model.svg)
 
 
 ## Equipe projet
@@ -26,19 +26,16 @@ Mise en place d’un outil informatique permettant d’élaborer les menus des p
 
 **BP** : Métier **PM** : Gestion / Animation **SI** : Processus d'informatisation **PG** : Programmation **DO** : Documentation / Outils  
 
-## Outils
-
-[L'usine logicielle de Vitameal](doc/outils/outils.md)
-
 ## Avancement
 
-[Avancement au 03 mars 2017](doc/Avancement/20170303/CompteRendu.md)  
-[Avancement au 16 mars 2017](doc/Avancement/20170316/CompteRendu.md)  
-[Avancement au 29 mars 2017](doc/Avancement/20170329/CompteRendu.md)  
-[Avancement au 05 avril 2017](doc/Avancement/20170405/CompteRendu.md)  
-[Avancement au 13 avril 2017](doc/Avancement/20170413/CompteRendu.md)  
+[Avancement au 03 mars 2017](Documentation/Avancement/20170303/CompteRendu.md)  
+[Avancement au 16 mars 2017](Documentation/Avancement/20170316/CompteRendu.md)  
+[Avancement au 29 mars 2017](Documentation/Avancement/20170329/CompteRendu.md)  
+[Avancement au 05 avril 2017](Documentation/Avancement/20170405/CompteRendu.md)  
+[Avancement au 13 avril 2017](Documentation/Avancement/20170413/CompteRendu.md)  
 
-## Guide du développeur
+## Guides du développeur
 
-[Vitameal How to](doc/dev_guide/how_to.md)  
-[Git branches How to](doc/dev_guide/git_branch.md)
+[Vitameal How to](Documentation/Guide/how_to.md)  
+[L'usine logicielle de Vitameal](Documentation/Guide/software_factory.md)  
+[Git branches How to](Documentation/Guide/git_branch.md)
