@@ -14,7 +14,7 @@ Après discussion, nous avons décidé d’adopter la méthode minimale pour
 sa simplicité de mise en oeuvre.
 
 <figure>
-	<img src="https://seikomi.github.io/Vitameal/doc/CompteRendu_20170303/MethodeMinimale.png"
+	<img src="https://seikomi.github.io/Vitameal/Documentation/Avancement/20170303/MethodeMinimale.png"
 		 alt="Méthode minimale" width="75%" height="75%">
 	<figcaption><i>Figure 1 - Méthode minimale</i></figcaption>
 </figure>
