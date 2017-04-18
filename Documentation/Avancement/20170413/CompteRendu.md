@@ -1,17 +1,14 @@
-**COMPTE RENDU DE RÉUNION**
+COMPTE RENDU DE RÉUNION
+=======================
 
-**Du :** jeudi 13/04/2017 à 17h00
-
-**Objet :** Avancement projet VITAMEAL
-
-**Présents:** Nicolas SYMPHORIEN, Sonia OTHMANI, Jean-Félix BENITEZ
-
-**Absent :** Personne.
-
-**Diffusion:** Nicolas SYMPHORIEN, Sonia OTHMANI, Jean-Félix BENITEZ
+**Du :** jeudi 13/04/2017 à 17h00  
+**Objet :** Avancement projet VITAMEAL  
+**Présents:** Nicolas SYMPHORIEN, Sonia OTHMANI, Jean-Félix BENITEZ  
+**Absent :** Personne.  
+**Diffusion:** Nicolas SYMPHORIEN, Sonia OTHMANI, Jean-Félix BENITEZ  
 
 Évaluation des besoins
-======================
+----------------------
 
 Nous avons ajouté dans le rapport les besoins évalués par Sonia; il
 reste à faire une petite mise en forme et à remonter sous GitHub, c’est
@@ -23,7 +20,7 @@ soir. Objectif **terminer l’évaluation des besoins cette semaine** pour
 passer au exigences la semaine prochaine.
 
 Exigences
-=========
+---------
 
 Nous prévoyons une téléconférence mercredi 19 avril à 20h30.
 
@@ -32,7 +29,7 @@ Nous prévoyons une téléconférence mercredi 19 avril à 20h30.
 **pré-requis:** Avoir extrait des besoins la liste des exigences.
 
 Divers
-======
+------
 
 Nous avons convenu d’utiliser les “issues” de GitHub pour suivre nos
 discutions sur les différents problèmes rencontrés. Nous prévoyions
@@ -44,4 +41,9 @@ Jean-Félix va planifier nos réunions de travail, ainsi que les jalons de
 livraisons. Sonia va faire un bilan des solutions existantes, similaires
 à notre projet, et de ce qu’elles proposent.
 
-\[LastPage\]
+Télécharger le compte rendu
+---------------------------
+
+Au format pdf : [CompteRendu.pdf](https://seikomi.github.io/Vitameal/Documentation/Avancement/20170413/CompteRendu.pdf)  
+Au format tex : [CompteRendu.tex](https://seikomi.github.io/Vitameal/Documentation/Avancement/20170413/CompteRendu.tex)  
+

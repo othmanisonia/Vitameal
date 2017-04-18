@@ -1,11 +1,14 @@
-**COMPTE RENDU DE TÉLÉCONFÉRENCE**  
+COMPTE RENDU DE TÉLÉCONFÉRENCE
+==============================
+
 **Du :** 05/04/2017 à 20h30  
 **Objet :** Avancement projet VITAMEAL  
 **Présents:** Nicolas SYMPHORIEN, Sonia OTHMANI, Jean-Félix BENITEZ  
 **Absent :** Personne.  
 **Diffusion:** Nicolas SYMPHORIEN, Sonia OTHMANI, Jean-Félix BENITEZ  
 
-# Évaluation des besoins
+Évaluation des besoins
+----------------------
 
 Suites aux remarques de M BATATIA, lors de notre dernière présentation,
 nous devons retravailler notre évaluation des besoins. Nous avons
@@ -16,3 +19,9 @@ alimentation des adolescents et adultes. Nous exprimerons les besoins
 sous forme de récit utilisateur. Nous ferons la synthèse de nos travaux
 lors de notre prochaine réunion, que nous fixons au **jeudi 13 avril à 17h**
 (après les cours).
+
+Télécharger le compte rendu
+---------------------------
+
+Au format pdf : [CompteRendu.pdf](https://seikomi.github.io/Vitameal/Documentation/Avancement/20170405/CompteRendu.pdf)  
+Au format tex : [CompteRendu.tex](https://seikomi.github.io/Vitameal/Documentation/Avancement/20170405/CompteRendu.tex)  

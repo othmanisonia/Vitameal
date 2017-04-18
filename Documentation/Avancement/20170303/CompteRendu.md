@@ -85,5 +85,5 @@ le vendredi 10 mars.
 Télécharger le compte rendu
 ---------------------------
 
-Au format pdf : [CompteRendu.pdf](https://seikomi.github.io/Vitameal/doc/CompteRendu_20170303/CompteRendu.pdf)  
-Au format tex : [CompteRendu.tex](https://seikomi.github.io/Vitameal/doc/CompteRendu_20170303/CompteRendu.tex)  
+Au format pdf : [CompteRendu.pdf](https://seikomi.github.io/Vitameal/Documentation/Avancement/20170303/CompteRendu.pdf)  
+Au format tex : [CompteRendu.tex](https://seikomi.github.io/Vitameal/Documentation/Avancement/20170303/CompteRendu.tex)  

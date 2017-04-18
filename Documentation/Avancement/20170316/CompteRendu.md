@@ -8,7 +8,7 @@ COMPTE RENDU DE RÉUNION
 **Diffusion:** Nicolas SYMPHORIEN, Sonia OTHMANI, Jean-Félix BENITEZ  
 
 Analyse des exigences
-=====================
+---------------------
 
 Nous avons convenu, que chacun allait enrichir l’analyse des exigences
 de son coté, et que nous nous rencontrerions pour faire une synthèse de
@@ -33,7 +33,7 @@ Avec un découpage en trois parties:
   3. Recettes  
 
 Synthèse
-========
+--------
 
 Notre prochain cours sur le projet pédagogique étant le vendredi 31
 mars, nous avons convenue de faire la synthèse de nos travaux sur
@@ -42,5 +42,5 @@ l’analyse des exigences le **mercredi 29 mars à 17h** après les cours.
 Télécharger le compte rendu
 ---------------------------
 
-Au format pdf : [CompteRendu.pdf](https://seikomi.github.io/Vitameal/doc/CompteRendu_20170316/CompteRendu.pdf)  
-Au format tex : [CompteRendu.tex](https://seikomi.github.io/Vitameal/doc/CompteRendu_20170316/CompteRendu.tex)  
+Au format pdf : [CompteRendu.pdf](https://seikomi.github.io/Vitameal/Documentation/Avancement/20170316/CompteRendu.pdf)  
+Au format tex : [CompteRendu.tex](https://seikomi.github.io/Vitameal/Documentation/Avancement/20170316/CompteRendu.tex)  
