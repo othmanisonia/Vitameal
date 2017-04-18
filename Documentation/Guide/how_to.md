@@ -5,7 +5,8 @@
 [Activer la coloration syntaxique des `.tex` dans eclipse](#activer-la-coloration-syntaxique-des-tex-dans-eclipse)  
 [Inclure des images dans les fichiers `.md` sur Github](#inclure-des-images-dans-les-fichiers-md-sur-github)  
 [Utiliser pandoc pour convertir les fichiers `.md` en `.tex`](#utiliser-pandoc-pour-convertir-les-fichiers-md-en-tex)  
-[Modifier la taille d'affichage des `.svg` dans les `.md`](#modifier-la-taille-d-affichage-des-svg-dans-les-md)
+[Modifier la taille d'affichage des `.svg` dans les `.md`](#modifier-la-taille-d-affichage-des-svg-dans-les-md)  
+[Ajouter un retour à la ligne dans un `.md`](#ajouter-un-retour-la-ligne-dans-un-md)
 
 ## Installer le projet dans eclipse
 
@@ -72,4 +73,10 @@ dossier racine  :
 <img alt=[alt_text] src=[image_URL] width=[image_width] height=[image_height] />
 ```
 
+## Ajouter un retour à la ligne dans un `.md`
+
+Ajouter en fin de ligne 2 espaces :
+```
+une ligne avec un retour chariot à la fin&#x2423;&#x2423;
+```
 
