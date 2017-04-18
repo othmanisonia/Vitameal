@@ -75,8 +75,5 @@ dossier racine  :
 
 ## Ajouter un retour à la ligne dans un `.md`
 
-Ajouter en fin de ligne 2 espaces :
-```
-une ligne avec un retour chariot à la fin&#x2423;&#x2423;
-```
+Ajouter en fin de ligne 2 espaces.
 
