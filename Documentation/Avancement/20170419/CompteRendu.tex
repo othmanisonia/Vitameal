@@ -1,0 +1,71 @@
+%-*- coding: utf-8 -*-
+\documentclass[11pt,a4paper,french,twoside,openright]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}%pour insérer images et pdf entre autres
+	\graphicspath{{images/}}%pour spécifier le chemin d'accès aux images
+\usepackage[left=2.5cm,right=2.5cm,top=2.5cm,bottom=2.5cm]{geometry}%réglages des marges du document selon vos préférences ou celles de votre établissemant
+\usepackage[Lenny]{fncychap}%pour de jolis titres de chapitres voir la doc pour d'autres styles.
+\usepackage{babel}
+\usepackage[babel=true]{csquotes} % csquotes va utiliser la langue définie dans babel
+
+\usepackage{fancyhdr}%pour les entêtes et pieds de pages
+	\setlength{\headheight}{14.2pt}% hauteur de l'entête
+        \chead{\textbf{VITAMEAL}}
+        \lhead{}
+        \rhead{}
+	\cfoot{Formation Ingénieur Informatique en alternance - Première année}
+	\lfoot{\textbf{CNAM}}%
+  	\rfoot{\textbf{\thepage/\pageref{LastPage}}}
+ 	\renewcommand{\headrulewidth}{0.4pt}%trait horizontal pour l'entête
+  	\renewcommand{\footrulewidth}{0.4pt}%trait horizontal pour les pieds de pages
+
+\usepackage[french]{nomencl}
+\makenomenclature
+\usepackage{hyperref}
+\usepackage{mathtools}
+\begin{document}
+\pagestyle{fancy}
+
+\begin{center}\bfseries\Huge
+COMPTE RENDU DE TÉLÉCONFÉRENCE
+\end{center}
+
+\textbf{Du      :} mercredi 19/04/2017 à 20h30
+
+\textbf{Objet   :} Avancement projet VITAMEAL
+
+\textbf{Présents:} Nicolas SYMPHORIEN, Sonia OTHMANI, Jean-Félix BENITEZ
+
+\textbf{Absent :} Personne.
+
+\textbf{Diffusion:} Nicolas SYMPHORIEN, Sonia OTHMANI, Jean-Félix BENITEZ
+
+\hrulefill
+
+\section{Évaluation des besoins}
+Dans un souci de simplicité, et de temps, nous avons décidé de retirer les personnes agées du périmètre du projet.
+Sonia ce charge de supprimer les redits pour jeudi soir.
+Nicolas ce charge de retirer des besoins tous les éléments qui sont dans l'annexe et de mettre une référence à l'annexe à la fin des besoins pour jeudi soir.
+
+\section{Exigences}
+Nous avons convenu de mettre les exigences dans un fichier XML avec les champs suivants:
+\begin{itemize}
+\item Numéro
+\item Titre / Résumé
+\item Corps
+\item Version
+\item Prioritée
+\item Liens
+\item Tests
+\end{itemize}
+Jean-Félix ce charge de mettre en place la structure de ce fichier ainsi que les schémas et scripts.
+
+\section{Divers}
+Sonia à fait des recherches sur les solutions existentes pour notre projet; elle va nous faire une synthèse des éléments qu'elle a trouvé.
+Nous avons convenu que chacun travaillerait à la mise à jour de la présentation que nous ferons la semaine prochaine.
+
+Prochaine téléconférence: lundi 24 avril à 20h30
+
+\label{LastPage}
+\end{document}
