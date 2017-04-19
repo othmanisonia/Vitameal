@@ -1,10 +1,10 @@
-Format :
-REQ_[identifiant numerique] titre de l'exigence
-	description détaillé
+Format :  
+REQ_[identifiant numerique] titre de l'exigence  
+	description détaillé  
 	liens : REQ_XXX, REQ_XXX, ...
 
 
-REQ_100 Le systeme doit permettre de concevoire les 3 repas (petit-déjeuner, déjeuner, souper) d'une journée
+REQ_100 Le systeme doit permettre de concevoire les 3 repas (petit-déjeuner, déjeuner, souper) d'une journée  
 	ref: REQ_101
 
 REQ_101 Le systeme doit permetre de concevoire un petit-déjeuner composés d'une boisson, d'un aliment cerealiée, d'un produit laitier et d'un fruit  
