@@ -7,8 +7,20 @@
         <xs:element name="Exigence" minOccurs="1" maxOccurs="unbounded">
           <xs:complexType>
             <xs:sequence>
-            	<xs:element name="Titre" type="xs:string"/>
-            	<xs:element name="Corps" type="xs:string"/>
+            	<xs:element name="Titre">
+            		<xs:simpleType>
+            			<xs:restriction base="xs:string">
+            				<xs:pattern value="[\s\S]*[^ ][\s\S]*"/>
+            			</xs:restriction>
+            		</xs:simpleType>
+            	</xs:element>
+            	<xs:element name="Corps">
+            		<xs:simpleType>
+            			<xs:restriction base="xs:string">
+            				<xs:pattern value="[\s\S]*[^ ][\s\S]*"/>
+            			</xs:restriction>
+            		</xs:simpleType>
+            	</xs:element>
             	<xs:element name="Type">
             		<xs:simpleType>
             			<xs:restriction base="xs:string">
@@ -37,7 +49,16 @@
 						</xs:restriction>
 					</xs:simpleType>
 				</xs:element>
-				<xs:element name="Priorité" type="xs:string"/>
+				<xs:element name="Priorité"> <!-- MoSCoW -->
+					<xs:simpleType>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Must"/>
+							<xs:enumeration value="Should"/>
+							<xs:enumeration value="Could"/>
+							<xs:enumeration value="Won't"/>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
 				<xs:element name="Validée">
 					<xs:simpleType>
 						<xs:restriction base="xs:string">
