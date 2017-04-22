@@ -1,11 +1,11 @@
 COMPTE RENDU DE TÉLÉCONFÉRENCE
 ==============================
 
-**Du :** mercredi 19/04/2017 à 20h30
-**Objet :** Avancement projet VITAMEAL
-**Présents:** Nicolas SYMPHORIEN, Sonia OTHMANI, Jean-Félix BENITEZ
-**Absent :** Personne.
-**Diffusion:** Nicolas SYMPHORIEN, Sonia OTHMANI, Jean-Félix BENITEZ
+**Du :** mercredi 19/04/2017 à 20h30  
+**Objet :** Avancement projet VITAMEAL  
+**Présents:** Nicolas SYMPHORIEN, Sonia OTHMANI, Jean-Félix BENITEZ  
+**Absent :** Personne.  
+**Diffusion:** Nicolas SYMPHORIEN, Sonia OTHMANI, Jean-Félix BENITEZ  
 
 Évaluation des besoins
 ----------------------
