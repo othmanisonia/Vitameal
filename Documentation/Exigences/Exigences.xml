@@ -69,6 +69,39 @@
     <Liens></Liens>
     <Test></Test>
   </Exigence>
+  <Exigence numéro="REQ_0106">
+  	<Titre>Ajout de plats</Titre>
+  	<Corps>Le système doit permettre d'ajouter des plats et leur définition dans la listes des plats pouvant être préparés.</Corps>
+  	<Type>Métier</Type>
+  	<Origine></Origine>
+  	<Version>Initial</Version>
+  	<Priorité>Must</Priorité>
+  	<Validée>Non</Validée>
+  	<Liens></Liens>
+  	<Test></Test>
+  </Exigence>
+  <Exigence numéro="REQ_0107">
+  	<Titre>Description d'un plat</Titre>
+  	<Corps>Le système doit permettre la description d'un plat avec sa liste d'ingrédients et les quantités nécessaires à sa réalisation.</Corps>
+  	<Type>Métier</Type>
+  	<Origine></Origine>
+  	<Version>Initial</Version>
+  	<Priorité>Must</Priorité>
+  	<Validée>Non</Validée>
+  	<Liens></Liens>
+  	<Test></Test>
+  </Exigence>
+  <Exigence numéro="REQ_0108">
+  	<Titre>Fréquence de service</Titre>
+  	<Corps>Le système doit proposer un plat selon la fréquence de service de ce plat (exemple 4 fois tous les 20 repas).</Corps>
+  	<Type>Métier</Type>
+  	<Origine></Origine>
+  	<Version>Initial</Version>
+  	<Priorité>Must</Priorité>
+  	<Validée>Non</Validée>
+  	<Liens></Liens>
+  	<Test></Test>
+  </Exigence>
   <Exigence numéro="REQ_0410">
     <Titre>Composants des repas</Titre>
     <Corps>Le système doit permettre d'ajouter et de supprimmer des éléments dans les composants des repas.</Corps>
