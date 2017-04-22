@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Exigences version="0.1" date="2017-04-20" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Exigences.xsd">
   <Exigence numéro="REQ_0100">
-    <Titre>3 repas</Titre>
+    <Titre>Composition de 3 repas</Titre>
     <Corps>Le système doit permettre de concevoir les 3 repas (petit-déjeuner, déjeuner, souper) d'une journée</Corps>
     <Type>Métier</Type>
     <Origine></Origine>
@@ -10,18 +10,42 @@
     <Validée>Non</Validée>
     <Liens>
       <Lien>REQ_0101</Lien>
+      <Lien>REQ_0102</Lien>
+      <Lien>REQ_0103</Lien>
     </Liens>
     <Test></Test>
   </Exigence>
   <Exigence numéro="REQ_0101">
-    <Titre>Petit déjeuner</Titre>
+    <Titre>Composition du petit déjeuner</Titre>
     <Corps>Le système doit permettre de concevoir un petit-déjeuner composés d'une boisson, d'un aliment céréalier, d'un produit laitier et d'un fruit</Corps>
     <Type>Métier</Type>
     <Origine></Origine>
     <Version>Initial</Version>
-    <Priorité>Should</Priorité>
+    <Priorité>Must</Priorité>
     <Validée>Non</Validée>
     <Liens></Liens>
     <Test></Test>
+  </Exigence>
+  <Exigence numéro="REQ_0102">
+  	<Titre>Composition du déjeuner</Titre>
+  	<Corps>Le système doit permettre de consevoire un déjeuner composés de quatre ou cinqs composantes parmi les catégories suivantes : entrée, plat protodique, garniture, produit laitier, fruit.</Corps>
+  	<Type>Fonctionnelle</Type>
+  	<Origine></Origine>
+  	<Version>Initial</Version>
+  	<Priorité>Must</Priorité>
+  	<Validée>Non</Validée>
+  	<Liens></Liens>
+  	<Test></Test>
+  </Exigence>
+  <Exigence numéro="REQ_0103">
+  	<Titre>Composition du déjeuner</Titre>
+  	<Corps>Le système doit permettre de consevoire un souper composés de quatre ou cinqs composantes parmi les catégories suivantes : entrée, plat protodique, garniture, produit laitier, fruit.</Corps>
+  	<Type>Fonctionnelle</Type>
+  	<Origine></Origine>
+  	<Version>Initial</Version>
+  	<Priorité>Must</Priorité>
+  	<Validée>Non</Validée>
+  	<Liens></Liens>
+  	<Test></Test>
   </Exigence>
 </Exigences>
