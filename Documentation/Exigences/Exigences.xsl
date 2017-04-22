@@ -3,10 +3,7 @@
 <!--  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Exigences.xsd" xmlns:ns1="http://example.org/Exigences"   -->
 	<xsl:output method="text" indent="yes" encoding="UTF-8"/>
 	<xsl:strip-space elements="*"/>
-<xsl:variable name="SdL">
-<xsl:text>
-</xsl:text>
-</xsl:variable>
+	<xsl:variable name="SdL"><xsl:text>&#10;&#13;</xsl:text></xsl:variable>
 
 	<xsl:template match="/">
 		<xsl:value-of select="concat('\rowcolors{1}{}{}', $SdL)"/>

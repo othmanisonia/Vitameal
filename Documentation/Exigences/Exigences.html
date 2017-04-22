@@ -1,0 +1,368 @@
+<!DOCTYPE HTML SYSTEM "about:legacy-compat"><html lang="fr">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <title>Exigences Vitameal</title>
+      <meta charset="utf-8"><style>
+    				table { border: 1px solid black;
+    						border-collapse: collapse;}
+    				td { border: 1px solid black;
+    					padding: 10px;}
+    				th { border: 1px solid black;
+    					padding: 10px;}
+    			</style></head>
+   <body>
+      <table>
+         <tr>
+            <th>N°</th>
+            <th>Titre</th>
+            <th>Type</th>
+            <th>Origine</th>
+            <th>Version</th>
+            <th>Priorité</th>
+            <th>Validée</th>
+            <th>Liens</th>
+            <th>Test</th>
+            <th>Corps</th>
+            <tr>
+               <td>REQ_0100</td>
+               <td>3 repas</td>
+               <td>Métier</td>
+               <td></td>
+               <td>Initial</td>
+               <td>Must</td>
+               <td>Non</td>
+               <td>REQ_0101 </td>
+               <td></td>
+               <td>Le système doit permettre de concevoir les 3 repas (petit-déjeuner, déjeuner, souper)
+                  d'une journée.
+               </td>
+            </tr>
+            <tr>
+               <td>REQ_0101</td>
+               <td>Petit déjeuner</td>
+               <td>Métier</td>
+               <td></td>
+               <td>Initial</td>
+               <td>Should</td>
+               <td>Non</td>
+               <td></td>
+               <td></td>
+               <td>Le système doit permettre de concevoir un petit-déjeuner composé d'une boisson, d'un
+                  aliment céréalier, d'un produit laitier et d'un fruit.
+               </td>
+            </tr>
+            <tr>
+               <td>REQ_0102</td>
+               <td>Éléments petit déjeuner</td>
+               <td>Métier</td>
+               <td></td>
+               <td>Initial</td>
+               <td>Must</td>
+               <td>Non</td>
+               <td></td>
+               <td></td>
+               <td>Le système doit permettre de rajouter au petit déjeuner un élément lipidique, sucré
+                  ou protodique.
+               </td>
+            </tr>
+            <tr>
+               <td>REQ_0103</td>
+               <td>Éléments non diététiques</td>
+               <td>Métier</td>
+               <td></td>
+               <td>Initial</td>
+               <td>Should</td>
+               <td>Non</td>
+               <td></td>
+               <td></td>
+               <td>Le système doit avertir l'utilisateur de l'usage d'élément non diététique dans un
+                  petit déjeuner.
+               </td>
+            </tr>
+            <tr>
+               <td>REQ_0104</td>
+               <td>Fréquence éléments non diététiques</td>
+               <td>Métier</td>
+               <td></td>
+               <td>Initial</td>
+               <td>Should</td>
+               <td>Non</td>
+               <td></td>
+               <td></td>
+               <td>Le système doit vérifier que la fréquence de l'usage d'élément non diététique des
+                  petits déjeuners ne dépasse pas 3 repas sur 20, il avertit l'utilisateur si c'est
+                  le cas.
+               </td>
+            </tr>
+            <tr>
+               <td>REQ_0105</td>
+               <td>Composition déjeuner</td>
+               <td>Métier</td>
+               <td></td>
+               <td>Initial</td>
+               <td>Must</td>
+               <td>Non</td>
+               <td></td>
+               <td></td>
+               <td>Le système de concevoir un déjeuner et souper composés de 4 ou cinq composantes parmi
+                  : entrée, plat protodique, garniture, produit, laitier desserts (selon le tableau
+                  TODO ref) + de l'eau et du pain.
+               </td>
+            </tr>
+            <tr>
+               <td>REQ_0106</td>
+               <td>Ajout de plats</td>
+               <td>Métier</td>
+               <td></td>
+               <td>Initial</td>
+               <td>Must</td>
+               <td>Non</td>
+               <td></td>
+               <td></td>
+               <td>Le système doit permettre d'ajouter des plats et leur définition dans la listes des
+                  plats pouvant être préparés.
+               </td>
+            </tr>
+            <tr>
+               <td>REQ_0107</td>
+               <td>Description d'un plat</td>
+               <td>Métier</td>
+               <td></td>
+               <td>Initial</td>
+               <td>Must</td>
+               <td>Non</td>
+               <td></td>
+               <td></td>
+               <td>Le système doit permettre la description d'un plat avec sa liste d'ingrédients et
+                  les quantités nécessaires à sa réalisation.
+               </td>
+            </tr>
+            <tr>
+               <td>REQ_0108</td>
+               <td>Fréquence de service</td>
+               <td>Métier</td>
+               <td></td>
+               <td>Initial</td>
+               <td>Must</td>
+               <td>Non</td>
+               <td></td>
+               <td></td>
+               <td>Le système doit proposer un plat selon la fréquence de service de ce plat (exemple
+                  4 fois tous les 20 repas).
+               </td>
+            </tr>
+            <tr>
+               <td>REQ_0410</td>
+               <td>Composants des repas</td>
+               <td>Métier</td>
+               <td></td>
+               <td>Initial</td>
+               <td>Must</td>
+               <td>Non</td>
+               <td></td>
+               <td></td>
+               <td>Le système doit permettre d'ajouter et de supprimmer des éléments dans les composants
+                  des repas.
+               </td>
+            </tr>
+            <tr>
+               <td>REQ_0411</td>
+               <td>Listes par défaut</td>
+               <td>Métier</td>
+               <td></td>
+               <td>Initial</td>
+               <td>Should</td>
+               <td>Non</td>
+               <td></td>
+               <td></td>
+               <td>Le système doit permettre de revenir aux listes par défaut recommandé par le gouvernement.</td>
+            </tr>
+            <tr>
+               <td>REQ_0500</td>
+               <td>Fiche de commande</td>
+               <td>Métier</td>
+               <td></td>
+               <td>Initial</td>
+               <td>Could</td>
+               <td>Non</td>
+               <td></td>
+               <td></td>
+               <td>Le système doit permettre, une fois les menus élaborés de générer un fiche de commande
+                  au format : à définir.
+               </td>
+            </tr>
+            <tr>
+               <td>REQ_0501</td>
+               <td>Publication menus</td>
+               <td>Non Fonctionnelle</td>
+               <td></td>
+               <td>Initial</td>
+               <td>Could</td>
+               <td>Non</td>
+               <td></td>
+               <td></td>
+               <td>Le système doit permettre d'afficher les menus sur un site internet.</td>
+            </tr>
+            <tr>
+               <td>REQ_0600</td>
+               <td>Validation des repas</td>
+               <td>Contrainte</td>
+               <td></td>
+               <td>Initial</td>
+               <td>Must</td>
+               <td>Non</td>
+               <td></td>
+               <td></td>
+               <td>Le système doit gérer un cycle de validation des repas (en cours d'élaboration, en
+                  attente de validation, validé.
+               </td>
+            </tr>
+            <tr>
+               <td>REQ_0601</td>
+               <td>Droits utilisateurs</td>
+               <td>Contrainte</td>
+               <td></td>
+               <td>Initial</td>
+               <td>Must</td>
+               <td>Non</td>
+               <td></td>
+               <td></td>
+               <td>Le système doit permettre de gérer différent droit selon le type d'utilisateur.</td>
+            </tr>
+            <tr>
+               <td>REQ_0700</td>
+               <td>Menus à assembler</td>
+               <td>Métier</td>
+               <td></td>
+               <td>Initial</td>
+               <td>Must</td>
+               <td>Non</td>
+               <td></td>
+               <td></td>
+               <td>Le système doit afficher les menu à assembler pour un jour donnée et émettre une étiquette
+                  au format : à définir.
+               </td>
+            </tr>
+            <tr>
+               <td>REQ_0701</td>
+               <td>Limite prix repas</td>
+               <td>Contrainte</td>
+               <td></td>
+               <td>Initial</td>
+               <td>Must</td>
+               <td>Non</td>
+               <td></td>
+               <td></td>
+               <td>Le système doit permettre de fixer une limite au prix d'un repas.</td>
+            </tr>
+            <tr>
+               <td>REQ_0702</td>
+               <td>Prix repas</td>
+               <td>Métier</td>
+               <td></td>
+               <td>Initial</td>
+               <td>Must</td>
+               <td>Non</td>
+               <td></td>
+               <td></td>
+               <td>Le système doit permettre de renseigner le prix des éléments d'un repas.</td>
+            </tr>
+            <tr>
+               <td>REQ_0902</td>
+               <td>Profil patient</td>
+               <td>Métier</td>
+               <td></td>
+               <td>Initial</td>
+               <td>Must</td>
+               <td>Non</td>
+               <td></td>
+               <td></td>
+               <td>Le système doit permettre de renseigner un profil patient comportant les éléments
+                  suivants :  
+                  - regime particulier : liste à définir  
+                  - allergie : liste à définir  
+                  - contre-indication : liste à définir.
+               </td>
+            </tr>
+            <tr>
+               <td>REQ_1000</td>
+               <td>État civil</td>
+               <td>Métier</td>
+               <td></td>
+               <td>Initial</td>
+               <td>Must</td>
+               <td>Non</td>
+               <td></td>
+               <td></td>
+               <td>Le système doit permettre de renseigner l'état civil d'un patient.</td>
+            </tr>
+            <tr>
+               <td>REQ_1001</td>
+               <td>Localisation patient</td>
+               <td>Métier</td>
+               <td></td>
+               <td>Initial</td>
+               <td>Must</td>
+               <td>Non</td>
+               <td></td>
+               <td></td>
+               <td>Le système doit permettre de renseigner la localisation particulière d'un patient.</td>
+            </tr>
+            <tr>
+               <td>REQ_1002</td>
+               <td>Grammages</td>
+               <td>Métier</td>
+               <td></td>
+               <td>Initial</td>
+               <td>Must</td>
+               <td>Non</td>
+               <td></td>
+               <td></td>
+               <td>Le système doit permettre de gérer les grammage de plat.</td>
+            </tr>
+            <tr>
+               <td>REQ_1003</td>
+               <td>Plateaux repas</td>
+               <td>Métier</td>
+               <td></td>
+               <td>Initial</td>
+               <td>Must</td>
+               <td>Non</td>
+               <td></td>
+               <td></td>
+               <td>Le système doit pouvoir gérer des plateaux repas de type : sans régime particulier
+                  ou avec régime particulier.
+               </td>
+            </tr>
+            <tr>
+               <td>REQ_1004</td>
+               <td>Groupes</td>
+               <td>Métier</td>
+               <td></td>
+               <td>Initial</td>
+               <td>Should</td>
+               <td>Non</td>
+               <td></td>
+               <td></td>
+               <td>Le système doit gérer les patients par groupes selon leur régime, exemple le groupe
+                  des intolérant au lactose.
+               </td>
+            </tr>
+            <tr>
+               <td>REQ_1005</td>
+               <td>Génération automatique</td>
+               <td>Fonctionnelle</td>
+               <td></td>
+               <td>Initial</td>
+               <td>Must</td>
+               <td>Non</td>
+               <td></td>
+               <td></td>
+               <td>Le système doit permettre de générer automatiquement les repas pour un groupe de patients
+                  particulier.
+               </td>
+            </tr>
+         </tr>
+      </table>
+   </body>
+</html>
