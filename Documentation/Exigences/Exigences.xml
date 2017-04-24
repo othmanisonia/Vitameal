@@ -281,4 +281,37 @@
     <Liens></Liens>
     <Test></Test>
   </Exigence>
+  <Exigence numéro="REQ_1006">
+  	<Titre>Titre</Titre>
+  	<Corps>le système doit stocker les fiches patients, et permettre de les modifier ou supprimer le cas échéant.</Corps>
+  	<Type>Utilisateur</Type>
+  	<Origine>Origine</Origine>
+  	<Version>Initial</Version>
+  	<Priorité>Must</Priorité>
+  	<Validée>Oui</Validée>
+  	<Liens></Liens>
+  	<Test>Test</Test>
+  </Exigence>
+  <Exigence numéro="REQ_1007">
+  	<Titre>Titre</Titre>
+  	<Corps>Le système doit permettre de trier les plats par catégories.</Corps>
+  	<Type>Utilisateur</Type>
+  	<Origine>Origine</Origine>
+  	<Version>Initial</Version>
+  	<Priorité>Must</Priorité>
+  	<Validée>Oui</Validée>
+  	<Liens></Liens>
+  	<Test>Test</Test>
+  </Exigence>
+  <Exigence numéro="REQ_1008">
+  	<Titre>Titre</Titre>
+  	<Corps>Le système doit stocker les intitulés des plats, et permettre leur modification ou leur suppression.</Corps>
+  	<Type>Utilisateur</Type>
+  	<Origine>Origine</Origine>
+  	<Version>Initial</Version>
+  	<Priorité>Must</Priorité>
+  	<Validée>Oui</Validée>
+  	<Liens></Liens>
+  	<Test>Test</Test>
+  </Exigence>
 </Exigences>
