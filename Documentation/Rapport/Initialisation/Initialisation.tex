@@ -58,9 +58,9 @@ diététiques des patients. Pour des raisons de simplifications, nous nous limit
 En tant que diététicien, j’ai besoin de :
 \begin{itemize}
  \item pouvoir renseigner le profil diététique des patients, afin qu’ils puissent bénéficier de menus adaptés.
- \item pouvoir élaborer les menus des 3 repas journaliers (petit-déjeuner, déjeuner et dîner), de façon automatique.
- \item pouvoir saisir des plats et leur composition, afin de permettre l’émission d’une liste d’ingrédients à commander.
- \item élaborer des menus selon les fréquences de service, selon le document R1 Annexes 2 et 4.
+ \item pouvoir élaborer les menus des 3 repas journaliers (petit-déjeuner, déjeuner et dîner), de façon automatique, en tenant compte de  grammages dépendant du type d'aliments et de la tranche d'age (Document \ref{docNutrition}, Annexe 2). .
+ \item pouvoir saisir des plats et leur composition, respectant la composition décrite en annexe \ref{annexeA}.
+ \item élaborer des menus selon les fréquences de service, selon le document \ref{docNutrition}, Annexe 4.
  \item classer chaque aliment dans une des catégories d’aliments citée dans les tables de grammages du document R1 Annexes 2 et 4.
 \end{itemize}
 En tant qu’administrateur du site internet de l’hôpital, j’ai besoin de récupérer le menu de la semaine, afin pouvoir l’intégrer au site.
@@ -69,15 +69,7 @@ En tant que médecin, j’ai besoin de consulter les profils diététiques des p
 
 En tant que cuisinier du service restauration, j’ai besoin de consulter les menus élaborés, afin de pouvoir les préparer et prévoir les ingrédients à commander.
 
-En tant qu’agent de restauration hospitalière,  j’ai besoin de connaître les menus par patient, afin de pouvoir assembler les plateaux repas.
-
-Les diététiciens renseignent les profils diététiques de chaque patient, sous les directives des médecins. Ils élaborent et planifient 3 menus par jour.
-
-Les diététiciens ont besoin d'élaborer les menus de chaque patient avec une quantité d'aliments correspondante au grammage de l'aliment pour sa tranche d'age (Document \ref{docNutrition}, Annexe 2). La fréquence de service de chaque aliment est conforme aux recommandations du document de nutrition \ref{docNutrition}, Annexe 4.
-
-Le service restauration commande les produits et ingrédients mis en œuvre dans les menus, il prépare aussi les menus élaborés.
-
-Les diététiciens ont besoin de saisir des plats respectant la composition décrite en annexe \ref{annexeA}.
+En tant qu’agent de restauration hospitalière,  j’ai besoin de connaître les menus de chaque patient, afin de pouvoir assembler les plateaux repas.
 
 \subsection{Les contraintes}
 \begin{itemize}
