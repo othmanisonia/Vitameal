@@ -11,6 +11,7 @@
     <Validée>Non</Validée>
     <Liens>
       <Lien>REQ_0101</Lien>
+      <Lien>REQ_0105</Lien>
     </Liens>
     <Test></Test>
   </Exigence>
@@ -22,7 +23,11 @@
     <Version>Initial</Version>
     <Priorité>Should</Priorité>
     <Validée>Non</Validée>
-    <Liens></Liens>
+    <Liens>
+      <Lien>REQ_0102</Lien>
+      <Lien>REQ_0103</Lien>
+      <Lien>REQ_0104</Lien>
+    </Liens>
     <Test></Test>
   </Exigence>
   <Exigence numéro="REQ_0102">
@@ -60,7 +65,7 @@
   </Exigence>
   <Exigence numéro="REQ_0105">
     <Titre>Composition déjeuner</Titre>
-    <Corps>Le système de concevoir un déjeuner et souper composés de 4 ou cinq composantes parmi : entrée, plat protodique, garniture, produit, laitier desserts (selon le tableau TODO ref) + de l'eau et du pain.</Corps>
+    <Corps>Le système de concevoir un déjeuner et souper composés de 4 ou cinq composantes parmi : entrée, plat protodique, garniture, produit, laitier desserts + de l'eau et du pain (selon le tableau sur la composition du déjeuner en annexe A).</Corps>
     <Type>Métier</Type>
     <Origine></Origine>
     <Version>Initial</Version>
@@ -104,7 +109,7 @@
   </Exigence>
   <Exigence numéro="REQ_0410">
     <Titre>Composants des repas</Titre>
-    <Corps>Le système doit permettre d'ajouter et de supprimmer des éléments dans les composants des repas.</Corps>
+    <Corps>Le système doit permettre d'ajouter et de supprimer des éléments dans les composants des repas.</Corps>
     <Type>Métier</Type>
     <Origine></Origine>
     <Version>Initial</Version>
@@ -148,7 +153,7 @@
   </Exigence>
   <Exigence numéro="REQ_0600">
     <Titre>Validation des repas</Titre>
-    <Corps>Le système doit gérer un cycle de validation des repas (en cours d'élaboration, en attente de validation, validé.</Corps>
+    <Corps>Le système doit gérer un cycle de validation des repas : en cours d'élaboration, en attente de validation, validé.</Corps>
     <Type>Contrainte</Type>
     <Origine></Origine>
     <Version>Initial</Version>
@@ -203,10 +208,7 @@
   </Exigence>
   <Exigence numéro="REQ_0902">
     <Titre>Profil patient</Titre>
-    <Corps>Le système doit permettre de renseigner un profil patient comportant les éléments suivants :  
-- regime particulier : liste à définir  
-- allergie : liste à définir  
-- contre-indication : liste à définir.</Corps>
+    <Corps>Le système doit permettre de renseigner un profil patient comportant les éléments suivants : regime particulier(liste à définir), allergie(liste à définir), contre-indication (liste à définir).</Corps>
     <Type>Métier</Type>
     <Origine></Origine>
     <Version>Initial</Version>
