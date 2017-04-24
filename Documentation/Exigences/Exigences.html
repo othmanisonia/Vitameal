@@ -31,7 +31,7 @@
                <td>Initial</td>
                <td>Must</td>
                <td>Non</td>
-               <td>REQ_0101 </td>
+               <td>REQ_0101 REQ_0105 </td>
                <td></td>
                <td>Le système doit permettre de concevoir les 3 repas (petit-déjeuner, déjeuner, souper)
                   d'une journée.
@@ -45,7 +45,7 @@
                <td>Initial</td>
                <td>Should</td>
                <td>Non</td>
-               <td></td>
+               <td>REQ_0102 REQ_0103 REQ_0104 </td>
                <td></td>
                <td>Le système doit permettre de concevoir un petit-déjeuner composé d'une boisson, d'un
                   aliment céréalier, d'un produit laitier et d'un fruit.
@@ -105,8 +105,8 @@
                <td></td>
                <td></td>
                <td>Le système de concevoir un déjeuner et souper composés de 4 ou cinq composantes parmi
-                  : entrée, plat protodique, garniture, produit, laitier desserts (selon le tableau
-                  TODO ref) + de l'eau et du pain.
+                  : entrée, plat protodique, garniture, produit, laitier desserts + de l'eau et du pain
+                  (selon le tableau sur la composition du déjeuner en annexe A).
                </td>
             </tr>
             <tr>
@@ -161,7 +161,7 @@
                <td>Non</td>
                <td></td>
                <td></td>
-               <td>Le système doit permettre d'ajouter et de supprimmer des éléments dans les composants
+               <td>Le système doit permettre d'ajouter et de supprimer des éléments dans les composants
                   des repas.
                </td>
             </tr>
@@ -213,7 +213,7 @@
                <td>Non</td>
                <td></td>
                <td></td>
-               <td>Le système doit gérer un cycle de validation des repas (en cours d'élaboration, en
+               <td>Le système doit gérer un cycle de validation des repas : en cours d'élaboration, en
                   attente de validation, validé.
                </td>
             </tr>
@@ -278,10 +278,8 @@
                <td></td>
                <td></td>
                <td>Le système doit permettre de renseigner un profil patient comportant les éléments
-                  suivants :  
-                  - regime particulier : liste à définir  
-                  - allergie : liste à définir  
-                  - contre-indication : liste à définir.
+                  suivants : regime particulier(liste à définir), allergie(liste à définir), contre-indication
+                  (liste à définir).
                </td>
             </tr>
             <tr>
@@ -360,6 +358,46 @@
                <td></td>
                <td>Le système doit permettre de générer automatiquement les repas pour un groupe de patients
                   particulier.
+               </td>
+            </tr>
+            <tr>
+               <td>REQ_1006</td>
+               <td>Titre</td>
+               <td>Utilisateur</td>
+               <td>Origine</td>
+               <td>Initial</td>
+               <td>Must</td>
+               <td>Oui</td>
+               <td></td>
+               <td>Test</td>
+               <td>le système doit stocker les fiches patients, et permettre de les modifier ou supprimer
+                  le cas échéant.
+               </td>
+            </tr>
+            <tr>
+               <td>REQ_1007</td>
+               <td>Titre</td>
+               <td>Utilisateur</td>
+               <td>Origine</td>
+               <td>Initial</td>
+               <td>Must</td>
+               <td>Oui</td>
+               <td></td>
+               <td>Test</td>
+               <td>Le système doit permettre de trier les plats par catégories.</td>
+            </tr>
+            <tr>
+               <td>REQ_1008</td>
+               <td>Titre</td>
+               <td>Utilisateur</td>
+               <td>Origine</td>
+               <td>Initial</td>
+               <td>Must</td>
+               <td>Oui</td>
+               <td></td>
+               <td>Test</td>
+               <td>Le système doit stocker les intitulés des plats, et permettre leur modification ou
+                  leur suppression.
                </td>
             </tr>
          </tr>
