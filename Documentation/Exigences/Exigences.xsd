@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" version="0.1.0 le 20/04/2017">
   <!-- xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Exigences.xsd"  targetNamespace="https://example.org/"-->
-  <xs:element name="Exigences">
+  <xs:element name="exigences"> <!-- Exigences -->
     <xs:complexType>
       <xs:sequence>
-        <xs:element name="Exigence" minOccurs="1" maxOccurs="unbounded">
+        <xs:element name="exigence" minOccurs="1" maxOccurs="unbounded"> <!-- Exigence -->
           <xs:complexType>
             <xs:sequence>
-            	<xs:element name="Titre">
+            	<xs:element name="titre"> <!-- Titre -->
             		<xs:simpleType>
             			<xs:restriction base="xs:string">
             				<xs:pattern value="[\s\S]*[^ ][\s\S]*"/>
             			</xs:restriction>
             		</xs:simpleType>
             	</xs:element>
-            	<xs:element name="Corps">
+            	<xs:element name="corps"> <!-- Corps -->
             		<xs:simpleType>
             			<xs:restriction base="xs:string">
             				<xs:pattern value="[\s\S]*[^ ][\s\S]*"/>
             			</xs:restriction>
             		</xs:simpleType>
             	</xs:element>
-            	<xs:element name="Type">
+            	<xs:element name="type"> <!-- Type -->
             		<xs:simpleType>
             			<xs:restriction base="xs:string">
             				<xs:enumeration value="Utilisateur"/>
@@ -37,8 +37,10 @@
             			</xs:restriction>
             		</xs:simpleType>
             	</xs:element>
-            	<xs:element name="Origine" type="xs:string"/> <!-- D'où vient une exigence ? (Quel besoin cette exigence couvre-t-elle ? Pourquoi a-t-on conçu la solution de cette manière et quelles étaient les autres possibilités ?) -->
-				<xs:element name="Version"> <!-- http://users.polytech.unice.fr/~hugues/GL/CMM/cmm.html -->
+            	<xs:element name="origine" type="xs:string"/> <!-- Origine -->
+            	<!-- D'où vient une exigence ? (Quel besoin cette exigence couvre-t-elle ? Pourquoi a-t-on conçu la solution de cette manière et quelles étaient les autres possibilités ?) -->
+				<xs:element name="version"> <!-- Version -->
+				<!-- http://users.polytech.unice.fr/~hugues/GL/CMM/cmm.html -->
 					<xs:simpleType>
 						<xs:restriction base="xs:string">
 							<xs:enumeration value="Initial"/>
@@ -49,7 +51,8 @@
 						</xs:restriction>
 					</xs:simpleType>
 				</xs:element>
-				<xs:element name="Priorité"> <!-- MoSCoW -->
+				<xs:element name="priorite"> <!-- Priorité -->
+				<!-- MoSCoW -->
 					<xs:simpleType>
 						<xs:restriction base="xs:string">
 							<xs:enumeration value="Must"/>
@@ -59,7 +62,7 @@
 						</xs:restriction>
 					</xs:simpleType>
 				</xs:element>
-				<xs:element name="Validée">
+				<xs:element name="validee"> <!-- Validée -->
 					<xs:simpleType>
 						<xs:restriction base="xs:string">
 							<xs:enumeration value="Oui"/>
@@ -67,19 +70,19 @@
 						</xs:restriction>
 					</xs:simpleType>
 				</xs:element>
-				<xs:element name="Liens" nillable="true">
+				<xs:element name="liens" nillable="true"> <!-- Liens -->
 					<xs:complexType>
 						<xs:sequence>
-							<xs:element name="Lien" type="xs:IDREF" minOccurs="0" maxOccurs="unbounded"/>
+							<xs:element name="lien" type="xs:IDREF" minOccurs="0" maxOccurs="unbounded"/> <!-- Lien -->
 						</xs:sequence>
 					</xs:complexType>
 				</xs:element>
-				<xs:element name="Test" type="xs:string"/>
+				<xs:element name="test" type="xs:string"/> <!-- Test -->
             </xs:sequence>
-            <xs:attribute name="numéro" use="required">
+            <xs:attribute name="numero" use="required"> <!-- numéro -->
             	<xs:simpleType>
             		<xs:restriction base="xs:ID">
-            			<xs:pattern value="REQ_[0-9]{4}"/>
+            			<xs:pattern value="REQ_[0-9]{5}"/>
             		</xs:restriction>
             	</xs:simpleType>
             </xs:attribute>

@@ -1,0 +1,35 @@
+\section{EXIGENCES}\label{exigences}
+
+\subsection{Composition}\label{composition}
+Chaque exigence est composée de 10 champs:
+\begine{itemize}
+\item \textbf{numéro:} formé comme suit REQ\_xxxx, où x est un chiffre de 0 à 9
+\item \textbf{Titre:} titre ou description courte
+\item \textbf{Corps:} expression de l'exigence
+\item \textbf{Type:} type de l'exigence: Utilisateur - Métier - Technique - Fonctionnelle - Non fonctionnelle - Contrainte - Ergonomie - Robustesse - Performance - Sécurité
+\item \textbf{Origine:} D'où vient une exigence ? (Quel besoin cette exigence couvre-t-elle ? Pourquoi a-t-on conçu la solution de cette manière et quelles étaient les autres possibilités ?)
+\item \textbf{Version:} ou niveau de maturité, voir \href{http://users.polytech.unice.fr/~hugues/GL/CMM/cmm.html}{Capability Maturity Model} - Initial - Reproductible - Défini - Maîtrisé - Optimisé
+\item \textbf{Priorité:} priorité selon la méthode MoSCoW - Must - Should - Could - Won't
+\item \textbf{Validée:} l'exigences a-t-elle été validée ? (Oui / Non)
+\item \textbf{Lien:} il peut y en avoir plusieurs; ils sont regroupés dans l'élément ``Liens''.
+\item \textbf{Test:} Définition du test qui validera l'exigence.
+\end{itemize}
+
+\subsection{Edition}\label{edition}
+
+Elle peut ce faire avec \enquote{Eclipse}, qui permet la validation (par
+rapport au schéma) au fur et à mesure de la saisie. Une commodité dans
+\enquote{Eclipse} est la liste des énumération disponible sur un élément, en
+tapant Ctrl + Espace dans l'élément.
+
+\subsection{Extraction}\label{extraction}
+
+Elle ce fait à l'aide du script XSLT \enquote{Exigences.xsl}, lequel génère le
+fichier \enquote{Exigences.tex} qui sera inclu automatiquement dans le rapport
+du projet. J'utilise le processeur XSLT de
+\href{http://www.saxonica.com/download/opensource.xml}{Saxonica} qui
+fonctionne avec Java. Le fichier \enquote{gen.cmd} permet de lancer la
+génération; avant il faut mettre à jour la variable d'environnement
+\enquote{XsltProcPath} avec le chemin d'accès au processeur \enquote{Saxon}. Le
+processeur Saxon ne s'installe pas, il suffit juste de le désarchiver
+dans un dossier.
