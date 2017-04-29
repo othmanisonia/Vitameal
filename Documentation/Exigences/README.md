@@ -12,10 +12,10 @@ Chaque exigence est composée de 10 champs:
 **numero:**   Numéro formé comme suit: REQ\_xxxxx, où x est un chiffre de 0 à 9  
 **titre:**    Titre ou description courte  
 **corps:**    Expression de l’exigence  
-**type:**     Type de l’exigence: Utilisateur - Métier - Système - Contrainte
+**type:**     Type de l’exigence: Utilisateur - Métier - Système - Contrainte  
 **nature:**   Nature de l’exigence: Fonctionnelle - Ergonomie - Robustesse - Performance - Sécurité  
 **origine:**   [D’où vient une exigence ?](https://fr.wikipedia.org/wiki/Gestion_des_exigences)  
-**version:**   Initiale - Intermédiaire - Finale
+**version:**   Initiale - Intermédiaire - Finale  
 **priorite:**   Priorité selon la méthode MoSCoW - Must - Should - Could - Won’t  
 **validee:**   L’exigences a-t-elle été validée ? (Oui / Non)  
 **lien:**   il peut y en avoir plusieurs; ils sont regroupés dans l’élément “Liens”.  
