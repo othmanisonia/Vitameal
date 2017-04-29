@@ -1,19 +1,32 @@
-\section{EXIGENCES}\label{exigences}
+%-*- coding: utf-8 -*-
+\documentclass[11pt,a4paper,french,twoside,openright]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}%pour insérer images et pdf entre autres
+	\graphicspath{{images/}}%pour spécifier le chemin d'accès aux images
+\usepackage[left=2.5cm,right=2.5cm,top=2.5cm,bottom=2.5cm]{geometry}%réglages des marges du document selon vos préférences ou celles de votre établissemant
+\usepackage{babel}
+\usepackage[babel=true]{csquotes} % csquotes va utiliser la langue définie dans babel
+\usepackage[french]{nomencl}
+\usepackage{hyperref}
 
+\begin{document}
+\section{EXIGENCES}\label{exigences}
+Elles sont stockées dans un fichier XML dont la structure est décrite ci-dessous.
 \subsection{Composition}\label{composition}
 Chaque exigence est composée de 10 champs:
-\begine{itemize}
-\item \textbf{numéro:} formé comme suit REQ\_xxxx, où x est un chiffre de 0 à 9
-\item \textbf{Titre:} titre ou description courte
-\item \textbf{Corps:} expression de l'exigence
-\item \textbf{Type:} type de l'exigence: Utilisateur - Métier - Technique - Fonctionnelle - Non fonctionnelle - Contrainte - Ergonomie - Robustesse - Performance - Sécurité
-\item \textbf{Origine:} D'où vient une exigence ? (Quel besoin cette exigence couvre-t-elle ? Pourquoi a-t-on conçu la solution de cette manière et quelles étaient les autres possibilités ?)
-\item \textbf{Version:} ou niveau de maturité, voir \href{http://users.polytech.unice.fr/~hugues/GL/CMM/cmm.html}{Capability Maturity Model} - Initial - Reproductible - Défini - Maîtrisé - Optimisé
-\item \textbf{Priorité:} priorité selon la méthode MoSCoW - Must - Should - Could - Won't
-\item \textbf{Validée:} l'exigences a-t-elle été validée ? (Oui / Non)
-\item \textbf{Lien:} il peut y en avoir plusieurs; ils sont regroupés dans l'élément ``Liens''.
-\item \textbf{Test:} Définition du test qui validera l'exigence.
-\end{itemize}
+\begin{description}
+\item[numero:] Numéro formé comme suit: REQ\_xxxxx, où x est un chiffre de 0 à 9
+\item[titre:] Titre ou description courte
+\item[corps:] Expression de l'exigence
+\item[type:] Type de l'exigence: Utilisateur - Métier - Technique - Fonctionnelle - Non fonctionnelle - Contrainte - Ergonomie - Robustesse - Performance - Sécurité
+\item[origine:] D'où vient une exigence ? (Quel besoin cette exigence couvre-t-elle ? Pourquoi a-t-on conçu la solution de cette manière et quelles étaient les autres possibilités ?)
+\item[version:] ou niveau de maturité, voir \href{http://users.polytech.unice.fr/~hugues/GL/CMM/cmm.html}{Capability Maturity Model} - Initial - Reproductible - Défini - Maîtrisé - Optimisé
+\item[priorite:] Priorité selon la méthode MoSCoW - Must - Should - Could - Won't
+\item[validee:] L'exigences a-t-elle été validée ? (Oui / Non)
+\item[lien:] il peut y en avoir plusieurs; ils sont regroupés dans l'élément ``Liens''.
+\item[test:] Définition du test qui validera l'exigence.
+\end{description}
 
 \subsection{Edition}\label{edition}
 
@@ -24,12 +37,16 @@ tapant Ctrl + Espace dans l'élément.
 
 \subsection{Extraction}\label{extraction}
 
-Elle ce fait à l'aide du script XSLT \enquote{Exigences.xsl}, lequel génère le
-fichier \enquote{Exigences.tex} qui sera inclu automatiquement dans le rapport
-du projet. J'utilise le processeur XSLT de
-\href{http://www.saxonica.com/download/opensource.xml}{Saxonica} qui
-fonctionne avec Java. Le fichier \enquote{gen.cmd} permet de lancer la
-génération; avant il faut mettre à jour la variable d'environnement
-\enquote{XsltProcPath} avec le chemin d'accès au processeur \enquote{Saxon}. Le
-processeur Saxon ne s'installe pas, il suffit juste de le désarchiver
-dans un dossier.
+L'export des informations contenues dans le fichier XML ce fait à l'aide de scripts XSLT:
+\begin{description}
+\item[Exigences.xsl:] génère le fichier \enquote{Exigences.tex} qui sera inclu automatiquement dans le rapport du projet.
+\item[Exigences\_csv.xsl:] génère le fichier \enquote{Exigences.csv} qui peut être lu par n'importe quel tableur.
+\item[Exigences\_html.xsl:] génère le fichier \enquote{Exigences.html} qui peut être lu par n'importe quel navigateur internet.
+\end{description}
+
+J'utilise le processeur XSLT de \href{http://www.saxonica.com/download/opensource.xml}{Saxonica}. Ce processeur fonctionne avec Java et ne s'installe pas, il suffit juste de le désarchiver dans un dossier.
+
+Le fichier \enquote{gen.cmd} permet de lancer la génération; avant il faut mettre à jour la variable d'environnement
+\enquote{XsltProcPath} avec le chemin d'accès au processeur \enquote{Saxon}.
+
+\end{document}
