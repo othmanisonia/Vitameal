@@ -6,18 +6,19 @@
 	<xsl:variable name="SdL"><xsl:text>&#13;&#10;</xsl:text></xsl:variable>
 
 	<xsl:template match="/">
-		<xsl:value-of select="concat('N°; Titre; Type; Origine; Version; Priorité; Validée; Liens; Test; Corps', $SdL)"/>
+		<xsl:value-of select="concat('N°; Titre; Type; Nature; Origine; Version; Priorité; Validée; Liens; Test; Corps', $SdL)"/>
 		<xsl:apply-templates select="/exigences/exigence"/>
 	</xsl:template>
 	
 	<xsl:template match="exigence">
 		<xsl:value-of select="concat('=&quot;', @numero, '&quot;;')"/>
 		<xsl:value-of select="concat('=&quot;', titre, '&quot;;')"/>
-		<xsl:value-of select="concat('=&quot;', type, '&quot;;')"/>
+		<xsl:value-of select="concat('=&quot;', @type, '&quot;;')"/>
+		<xsl:value-of select="concat('=&quot;', @nature, '&quot;;')"/>
 		<xsl:value-of select="concat('=&quot;', origine, '&quot;;')"/>
-		<xsl:value-of select="concat('=&quot;', version, '&quot;;')"/>
-		<xsl:value-of select="concat('=&quot;', priorite, '&quot;;')"/>
-		<xsl:value-of select="concat('=&quot;', validee, '&quot;;')"/>
+		<xsl:value-of select="concat('=&quot;', @version, '&quot;;')"/>
+		<xsl:value-of select="concat('=&quot;', @priorite, '&quot;;')"/>
+		<xsl:value-of select="concat('=&quot;', @validee, '&quot;;')"/>
 		<xsl:text>=&quot;</xsl:text>
 		<xsl:apply-templates select="liens/lien"/>
 		<xsl:text>&quot;;</xsl:text>

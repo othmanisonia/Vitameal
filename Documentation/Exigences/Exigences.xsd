@@ -1,91 +1,93 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" version="0.1.0 le 20/04/2017">
   <!-- xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Exigences.xsd"  targetNamespace="https://example.org/"-->
-  <xs:element name="exigences"> <!-- Exigences -->
+  <xs:element name="exigences">
     <xs:complexType>
       <xs:sequence>
-        <xs:element name="exigence" minOccurs="1" maxOccurs="unbounded"> <!-- Exigence -->
+        <xs:element name="exigence" minOccurs="1" maxOccurs="unbounded">
           <xs:complexType>
             <xs:sequence>
-            	<xs:element name="titre"> <!-- Titre -->
+            	<xs:element name="titre">
             		<xs:simpleType>
             			<xs:restriction base="xs:string">
             				<xs:pattern value="[\s\S]*[^ ][\s\S]*"/>
             			</xs:restriction>
             		</xs:simpleType>
             	</xs:element>
-            	<xs:element name="corps"> <!-- Corps -->
+            	<xs:element name="corps">
             		<xs:simpleType>
             			<xs:restriction base="xs:string">
             				<xs:pattern value="[\s\S]*[^ ][\s\S]*"/>
             			</xs:restriction>
             		</xs:simpleType>
             	</xs:element>
-            	<xs:element name="type"> <!-- Type -->
-            		<xs:simpleType>
-            			<xs:restriction base="xs:string">
-            				<xs:enumeration value="Utilisateur"/>
-            				<xs:enumeration value="Métier"/>
-            				<xs:enumeration value="Technique"/>
-            				<xs:enumeration value="Fonctionnelle"/>
-            				<xs:enumeration value="Non Fonctionnelle"/>
-            				<xs:enumeration value="Contrainte"/>
-            				<xs:enumeration value="Ergonomie"/>
-            				<xs:enumeration value="Robustesse"/>
-            				<xs:enumeration value="Performance"/>
-            				<xs:enumeration value="Sécurité"/>
-            			</xs:restriction>
-            		</xs:simpleType>
-            	</xs:element>
-            	<xs:element name="origine" type="xs:string"/> <!-- Origine -->
-            	<!-- D'où vient une exigence ? (Quel besoin cette exigence couvre-t-elle ? Pourquoi a-t-on conçu la solution de cette manière et quelles étaient les autres possibilités ?) -->
-				<xs:element name="version"> <!-- Version -->
-				<!-- http://users.polytech.unice.fr/~hugues/GL/CMM/cmm.html -->
-					<xs:simpleType>
-						<xs:restriction base="xs:string">
-							<xs:enumeration value="Initial"/>
-							<xs:enumeration value="Reproductible"/>
-							<xs:enumeration value="Défini"/>
-							<xs:enumeration value="Matrisé"/>
-							<xs:enumeration value="Optimisé"/>
-						</xs:restriction>
-					</xs:simpleType>
-				</xs:element>
-				<xs:element name="priorite"> <!-- Priorité -->
-				<!-- MoSCoW -->
-					<xs:simpleType>
-						<xs:restriction base="xs:string">
-							<xs:enumeration value="Must"/>
-							<xs:enumeration value="Should"/>
-							<xs:enumeration value="Could"/>
-							<xs:enumeration value="Won't"/>
-						</xs:restriction>
-					</xs:simpleType>
-				</xs:element>
-				<xs:element name="validee"> <!-- Validée -->
-					<xs:simpleType>
-						<xs:restriction base="xs:string">
-							<xs:enumeration value="Oui"/>
-							<xs:enumeration value="Non"/>
-						</xs:restriction>
-					</xs:simpleType>
-				</xs:element>
-				<xs:element name="liens" nillable="true"> <!-- Liens -->
+            	<xs:element name="origine" type="xs:string"/> <!-- https://fr.wikipedia.org/wiki/Gestion_des_exigences -->
+				<xs:element name="liens" nillable="true">
 					<xs:complexType>
 						<xs:sequence>
 							<xs:element name="lien" type="xs:IDREF" minOccurs="0" maxOccurs="unbounded"/> <!-- Lien -->
 						</xs:sequence>
 					</xs:complexType>
 				</xs:element>
-				<xs:element name="test" type="xs:string"/> <!-- Test -->
+				<xs:element name="test" type="xs:string"/>
             </xs:sequence>
-            <xs:attribute name="numero" use="required"> <!-- numéro -->
+            <xs:attribute name="numero" use="required">
             	<xs:simpleType>
             		<xs:restriction base="xs:ID">
             			<xs:pattern value="REQ_[0-9]{5}"/>
             		</xs:restriction>
             	</xs:simpleType>
             </xs:attribute>
+           	<xs:attribute name="type" use="required">
+           		<xs:simpleType>
+           			<xs:restriction base="xs:string">
+           				<xs:enumeration value="Utilisateur"/>
+           				<xs:enumeration value="Métier"/>
+           				<xs:enumeration value="Système"/>
+           				<xs:enumeration value="Contrainte"/>
+           			</xs:restriction>
+           		</xs:simpleType>
+           	</xs:attribute>
+           	<xs:attribute name="nature" use="required">
+           	<!-- https://fr.wikipedia.org/wiki/Gestion_des_exigences -->
+           		<xs:simpleType>
+           			<xs:restriction base="xs:string">
+           				<xs:enumeration value="Fonctionnelle"/>
+           				<xs:enumeration value="Ergonomie"/>
+           				<xs:enumeration value="Robustesse"/>
+           				<xs:enumeration value="Performance"/>
+           				<xs:enumeration value="Sécurité"/>
+           			</xs:restriction>
+           		</xs:simpleType>
+           	</xs:attribute>
+			<xs:attribute name="version" use="required">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:enumeration value="Initiale"/>
+						<xs:enumeration value="Intermédiaire"/>
+						<xs:enumeration value="Finale"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+			<xs:attribute name="priorite" use="required">
+			<!-- MoSCoW -->
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:enumeration value="Must"/>
+						<xs:enumeration value="Should"/>
+						<xs:enumeration value="Could"/>
+						<xs:enumeration value="Won't"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+			<xs:attribute name="validee" use="required">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:enumeration value="Oui"/>
+						<xs:enumeration value="Non"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
           </xs:complexType>
         </xs:element>
       </xs:sequence>

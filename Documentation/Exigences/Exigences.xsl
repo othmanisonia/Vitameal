@@ -15,12 +15,12 @@
 		<xsl:value-of select="concat('\begin{tabular}{|p{60mm}p{100mm}|}', $SdL)"/>
 		<xsl:value-of select="concat('\hline', $SdL)"/>
 		<xsl:value-of select="concat('\multicolumn{2}{|l|}{\textbf{', replace(@numero, '_', '\\_'), ':} ', titre, '} \\ \hline', $SdL)"/>
-		<xsl:value-of select="concat('\emph{Type:} ', type, ' &amp; \emph{Liens:} ')"/>
+		<xsl:value-of select="concat('\emph{Type:} ', @type, ' &amp; \emph{Nature:} ', @nature, ' \\', $SdL)"/>
+		<xsl:value-of select="concat('\emph{Origine:} ', origine, ' &amp; \emph{Liens:} ')"/>
 		<xsl:apply-templates select="liens/lien"/>
 		<xsl:value-of select="concat(' \\', $SdL)"/>
-		<xsl:value-of select="concat('\emph{Origine:} ', origine, ' &amp; \emph{Validée:} ', validee, ' \\', $SdL)"/>
-		<xsl:value-of select="concat('\emph{Version:} ', version, ' &amp; \emph{Test:} ', test, ' \\', $SdL)"/>
-		<xsl:value-of select="concat('\emph{Priorité:} ', priorite, ' &amp; \\ \hline', 	$SdL)"/>
+		<xsl:value-of select="concat('\emph{Version:} ', @version, ' &amp; \emph{Validée:} ', @validee, ' \\', $SdL)"/>
+		<xsl:value-of select="concat('\emph{Priorité:} ', @priorite, ' &amp; \emph{Test:} ', test, '\\ \hline', $SdL)"/>
 		<xsl:value-of select="concat('\multicolumn{2}{|p{16cm}|}{', corps, '} \\ \hline', $SdL)"/>
 		<xsl:value-of select="concat('\end{tabular}', $SdL)"/>
 		<xsl:value-of select="concat('\end{table}', $SdL)"/>

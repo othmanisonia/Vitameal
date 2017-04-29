@@ -23,7 +23,7 @@
     		<body>
     			<table>
     				<tr>
-    					<th>N°</th><th>Titre</th><th>Type</th><th>Origine</th><th>Version</th><th>Priorité</th><th>Validée</th><th>Liens</th><th>Test</th><th>Corps</th>
+    					<th>N°</th><th>Titre</th><th>Type</th><th>Nature</th><th>Origine</th><th>Version</th><th>Priorité</th><th>Validée</th><th>Liens</th><th>Test</th><th>Corps</th>
 						<xsl:apply-templates select="/exigences/exigence"/>
     				</tr>
     			</table>
@@ -35,11 +35,12 @@
 		<tr>
 		<td><xsl:value-of select="@numero"/></td>
 		<td><xsl:value-of select="titre"/></td>
-		<td><xsl:value-of select="type"/></td>
+		<td><xsl:value-of select="@type"/></td>
+		<td><xsl:value-of select="@nature"/></td>
 		<td><xsl:value-of select="origine"/></td>
-		<td><xsl:value-of select="version"/></td>
-		<td><xsl:value-of select="priorite"/></td>
-		<td><xsl:value-of select="validee"/></td>
+		<td><xsl:value-of select="@version"/></td>
+		<td><xsl:value-of select="@priorite"/></td>
+		<td><xsl:value-of select="@validee"/></td>
 		<td>
 		<xsl:apply-templates select="liens/lien"/>
 		</td>

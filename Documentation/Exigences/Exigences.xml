@@ -1,28 +1,20 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <exigences version="0.1" date="2017-04-20" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="exigences.xsd">
 <!--  xsi:SchemaLocation="https://example.org/ exigences.xsd" xmlns="https://example.org/" -->
-  <exigence numero="REQ_01000">
+  <exigence numero="REQ_01000" type="Métier" nature="Fonctionnelle" version="Initiale" priorite="Must" validee="Non">
     <titre>3 repas</titre>
     <corps>Le système doit permettre de concevoir les 3 repas (petit-déjeuner, déjeuner, souper) d'une journée.</corps>
-    <type>Métier</type>
     <origine>N002</origine>
-    <version>Initial</version>
-    <priorite>Must</priorite>
-    <validee>Non</validee>
     <liens>
       <lien>REQ_01010</lien>
       <lien>REQ_01050</lien>
     </liens>
     <test></test>
   </exigence>
-  <exigence numero="REQ_01010">
+  <exigence numero="REQ_01010"  type="Métier" nature="Fonctionnelle" version="Initiale" priorite="Should" validee="Non">
     <titre>Petit déjeuner</titre>
     <corps>Le système doit permettre de concevoir un petit-déjeuner composé d'une boisson, d'un aliment céréalier, d'un produit laitier et d'un fruit.</corps>
-    <type>Métier</type>
     <origine>N002</origine>
-    <version>Initial</version>
-    <priorite>Should</priorite>
-    <validee>Non</validee>
     <liens>
       <lien>REQ_01020</lien>
       <lien>REQ_01030</lien>
@@ -30,289 +22,185 @@
     </liens>
     <test></test>
   </exigence>
-  <exigence numero="REQ_01020">
+  <exigence numero="REQ_01020" type="Métier" nature="Fonctionnelle" version="Initiale" priorite="Must" validee="Non">
     <titre>Éléments petit déjeuner</titre>
     <corps>Le système doit permettre de rajouter au petit déjeuner un élément lipidique, sucré ou protodique.</corps>
-    <type>Métier</type>
     <origine>N002</origine>
-    <version>Initial</version>
-    <priorite>Must</priorite>
-    <validee>Non</validee>
     <liens></liens>
     <test></test>
   </exigence>
-  <exigence numero="REQ_01030">
+  <exigence numero="REQ_01030" type="Métier" nature="Fonctionnelle" version="Initiale" priorite="Should" validee="Non">
     <titre>Éléments non diététiques</titre>
     <corps>Le système doit avertir l'utilisateur de l'usage d'élément non diététique dans un petit déjeuner.</corps>
-    <type>Métier</type>
     <origine>N002</origine>
-    <version>Initial</version>
-    <priorite>Should</priorite>
-    <validee>Non</validee>
     <liens></liens>
     <test></test>
   </exigence>
-  <exigence numero="REQ_01040">
+  <exigence numero="REQ_01040" type="Métier" nature="Fonctionnelle" version="Initiale" priorite="Should" validee="Non">
     <titre>Fréquence éléments non diététiques</titre>
     <corps>Le système doit vérifier que la fréquence de l'usage d'élément non diététique des petits déjeuners ne dépasse pas 3 repas sur 20, il avertit l'utilisateur si c'est le cas.</corps>
-    <type>Métier</type>
     <origine>N002</origine>
-    <version>Initial</version>
-    <priorite>Should</priorite>
-    <validee>Non</validee>
     <liens></liens>
     <test></test>
   </exigence>
-  <exigence numero="REQ_01050">
+  <exigence numero="REQ_01050" type="Métier" nature="Fonctionnelle" version="Initiale" priorite="Must" validee="Non">
     <titre>Composition déjeuner</titre>
     <corps>Le système de concevoir un déjeuner et souper composés de 4 ou cinq composantes parmi : entrée, plat protodique, garniture, produit, laitier desserts + de l'eau et du pain (selon le tableau sur la composition du déjeuner en annexe A).</corps>
-    <type>Métier</type>
     <origine>N002</origine>
-    <version>Initial</version>
-    <priorite>Must</priorite>
-    <validee>Non</validee>
     <liens></liens>
     <test></test>
   </exigence>
-  <exigence numero="REQ_01060">
+  <exigence numero="REQ_01060" type="Métier" nature="Fonctionnelle" version="Initiale" priorite="Must" validee="Non">
   	<titre>Ajout de plats</titre>
   	<corps>Le système doit permettre d'ajouter des plats et leur définition dans la listes des plats pouvant être préparés.</corps>
-  	<type>Métier</type>
   	<origine>N003</origine>
-  	<version>Initial</version>
-  	<priorite>Must</priorite>
-  	<validee>Non</validee>
   	<liens></liens>
   	<test></test>
   </exigence>
-  <exigence numero="REQ_01070">
+  <exigence numero="REQ_01070" type="Métier" nature="Fonctionnelle" version="Initiale" priorite="Must" validee="Non">
   	<titre>Description d'un plat</titre>
   	<corps>Le système doit permettre la description d'un plat avec sa liste d'ingrédients et les quantités nécessaires à sa réalisation.</corps>
-  	<type>Métier</type>
   	<origine>N003</origine>
-  	<version>Initial</version>
-  	<priorite>Must</priorite>
-  	<validee>Non</validee>
   	<liens></liens>
   	<test></test>
   </exigence>
-  <exigence numero="REQ_01080">
+  <exigence numero="REQ_01080" type="Métier" nature="Fonctionnelle" version="Initiale" priorite="Must" validee="Non">
   	<titre>Fréquence de service</titre>
   	<corps>Le système doit proposer un plat selon la fréquence de service de ce plat (exemple 4 fois tous les 20 repas).</corps>
-  	<type>Métier</type>
   	<origine>N004</origine>
-  	<version>Initial</version>
-  	<priorite>Must</priorite>
-  	<validee>Non</validee>
   	<liens></liens>
   	<test></test>
   </exigence>
-  <exigence numero="REQ_04100">
+  <exigence numero="REQ_04100" type="Métier" nature="Fonctionnelle" version="Initiale" priorite="Must" validee="Non">
     <titre>Composants des repas</titre>
     <corps>Le système doit permettre d'ajouter et de supprimer des éléments dans les composants des repas.</corps>
-    <type>Métier</type>
     <origine></origine>
-    <version>Initial</version>
-    <priorite>Must</priorite>
-    <validee>Non</validee>
     <liens></liens>
     <test></test>
   </exigence>
-  <exigence numero="REQ_04110">
+  <exigence numero="REQ_04110" type="Métier" nature="Fonctionnelle" version="Initiale" priorite="Should" validee="Non">
     <titre>Listes par défaut</titre>
     <corps>Le système doit permettre de revenir aux listes par défaut recommandé par le gouvernement.</corps>
-    <type>Métier</type>
     <origine></origine>
-    <version>Initial</version>
-    <priorite>Should</priorite>
-    <validee>Non</validee>
     <liens></liens>
     <test></test>
   </exigence>
-  <exigence numero="REQ_05000">
+  <exigence numero="REQ_05000" type="Métier" nature="Fonctionnelle" version="Initiale" priorite="Could" validee="Non">
     <titre>Fiche de commande</titre>
     <corps>Le système doit permettre, une fois les menus élaborés de générer un fiche de commande au format : à définir.</corps>
-    <type>Métier</type>
     <origine></origine>
-    <version>Initial</version>
-    <priorite>Could</priorite>
-    <validee>Non</validee>
     <liens></liens>
     <test></test>
   </exigence>
-  <exigence numero="REQ_05010">
+  <exigence numero="REQ_05010" type="Utilisateur" nature="Ergonomie" version="Initiale" priorite="Could" validee="Non">
     <titre>Publication menus</titre>
     <corps>Le système doit permettre d'afficher les menus sur un site internet.</corps>
-    <type>Non Fonctionnelle</type>
     <origine>N006</origine>
-    <version>Initial</version>
-    <priorite>Could</priorite>
-    <validee>Non</validee>
     <liens></liens>
     <test></test>
   </exigence>
-  <exigence numero="REQ_06000">
+  <exigence numero="REQ_06000" type="Contrainte" nature="Fonctionnelle" version="Initiale" priorite="Must" validee="Non">
     <titre>Validation des repas</titre>
     <corps>Le système doit gérer un cycle de validation des repas : en cours d'élaboration, en attente de validation, validé.</corps>
-    <type>Contrainte</type>
     <origine></origine>
-    <version>Initial</version>
-    <priorite>Must</priorite>
-    <validee>Non</validee>
     <liens></liens>
     <test></test>
   </exigence>
-  <exigence numero="REQ_06010">
+  <exigence numero="REQ_06010" type="Contrainte" nature="Fonctionnelle" version="Initiale" priorite="Must" validee="Non">
     <titre>Droits utilisateurs</titre>
     <corps>Le système doit permettre de gérer différent droit selon le type d'utilisateur.</corps>
-    <type>Contrainte</type>
     <origine></origine>
-    <version>Initial</version>
-    <priorite>Must</priorite>
-    <validee>Non</validee>
     <liens></liens>
     <test></test>
   </exigence>
-  <exigence numero="REQ_07000">
+  <exigence numero="REQ_07000" type="Métier" nature="Fonctionnelle" version="Initiale" priorite="Must" validee="Non">
     <titre>Menus à assembler</titre>
     <corps>Le système doit afficher les menu à assembler pour un jour donnée et émettre une étiquette au format : à définir.</corps>
-    <type>Métier</type>
     <origine>N009</origine>
-    <version>Initial</version>
-    <priorite>Must</priorite>
-    <validee>Non</validee>
     <liens></liens>
     <test></test>
   </exigence>
-  <exigence numero="REQ_07010">
+  <exigence numero="REQ_07010" type="Contrainte" nature="Fonctionnelle" version="Initiale" priorite="Must" validee="Non">
     <titre>Limite prix repas</titre>
     <corps>Le système doit permettre de fixer une limite au prix d'un repas.</corps>
-    <type>Contrainte</type>
     <origine>N011</origine>
-    <version>Initial</version>
-    <priorite>Must</priorite>
-    <validee>Non</validee>
     <liens></liens>
     <test></test>
   </exigence>
-  <exigence numero="REQ_07020">
+  <exigence numero="REQ_07020" type="Métier" nature="Fonctionnelle" version="Initiale" priorite="Must" validee="Non">
     <titre>Prix repas</titre>
     <corps>Le système doit permettre de renseigner le prix des éléments d'un repas.</corps>
-    <type>Métier</type>
     <origine></origine>
-    <version>Initial</version>
-    <priorite>Must</priorite>
-    <validee>Non</validee>
     <liens></liens>
     <test></test>
   </exigence>
-  <exigence numero="REQ_09020">
+  <exigence numero="REQ_09020" type="Métier" nature="Fonctionnelle" version="Initiale" priorite="Must" validee="Non">
     <titre>Profil patient</titre>
     <corps>Le système doit permettre de renseigner un profil patient comportant les éléments suivants : regime particulier(liste à définir), allergie(liste à définir), contre-indication (liste à définir).</corps>
-    <type>Métier</type>
     <origine>N001</origine>
-    <version>Initial</version>
-    <priorite>Must</priorite>
-    <validee>Non</validee>
     <liens></liens>
     <test></test>
   </exigence>
-  <exigence numero="REQ_10000">
+  <exigence numero="REQ_10000" type="Métier" nature="Fonctionnelle" version="Initiale" priorite="Must" validee="Non">
     <titre>État civil</titre>
     <corps>Le système doit permettre de renseigner l'état civil d'un patient.</corps>
-    <type>Métier</type>
     <origine></origine>
-    <version>Initial</version>
-    <priorite>Must</priorite>
-    <validee>Non</validee>
     <liens></liens>
     <test></test>
   </exigence>
-  <exigence numero="REQ_10010">
+  <exigence numero="REQ_10010" type="Métier" nature="Fonctionnelle" version="Initiale" priorite="Must" validee="Non">
     <titre>Localisation patient</titre>
     <corps>Le système doit permettre de renseigner la localisation particulière d'un patient.</corps>
-    <type>Métier</type>
     <origine></origine>
-    <version>Initial</version>
-    <priorite>Must</priorite>
-    <validee>Non</validee>
     <liens></liens>
     <test></test>
   </exigence>
-  <exigence numero="REQ_10020">
+  <exigence numero="REQ_10020" type="Métier" nature="Fonctionnelle" version="Initiale" priorite="Must" validee="Non">
     <titre>Grammages</titre>
     <corps>Le système doit permettre de gérer les grammage de plat.</corps>
-    <type>Métier</type>
     <origine>N002</origine>
-    <version>Initial</version>
-    <priorite>Must</priorite>
-    <validee>Non</validee>
     <liens></liens>
     <test></test>
   </exigence>
-  <exigence numero="REQ_10030">
+  <exigence numero="REQ_10030" type="Métier" nature="Fonctionnelle" version="Initiale" priorite="Must" validee="Non">
     <titre>Plateaux repas</titre>
     <corps>Le système doit pouvoir gérer des plateaux repas de type : sans régime particulier ou avec régime particulier.</corps>
-    <type>Métier</type>
     <origine>N001</origine>
-    <version>Initial</version>
-    <priorite>Must</priorite>
-    <validee>Non</validee>
     <liens></liens>
     <test></test>
   </exigence>
-  <exigence numero="REQ_10040">
+  <exigence numero="REQ_10040" type="Métier" nature="Fonctionnelle" version="Initiale" priorite="Should" validee="Non">
     <titre>Groupes</titre>
     <corps>Le système doit gérer les patients par groupes selon leur régime, exemple le groupe des intolérant au lactose.</corps>
-    <type>Métier</type>
     <origine>N001</origine>
-    <version>Initial</version>
-    <priorite>Should</priorite>
-    <validee>Non</validee>
     <liens></liens>
     <test></test>
   </exigence>
-  <exigence numero="REQ_10050">
+  <exigence numero="REQ_10050" type="Métier" nature="Fonctionnelle" version="Initiale" priorite="Must" validee="Non">
     <titre>Génération automatique</titre>
     <corps>Le système doit permettre de générer automatiquement les repas pour un groupe de patients particulier.</corps>
-    <type>Fonctionnelle</type>
     <origine></origine>
-    <version>Initial</version>
-    <priorite>Must</priorite>
-    <validee>Non</validee>
     <liens></liens>
     <test></test>
   </exigence>
-  <exigence numero="REQ_10060">
+  <exigence numero="REQ_10060" type="Utilisateur" nature="Fonctionnelle" version="Initiale" priorite="Must" validee="Non">
   	<titre>Fiches patients</titre>
   	<corps>le système doit stocker les fiches patients, et permettre de les modifier ou supprimer le cas échéant.</corps>
-  	<type>Utilisateur</type>
   	<origine></origine>
-  	<version>Initial</version>
-  	<priorite>Must</priorite>
-  	<validee>Non</validee>
   	<liens></liens>
   	<test></test>
   </exigence>
-  <exigence numero="REQ_10070">
+  <exigence numero="REQ_10070" type="Utilisateur" nature="Fonctionnelle" version="Initiale" priorite="Must" validee="Non">
   	<titre>Trier les plats</titre>
   	<corps>Le système doit permettre de trier les plats par catégories.</corps>
-  	<type>Utilisateur</type>
   	<origine></origine>
-  	<version>Initial</version>
-  	<priorite>Must</priorite>
-  	<validee>Non</validee>
   	<liens></liens>
   	<test></test>
   </exigence>
-  <exigence numero="REQ_10080">
+  <exigence numero="REQ_10080" type="Utilisateur" nature="Fonctionnelle" version="Initiale" priorite="Must" validee="Non">
   	<titre>Inititulés de plats</titre>
   	<corps>Le système doit stocker les intitulés des plats, et permettre leur modification ou leur suppression.</corps>
-  	<type>Utilisateur</type>
   	<origine></origine>
-  	<version>Initial</version>
-  	<priorite>Must</priorite>
-  	<validee>Non</validee>
   	<liens></liens>
   	<test></test>
   </exigence>
