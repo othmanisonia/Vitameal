@@ -27,7 +27,6 @@ Mise en place d’un outil informatique permettant d’élaborer les menus des p
 **BP** : Métier **PM** : Gestion / Animation **SI** : Processus d'informatisation **PG** : Programmation **DO** : Documentation / Outils  
 
 ## Avancement
-Présentations:
 | N°| Date                  | Jours | Version |
 |---|-----------------------|-------|---------|
 | 8 | jeudi    16 mars      |    19 |         |
