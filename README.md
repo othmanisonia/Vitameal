@@ -26,7 +26,7 @@ Mise en place d’un outil informatique permettant d’élaborer les menus des p
 
 **BP** : Métier **PM** : Gestion / Animation **SI** : Processus d'informatisation **PG** : Programmation **DO** : Documentation / Outils  
 
-## Avancement
+## Présentations
 | N°| Date                  | Jours | Version |
 |---|-----------------------|-------|---------|
 | 8 | jeudi    16 mars      |       |         |
@@ -43,6 +43,7 @@ Mise en place d’un outil informatique permettant d’élaborer les menus des p
 
 La colonne "Jours" donne le nombre de jours d'une date à la précedente.
 
+## Avancement
 [Avancement au 03 mars 2017](Documentation/Avancement/20170303/CompteRendu.md)  
 [Avancement au 16 mars 2017](Documentation/Avancement/20170316/CompteRendu.md)  
 [Avancement au 29 mars 2017](Documentation/Avancement/20170329/CompteRendu.md)  
