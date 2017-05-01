@@ -27,12 +27,30 @@ Mise en place d’un outil informatique permettant d’élaborer les menus des p
 **BP** : Métier **PM** : Gestion / Animation **SI** : Processus d'informatisation **PG** : Programmation **DO** : Documentation / Outils  
 
 ## Avancement
+Présentations
+-------------
+| N°| Date                  | Jours | Version |
+|---|-----------------------|-------|---------|
+| 8 | jeudi    16 mars      |    19 |         |
+| 7 | vendredi 31 mars      |    15 |     0.1 |
+| 6 | mercredi 26 avril     |    26 |     0.2 |
+| 5 | vendredi 12 mai       |    16 |         |
+| 4 | jeudi     8 juin      |    27 |         |
+| 3 | vendredi  6 juillet   |    28 |         |
+| 2 | mercredi 19 juillet   |    13 |         |
+| 1 | vendredi 21 juillet   |     2 |         |
+| 0 | mercredi 13 septembre |    54 |         |
+|   | jeudi    14 septembre |     1 |         |
+|   | vendredi 15 septembre |     1 |         |
+La colonne "Jours" donne le nombre de jours d'une date à la suivante.
 
 [Avancement au 03 mars 2017](Documentation/Avancement/20170303/CompteRendu.md)  
 [Avancement au 16 mars 2017](Documentation/Avancement/20170316/CompteRendu.md)  
 [Avancement au 29 mars 2017](Documentation/Avancement/20170329/CompteRendu.md)  
 [Avancement au 05 avril 2017](Documentation/Avancement/20170405/CompteRendu.md)  
 [Avancement au 13 avril 2017](Documentation/Avancement/20170413/CompteRendu.md)  
+[Avancement au 19 avril 2017](Documentation/Avancement/20170419/CompteRendu.md)  
+[Avancement au 28 avril 2017](Documentation/Avancement/20170428/CompteRendu.md)  
 
 ## Guides du développeur
 
