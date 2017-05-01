@@ -29,7 +29,7 @@ Mise en place d’un outil informatique permettant d’élaborer les menus des p
 ## Avancement
 | N°| Date                  | Jours | Version |
 |---|-----------------------|-------|---------|
-| 8 | jeudi    16 mars      |    19 |         |
+| 8 | jeudi    16 mars      |       |         |
 | 7 | vendredi 31 mars      |    15 |     0.1 |
 | 6 | mercredi 26 avril     |    26 |     0.2 |
 | 5 | vendredi 12 mai       |    16 |         |
@@ -41,7 +41,7 @@ Mise en place d’un outil informatique permettant d’élaborer les menus des p
 |   | jeudi    14 septembre |     1 |         |
 |   | vendredi 15 septembre |     1 |         |
 
-La colonne "Jours" donne le nombre de jours d'une date à la suivante.
+La colonne "Jours" donne le nombre de jours d'une date à la précedente.
 
 [Avancement au 03 mars 2017](Documentation/Avancement/20170303/CompteRendu.md)  
 [Avancement au 16 mars 2017](Documentation/Avancement/20170316/CompteRendu.md)  
