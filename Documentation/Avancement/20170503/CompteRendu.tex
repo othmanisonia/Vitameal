@@ -1,0 +1,112 @@
+%-*- coding: utf-8 -*-
+\documentclass[11pt,a4paper,french,twoside,openright]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}%pour insérer images et pdf entre autres
+	\graphicspath{{images/}}%pour spécifier le chemin d'accès aux images
+\usepackage[left=2.5cm,right=2.5cm,top=2.5cm,bottom=2.5cm]{geometry}%réglages des marges du document selon vos préférences ou celles de votre établissemant
+\usepackage[Lenny]{fncychap}%pour de jolis titres de chapitres voir la doc pour d'autres styles.
+\usepackage{babel}
+\usepackage[babel=true]{csquotes} % csquotes va utiliser la langue définie dans babel
+
+\usepackage{fancyhdr}%pour les entêtes et pieds de pages
+	\setlength{\headheight}{14.2pt}% hauteur de l'entête
+        \chead{\textbf{VITAMEAL}}
+        \lhead{}
+        \rhead{}
+	\cfoot{Formation Ingénieur Informatique en alternance - Première année}
+	\lfoot{\textbf{CNAM}}%
+  	\rfoot{\textbf{\thepage/\pageref{LastPage}}}
+ 	\renewcommand{\headrulewidth}{0.4pt}%trait horizontal pour l'entête
+  	\renewcommand{\footrulewidth}{0.4pt}%trait horizontal pour les pieds de pages
+
+\usepackage[french]{nomencl}
+\makenomenclature
+\usepackage{hyperref}
+\usepackage{mathtools}
+\begin{document}
+\pagestyle{fancy}
+
+\begin{center}\bfseries\Huge
+COMPTE RENDU DE TÉLÉCONFÉRENCE
+\end{center}
+
+\textbf{Du      :} mercredi 03/05/2017 à 20h30
+
+\textbf{Objet   :} Avancement projet VITAMEAL
+
+\textbf{Présents:} Nicolas SYMPHORIEN, Sonia OTHMANI, Jean-Félix BENITEZ
+
+\textbf{Absent :} Personne.
+
+\textbf{Diffusion:} Nicolas SYMPHORIEN, Sonia OTHMANI, Jean-Félix BENITEZ
+
+\hrulefill
+
+\section{Profil patient}
+Nous avons convenu que le profil patient est constituté des éléments suivants:
+\begin{itemize}
+\item age
+\item poids
+\item taille
+\item allergie
+\item contre-indications
+\item diabète $\rightarrow$ pas de sucre !
+\item colestérol $\rightarrow$ pas de matières grasses !
+\item hypertension artérielle $\rightarrow$ pas de sel !
+\end{itemize}
+
+\section{Cas d'utilisations}
+Dans un premier temps nous allons définir les cas d'utilisations suivants:
+\begin{enumerate}
+\item Renseigner un profil patient $\rightarrow$ Sonia
+  \begin{itemize}
+   \item REQ\_09020
+   \item REQ\_10040
+  \end{itemize}
+\item Composer un nouveau plat $\rightarrow$ Nicolas
+  \begin{itemize}
+   \item REQ\_01060
+   \item REQ\_01070
+   \item REQ\_01080
+  \end{itemize}
+\item Générer les menus $\rightarrow$ Jean-Félix
+  \begin{itemize}
+   \item REQ\_01000
+   \item REQ\_10020
+   \item REQ\_10050
+   \item petit déjeuner
+   \begin{itemize}
+     \item REQ\_01010
+     \item REQ\_01020
+     \item REQ\_01030
+     \item REQ\_01040
+   \end{itemize}
+   \item déjeuner
+   \begin{itemize}
+     \item REQ\_01050
+   \end{itemize}
+   \item diner
+   \begin{itemize}
+     \item REQ\_01050
+   \end{itemize}
+  \end{itemize}
+\item Publier les menus $\rightarrow$ Nicolas
+  \begin{itemize}
+   \item REQ\_05010
+   \item mettre à disposition du service restauration
+   \item Assembler les menus
+   \begin{itemize}
+     \item REQ\_07000
+     \item REQ\_10030
+   \end{itemize}
+  \end{itemize}
+\end{enumerate}
+Chacun remontera son travail directement dans le rapport final sous GitHub, pour samedi soir prochain.
+Nous avons convenu d'utiliser \href{https://eclipse.org/papyrus/}{Papyrus} pour les diagrammes UML.
+
+\section{Sprint}
+Nous mettrons en place les bases de notre travail sur les sprints lors de la prochaine téléconférence: \textbf{samedi 6 mai à 20h30} afin d'avoir le premier srpint parfaitement défini et présentable pour lundi 8 mai au soir.
+
+\label{LastPage}
+\end{document}
