@@ -26,15 +26,17 @@
   * Generation de fiche de commande
   * Generation etiquette d'assemblage des plateaux repas
 
+
+
 * Cas d'utilisations
-1. Renseigner une profil patient
+1. Renseigner une profil patient --> Sonia
    - REQ_09020
    - REQ_10040
-2. Saisir la composition d'un nouveau plat
+2. Composition un nouveau plat --> Nicolas
    - REQ_01060
    - REQ_01070
    - REQ_01080
-3. Élaborer les menus
+3. Générer les menus --> Jean-Félix
    - REQ_01000
    - REQ_10020
    - REQ_10050
@@ -47,8 +49,8 @@
      - REQ_01050
    - diner
      - REQ_01050
-4. Publication des menus
+4. Publication des menus --> Nicolas
    - REQ_05010
-5. Assemblage des menus
-   - REQ_07000
-   - REQ_10030
+   - Assemblage des menus
+     - REQ_07000
+     - REQ_10030
