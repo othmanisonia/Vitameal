@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_2HkN8DI_Eeeh_Y9xP6hzWA" name="RootElement">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_2MBQIDI_Eeeh_Y9xP6hzWA">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Package" xmi:id="_gAt2IDJAEeeh_Y9xP6hzWA" name="Système">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_rEhCUDJiEee3KMQLGLArHQ" annotatedElement="_VDlXMDJhEee3KMQLGLArHQ">
+      <body>REQ_01010&#xD;
+REQ_01020&#xD;
+REQ_01030&#xD;
+REQ_01040</body>
+    </ownedComment>
+    <ownedComment xmi:type="uml:Comment" xmi:id="_0z0ZMDJiEee3KMQLGLArHQ" annotatedElement="_Wtkz0DJhEee3KMQLGLArHQ _fkP5kDJhEee3KMQLGLArHQ">
+      <body>REQ_01050</body>
+    </ownedComment>
+    <ownedComment xmi:type="uml:Comment" xmi:id="_XA01EDJjEee3KMQLGLArHQ" annotatedElement="_D5Xt8DJhEee3KMQLGLArHQ">
+      <body>REQ_10020</body>
+    </ownedComment>
+    <ownedComment xmi:type="uml:Comment" xmi:id="_zwpaEDJkEee3KMQLGLArHQ" annotatedElement="_9A95QDJAEeeh_Y9xP6hzWA">
+      <body>REQ_01000&#xD;
+REQ_10050</body>
+    </ownedComment>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_9A95QDJAEeeh_Y9xP6hzWA" name="Générer les menus automatiquement">
+      <include xmi:type="uml:Include" xmi:id="_OZZsQDJjEee3KMQLGLArHQ" addition="_D5Xt8DJhEee3KMQLGLArHQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_D5Xt8DJhEee3KMQLGLArHQ" name="Gérer les grammages"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_VDlXMDJhEee3KMQLGLArHQ" name="Petit déjeuner">
+      <generalization xmi:type="uml:Generalization" xmi:id="_QxjE0DJiEee3KMQLGLArHQ" general="_9A95QDJAEeeh_Y9xP6hzWA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_Wtkz0DJhEee3KMQLGLArHQ" name="Déjeuner">
+      <generalization xmi:type="uml:Generalization" xmi:id="_SqzFcDJiEee3KMQLGLArHQ" general="_9A95QDJAEeeh_Y9xP6hzWA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_fkP5kDJhEee3KMQLGLArHQ" name="Diner">
+      <generalization xmi:type="uml:Generalization" xmi:id="_XnzK8DJiEee3KMQLGLArHQ" general="_9A95QDJAEeeh_Y9xP6hzWA"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_uoVm0DJAEeeh_Y9xP6hzWA" name="Diététicien"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_A-A9oDJBEeeh_Y9xP6hzWA" memberEnd="_A-ISYDJBEeeh_Y9xP6hzWA _A-JggDJBEeeh_Y9xP6hzWA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_A-FPEDJBEeeh_Y9xP6hzWA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_A-F2IDJBEeeh_Y9xP6hzWA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_A-ISYDJBEeeh_Y9xP6hzWA" name="usecase1" type="_9A95QDJAEeeh_Y9xP6hzWA" association="_A-A9oDJBEeeh_Y9xP6hzWA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_A-JggDJBEeeh_Y9xP6hzWA" name="diététicien" type="_uoVm0DJAEeeh_Y9xP6hzWA" association="_A-A9oDJBEeeh_Y9xP6hzWA"/>
+  </packagedElement>
+  <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_2LnAcDI_Eeeh_Y9xP6hzWA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_2LpcsDI_Eeeh_Y9xP6hzWA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard#/"/>
+    </eAnnotations>
+    <appliedProfile xmi:type="uml:Profile" href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+  </profileApplication>
+</uml:Model>
