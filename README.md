@@ -55,6 +55,7 @@ La colonne "Jours" donne le nombre de jours d'une date à la précedente.
 [Avancement au 19 avril 2017](Documentation/Avancement/20170419/CompteRendu.md)  
 [Avancement au 28 avril 2017](Documentation/Avancement/20170428/CompteRendu.md)  
 [Avancement au 03 mai 2017](Documentation/Avancement/20170503/CompteRendu.md)  
+[Avancement au 06 mai 2017](Documentation/Avancement/20170506/CompteRendu.md)  
 
 ## Guides du développeur
 
