@@ -1,0 +1,85 @@
+%-*- coding: utf-8 -*-
+\documentclass[11pt,a4paper,french,twoside,openright]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}%pour insérer images et pdf entre autres
+	\graphicspath{{images/}}%pour spécifier le chemin d'accès aux images
+\usepackage[left=2.5cm,right=2.5cm,top=2.5cm,bottom=2.5cm]{geometry}%réglages des marges du document selon vos préférences ou celles de votre établissemant
+\usepackage[Lenny]{fncychap}%pour de jolis titres de chapitres voir la doc pour d'autres styles.
+\usepackage{babel}
+\usepackage[babel=true]{csquotes} % csquotes va utiliser la langue définie dans babel
+
+\usepackage{fancyhdr}%pour les entêtes et pieds de pages
+	\setlength{\headheight}{14.2pt}% hauteur de l'entête
+        \chead{\textbf{VITAMEAL}}
+        \lhead{}
+        \rhead{}
+	\cfoot{Formation Ingénieur Informatique en alternance - Première année}
+	\lfoot{\textbf{CNAM}}%
+  	\rfoot{\textbf{\thepage/\pageref{LastPage}}}
+ 	\renewcommand{\headrulewidth}{0.4pt}%trait horizontal pour l'entête
+  	\renewcommand{\footrulewidth}{0.4pt}%trait horizontal pour les pieds de pages
+
+\usepackage[french]{nomencl}
+\makenomenclature
+\usepackage{hyperref}
+\usepackage{mathtools}
+\begin{document}
+\pagestyle{fancy}
+
+\begin{center}\bfseries\Huge
+COMPTE RENDU DE TÉLÉCONFÉRENCE
+\end{center}
+
+\textbf{Du      :} mercredi 06/05/2017 à 20h30
+
+\textbf{Objet   :} Avancement projet VITAMEAL
+
+\textbf{Présents:} Nicolas SYMPHORIEN, Sonia OTHMANI, Jean-Félix BENITEZ
+
+\textbf{Absent :} Personne.
+
+\textbf{Diffusion:} Nicolas SYMPHORIEN, Sonia OTHMANI, Jean-Félix BENITEZ
+
+\hrulefill
+
+\section{Cas d'utilisations}
+
+Nous avons convenu de terminer les cas d'utilisation et de les avoir intégrés
+dans la présentation et le rapport pour le \textbf{lundi 08/05/2017}.
+Nous avons convenu d'un formalisme commun pour la description textuelle des use
+cases :
+
+\begin{description}
+\item[Nom:] Nom du use case
+\item[ID:] Identifiant du use case
+\item[Description:] Description succincte du use case
+\item[Auteur:] L'auteur du use case
+\item[Date:] La date de modification ou de création du use case
+\item[Acteurs:] Acteurs en lien avec le use case
+\item[Pré-Conditions:] Conditions obligatoires au bon déroulement du use case
+\item[Scénario principal:] Le scénario du cas nominal
+\item[Scénario alternatif:] Les scénarios alternatifs, couvre aussi les cas
+d'erreur système
+\item[Post-Conditions:] Indicateurs du bon déroulement du use case.
+\end{description}
+
+\noindent Lien utile :
+\href{https://openclassrooms.com/courses/debutez-l-analyse-logicielle-avec-uml/la-description-textuelle-d-un-cas-d-utilisation}{Open
+classroom - La description textuelle d’un cas d’utilisation}
+
+
+\section{Définition du premier sprint}
+\noindent Nous avons convenu que le premier sprint couvrirai en première analyse les use
+cases suivant :
+\begin{itemize}
+   \item Renseigner un profil patient
+   \item Composer les plats
+\end{itemize}
+Ce découpage sera affinée avec la fin de la réalisation des use cases. Il faut
+aussi que chacun réfléchisse à quelques user stories pour
+le \textbf{lundi 08/05/2017}
+
+
+\label{LastPage}
+\end{document}
