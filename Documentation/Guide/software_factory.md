@@ -16,27 +16,26 @@ L'usine logicielle de Vitameal répond aux exigences suivantes :
 Les outils utilisées par l'usine logicielle de Vitameal se séparent en deux catégories :
 
 * Le côté poste de développement qui correspond aux outils installés par chaque développeur sur sa machine ;
-* Le côté espace d'integration continue qui correspond aux outils composant l'espace communs de collaborations.
+* Le côté espace d'integration continue et de gstion de projet qui correspond aux outils composant l'espace communs de collaborations.
 
-La documentation du projet est assuré par l'utilisation de la syntaxe *markdown* integré à l'outil *GitHub* et le language de génération des livrables est *LaTex*.
+La documentation du projet est assuré par l'utilisation de la syntaxe *markdown* integré à l'outil *GitHub* et le language de génération des livrables et des présentations est *LaTex*.
 
 Le language cible de cette usine est Java, mais elle peut facilement être adapté à d'autre language.
 
 ### Côté poste de développement
 
 * **Eclipse** comme IDE pour écrire/éditer le code de l'application ;
-* **Maven** comme constructeur du projet (gestion des dépendances, automatisation de la construction
+* **Maven** comme constructeur du projet (gestion des dépendances, automatisation de la construction) ;
 * **JUnit** pour ecrire les tests unitaires de l'application et **Codertura** pour analyser la couverture du projet par
  ces tests ;
 * **Git** pour versionner les sources du projet ;
-* **StarUML** pour modéliser selon le standart UML le projet ;
-* **GanttProject** pour plannifier le projet avec un diagramme de Gantt ;
+* **Papyrus** pour modéliser selon le standart UML le projet ;
 * **TEXMaker** pour éditer les fichiers `.tex` avec un comportement proche des *WYSIWYG* (optionnel).
 
-### Côté espace d'integration continue
+### Côté espace d'integration continue et gestion de projet
 
-* **GitHub** comme gestionnaire à distance du repositorie Git principal, comme tracker de bug et comme affichage visuel
- des taches à faire ;
+* **GitHub** comme gestionnaire à distance du repositorie Git principal, comme tracker de bug et comme espace de review de code;
+* **Redmine** pour organiser le projet et rendre visible l'avancement du projet;
 * **Jenkins** comme serveur d'intégration continue ;
 * **SonarQube** comme analyseur de la qualité du code.
 
@@ -48,8 +47,4 @@ L'usine logicielle du projet Vitameal à pour porte d'entrée principale L'IDE *
 La collaboration sur le projet est assurée par le gestionnaire de version **Git**, avec un repositorie central hébérgé par **GitHub**.
 Le *feedback* sur la santé du projet (qualité, couverture par les tests, build réussi, ...) est géré par le server d'intégration continue **Jenkins**, utilisant **Maven** comme outils de configurations du projet et se branchant sur **SonarQube** pour obtenir les metriques.
 
-L' outil **StarUML** est dédié à la conception UML de l'application, et l'outil **GanttProject** à la gestion du planning.
-
-## Installation des outils du poste développeur
-
-`TODO`
+L' outil **Papyrus** est dédié à la conception UML de l'application, et l'outil **Redmine** à la gestion de l'avancement du projet.
