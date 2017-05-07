@@ -24,7 +24,11 @@
 \input{Transition/Transition}
 
 \appendix
+\newcommand{\annexe}[1]{%
+	\refstepcounter{chapter}%
+	\phantomsection%
+	\addcontentsline{toc}{chapter}{\appendixname~{\thechapter}: #1}%
+	\chapter*{\appendixname~{\thechapter}: #1}}
 \input{Annexes/AnnexeA}
-
 \label{LastPage}
 \end{document}
