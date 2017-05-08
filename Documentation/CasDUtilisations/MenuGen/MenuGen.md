@@ -1,7 +1,7 @@
 Génération automatique des menus
 --------------------------------
 
-![Génération automatique des menus](https://seikomi.github.io/Vitameal/Documentation/CasDUtilisations/MenuGen/UseCase_Diagram.PNG)  
+![Génération automatique des menus](https://seikomi.github.io/Vitameal/Documentation/CasDUtilisations/MenuGen/MenuGen.png)  
 
 **Nom:** Génération automatique des menus.  
 **ID:** UC103  
