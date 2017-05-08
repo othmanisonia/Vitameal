@@ -14,7 +14,7 @@
 [UC101 - Modifier un plat existant](#uc101---modifier-un-plat-existant)  
 [UC102 - Créer un nouveau plat](#uc102---créer-un-nouveau-plat)  
 [UC103 - Supprimer un plat](#uc103---supprimer-un-plat)  
-[UC202 - Supprimer un plat](#uc202---donner-un-prix-à-chaque-repas)  
+[UC202 - Donner un prix à chaque repas](#uc202---donner-un-prix-à-chaque-repas)  
 
 ### UC100 - Composer les plats
 
