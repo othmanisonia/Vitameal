@@ -4,7 +4,7 @@ Génération automatique des menus
 ![Génération automatique des menus](https://seikomi.github.io/Vitameal/Documentation/CasDUtilisations/MenuGen/MenuGen.png)  
 
 **Nom:** Génération automatique des menus.  
-**ID:** UC103  
+**ID:** UC300  
 **Description:** Permet la génération automatique des menus.  
 **Auteur:** Jean-Félix BENITEZ.  
 **Date:** 07/05/2017  
