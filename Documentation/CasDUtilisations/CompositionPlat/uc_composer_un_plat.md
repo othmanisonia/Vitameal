@@ -2,7 +2,7 @@
 
 ## Diagramme général
 
-![Use case général](https://seikomi.github.io/Vitameal/Documentation/CasDUtilisations/UC_principal.svg)
+![Use case général](https://seikomi.github.io/Vitameal/Documentation/CasDUtilisations/uc_principal.svg)
 
 ## Diagramme composer les plats
 
@@ -14,6 +14,7 @@
 [UC101 - Modifier un plat existant](#uc101-modifier-un-plat-existant)  
 [UC102 - Créer un nouveau plat](#uc102-cr-er-un-nouveau-plat)  
 [UC103 - Supprimer un plat](#uc103-supprimer-un-plat)  
+[UC202 - Supprimer un plat](#uc202-donner-un-prix-chaque-repas)  
 
 ### UC100 - Composer les plats
 
@@ -106,3 +107,20 @@ la suppression d'un plat
 3. a. Le système ne réussi pas à supprimer le plat
 
 **Post-Conditions:** Le plat est supprimé
+
+### UC202 - Donner un prix à chaque repas
+
+**Nom :** Donner un prix à chaque repas  
+**ID :** UC202  
+**Description :** Le service restauration souhaite pouvoir donnée le pris de chaque plat composant un menu  
+**Auteur :** Nicolas SYMPHORIEN  
+**Dates(s) :** 08/05/2017  
+**Acteurs :** Le service restauration, par heritage, le diététicien et le médecin  
+**Pré-condition :** L'utilisateur doit être identifié  
+
+**Scénario principal :**  
+1. Le système propose de renseigner le prix du plat
+
+**Scénario alternatif :** aucun 
+
+**Post-Conditions:** Le prix du plat est renseigné
