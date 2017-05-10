@@ -3,7 +3,7 @@
 <!--  xsi:SchemaLocation="https://example.org/ exigences.xsd" xmlns="https://example.org/" -->
   <exigence numero="REQ_01000" type="Métier" nature="Fonctionnelle" version="Initiale" priorite="Must" validee="Non">
     <titre>3 repas</titre>
-    <corps>Le système doit permettre de concevoir les 3 repas (petit-déjeuner, déjeuner, souper) d'une journée.</corps>
+    <corps>Le système doit permettre de concevoir les 3 repas (petit-déjeuner, déjeuner, dîner) d'une journée.</corps>
     <origine>N002</origine>
     <liens>
       <lien>REQ_01010</lien>
@@ -45,14 +45,14 @@
   </exigence>
   <exigence numero="REQ_01050" type="Métier" nature="Fonctionnelle" version="Initiale" priorite="Must" validee="Non">
     <titre>Composition déjeuner</titre>
-    <corps>Le système de concevoir un déjeuner et souper composés de 4 ou cinq composantes parmi : entrée, plat protodique, garniture, produit, laitier desserts + de l'eau et du pain (selon le tableau sur la composition du déjeuner en annexe A).</corps>
+    <corps>Le système doit concevoir un déjeuner et souper composés de 4 ou cinq composantes parmi : entrée, plat protodique, garniture, produit laitier, desserts + de l'eau et du pain (selon le tableau sur la composition du déjeuner en annexe A).</corps>
     <origine>N002</origine>
     <liens></liens>
     <test></test>
   </exigence>
   <exigence numero="REQ_01060" type="Métier" nature="Fonctionnelle" version="Initiale" priorite="Must" validee="Non">
   	<titre>Ajout de plats</titre>
-  	<corps>Le système doit permettre d'ajouter des plats et leur définition dans la listes des plats pouvant être préparés.</corps>
+  	<corps>Le système doit permettre d'ajouter des plats et leurs définitions dans la listes des plats pouvant être préparés.</corps>
   	<origine>N003</origine>
   	<liens></liens>
   	<test></test>
@@ -157,7 +157,7 @@
   </exigence>
   <exigence numero="REQ_10020" type="Métier" nature="Fonctionnelle" version="Initiale" priorite="Must" validee="Non">
     <titre>Grammages</titre>
-    <corps>Le système doit permettre de gérer les grammage de plat.</corps>
+    <corps>Le système doit permettre de gérer les grammages de plats.</corps>
     <origine>N002</origine>
     <liens></liens>
     <test></test>

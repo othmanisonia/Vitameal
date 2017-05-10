@@ -8,10 +8,10 @@
 
 ## Descriptions textuelles
 
-[UC200 - Afficher les menus générés](#uc200-afficher-les-menus-g-n-r-s)  
-[UC201 - Générér le bon de commande](#uc201-g-n-r-r-le-bon-de-commande)  
-[UC202 - Supprimer un plat](#uc202-donner-un-prix-chaque-repas)  
-[UC203 - Exporter le menu affiché au format XML](uc203-exporter-le menu-affich-au-format-xml)
+[UC200 - Afficher les menus générés](#uc200---afficher-les-menus-générés)  
+[UC201 - Générér le bon de commande](#uc201---générer-le-bon-de-commande)  
+[UC202 - Supprimer un plat](#uc202---donner-un-prix-à-chaque-repas)  
+[UC203 - Exporter le menu affiché au format XML](#uc203---exporter-le-menu-affiché-au-format-xml)  
 
 ### UC200 - Afficher les menus générés
 
@@ -36,7 +36,7 @@ exporter le menu (pour un usage par une tierce application)
 
 **Post-Conditions:** Le menu est affiché. Un bon de commande est produit. Un export est produit.
 
-### UC201 - Générér le bon de commande
+### UC201 - Générer le bon de commande
 
 **Nom :** Générér le bon de commande  
 **ID :** UC201  
