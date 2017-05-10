@@ -7,11 +7,11 @@ Vitameal est basé sur une architecture 3-tiers :
 * le deuxième niveau correspond au traitement globaux, c'est à dire le traitement des données par des composants ;
 * le troisième niveau correspond aux données, c'est à dire le stockage des données dans une SGBD
 
-![architecture 3-tiers](architectureVitameal_3tiers.svg)
+![architecture 3-tiers](https://seikomi.github.io/Vitameal/Documentation/Architecture/architectureVitameal_3tiers.svg)
 
 ## Détails
 
-![architecture 3-tiers](architectureVitameal_details.svg)
+![architecture détails](https://seikomi.github.io/Vitameal/Documentation/Architecture/architectureVitameal_details.svg)
 
 ## Lien utile
 
