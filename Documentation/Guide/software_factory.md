@@ -16,7 +16,7 @@ L'usine logicielle de Vitameal répond aux exigences suivantes :
 Les outils utilisées par l'usine logicielle de Vitameal se séparent en deux catégories :
 
 * Le côté poste de développement qui correspond aux outils installés par chaque développeur sur sa machine ;
-* Le côté espace d'integration continue et de gstion de projet qui correspond aux outils composant l'espace communs de collaborations.
+* Le côté espace d'integration continue et de gestion de projet qui correspond aux outils composant l'espace communs de collaborations.
 
 La documentation du projet est assuré par l'utilisation de la syntaxe *markdown* integré à l'outil *GitHub* et le language de génération des livrables et des présentations est *LaTex*.
 

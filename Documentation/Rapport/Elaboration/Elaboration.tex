@@ -77,7 +77,7 @@ Les outils utilisés par l'usine logicielle de Vitameal se sépare en deux caté
 
 \begin{itemize}
 	\item Le côté poste de développement qui correspond aux outils installés par chaque développeur sur sa machine ;
-	\item Le côté espace d'intégration continue qui correspond aux outils composant l'espace communs de collaborations.
+	\item Le côté espace d'intégration continue et de gestion de projet qui correspond aux outils composant l'espace communs de collaborations.
 \end{itemize}
 
 La documentation du projet est assurée par l'utilisation de la syntaxe \emph{markdown} intégrée à l'outil \emph{GitHub} et le langage de génération des livrables est \emph{LaTex}.
@@ -91,15 +91,16 @@ Le langage cible de cette usine est Java, mais elle peut facilement être adapt�
 	\item \textbf{Maven} comme constructeur du projet (gestion des dépendances, automatisation de la construction ;
 	\item \textbf{JUnit} pour écrire les tests unitaires de l'application et \textbf{Codertura} pour analyser la couverture du projet par ces tests ;
 	\item \textbf{Git} pour versionner les sources du projet ;
-	\item \textbf{StarUML} pour modéliser selon le standard UML le projet ;
+	\item \textbf{Papyrus} pour modéliser selon le standard UML le projet ;
 	\item \textbf{GanttProject} pour planifier le projet avec un diagramme de Gantt ;
 	\item \textbf{TEXMaker} pour éditer les fichiers\texttt{.tex} avec un comportement proche des \emph{WYSIWYG} (optionnel).
 \end{itemize}
 
-\subsubsection{Côté espace d'intégration continue}
+\subsubsection{Côté espace d'intégration continue et gestion de projet}
 
 \begin{itemize}
 	\item \textbf{GitHub} comme gestionnaire à distance du repositorie Git principal, comme tracker de bug et comme affichage visuel des taches à faire ;
+	\item \textbf{Redmine} pour organiser le projet et rendre visible l'avancement du projet;
 	\item \textbf{Jenkins} comme serveur d'intégration continue ;
 	\item \textbf{SonarQube} comme analyseur de qualité du code.
 \end{itemize}
@@ -109,9 +110,17 @@ Le langage cible de cette usine est Java, mais elle peut facilement être adapt�
 \begin{figure}[H]
 	\label{Usine logicielle de Vitameal}
 	\centering
-	\includegraphics[width=0.6\textwidth]{usine_vitameal} %
+	\includegraphics[width=0.8\textwidth]{usine_vitameal} %
 	\caption{Usine logicielle de Vitameal}
 \end{figure}
+
+
+L'usine logicielle du projet Vitameal à pour porte d'entrée principale L'IDE  \textbf{Eclipse}, qui munis de plugins adéquat permet d'éditer la plupart des fichiers composants le projet.  
+La collaboration sur le projet est assurée par le gestionnaire de version  \textbf{Git}, avec un repositorie central hébergé par \textbf{GitHub}.
+
+Le  \textit{feedback} sur la santé du projet (qualité, couverture par les tests, build réussi, ...) est géré par le serveur d'intégration continue  \textbf{Jenkins}, utilisant \textbf{Maven} comme outils de configurations du projet et se branchant sur \textbf{SonarQube} pour obtenir les métriques.
+
+L' outil  \textbf{Papyrus} est dédié à la conception UML de l'application, et l'outil  \textbf{Redmine} à la gestion de l'avancement du projet.
 
 \section{\colorbox{yellow}{TODO} Analyse}
 
