@@ -104,6 +104,12 @@ Chaque exigence est composée de 11 champs:
 \end{frame}
 
 \section{Cas d'Utilisations}
+
+\begin{frame}
+\frametitle{Cas d'Utilisations}
+\input{../CasDUtilisations/uc_principal.tex}
+\end{frame}
+
 \subsection{Profil patient}
 \begin{frame}
 \frametitle{Profil patient}
@@ -143,68 +149,40 @@ Chaque exigence est composée de 11 champs:
 \textbf{P}rogram \textbf{E}valuation and \textbf{R}eview \textbf{T}echnique
 \label{PERT}
   \centering
-      \includegraphics[width=0.95\textwidth]{Vitameal_pert.png} %
+      \includegraphics[width=0.8\textwidth]{Vitameal_pert.png} %
 %\caption{PERT}
 \end{figure}
 \end{frame}
 
 \section{Usine logicielle}
-\begin{frame}[label=usineLogicielle]
-\frametitle{Usine logicielle}
-L'usine logicielle de Vitameal répond aux exigences suivantes :
-\begin{itemize}
-\item respecter les règles de qualités ;
-\item avoir une documentation claire et intégrée au projet ;
-\item gérer les erreurs et assurer leurs suivies ;
-\item versionner le code source et la documentation ;
-\item avoir un espace commun accessible à distance ;
-\item gérer un espace de livraison générant des indicateurs de santé sur le projet ;
-\item avoir un outil de conception UML couvrant la méthode minimal UML;
-\item gérer la planification du projet.
-\end{itemize}
-\end{frame}
-
-\subsection{Documentation}
-\begin{frame}[label=documentation]
-  \frametitle{Usine logicielle - Documentation}
-  \begin{itemize}
-  \item utilisation de la syntaxe \textbf{markdown};
-  \item intégration à \textbf{GitHub};
-  \item usage de \textbf{LaTex} pour les livrables
-\end{itemize}
-\end{frame}
-
-\subsection{Poste de développement}
-\begin{frame}[label=posteDeveloppement]
-  \frametitle{Usine logicielle - Poste de Développement}
-  \begin{itemize}
-  \item \textbf{Eclipse} comme IDE pour écrire/éditer le code de l'application ;
-  \item \textbf{Maven} comme constructeur du projet (gestion des dépendances, automatisation de la construction)
-  \item \textbf{JUnit} pour écrire les tests unitaires de l'application et Coderturapour analyser la couverture du projet par ces tests ;
-  \item \textbf{Git} pour versionnerles sources du projet ;
-  \item \textbf{StarUML} pour modéliser selon le standard UML le projet ;
-  \item \textbf{GanttProject} pour planifier le projet avec un diagramme de Gantt ;
-  \item \textbf{TEXMaker} pour éditer les fichiers «.tex» avec un comportement proche des WYSIWYG (optionnel).
-\end{itemize}  
-\end{frame}
-
-\subsection{Espace d'intégration continue}
-\begin{frame}[label=integrationContinue]
-  \frametitle{Usine logicielle - Espace d’intégration continue}
-  \begin{itemize}
-  \item \textbf{GitHub} comme gestionnaire à distance du repositorie \textbf{Git} principal, comme tracker de bug et comme affichage visuel des taches à faire ;
-  \item \textbf{Jenkins} comme serveur d'intégration continue ;
-  \item \textbf{SonarQube} comme analyseur de qualité du code.
-  \end{itemize}
-\end{frame}
-
-\subsection{Schéma de fonctionnement}
 \begin{frame}[label=schemaFonctionnement]
   \frametitle{Usine logicielle - Schéma de fonctionnement}
 \begin{figure}[H]
 \label{schema}
   \centering
       \includegraphics[width=1.0\textwidth]{usine_vitameal.png} %
+%\caption{Schéma}
+\end{figure}
+\end{frame}
+
+\section{Architecture générale}
+
+\begin{frame}[label=Architecture 3-tiers]
+  \frametitle{Architecture 3-tiers}
+\begin{figure}[H]
+\label{schema}
+  \centering
+      \includegraphics[width=1\textwidth]{architectureVitameal_3tiers.png} %
+%\caption{Schéma}
+\end{figure}
+\end{frame}
+
+\begin{frame}[label=Détails de l'architecture]
+  \frametitle{Détails de l'architecture}
+\begin{figure}[H]
+\label{schema}
+  \centering
+      \includegraphics[width=0.35\textwidth]{architectureVitameal_details.png} %
 %\caption{Schéma}
 \end{figure}
 \end{frame}
