@@ -15,8 +15,8 @@
 <image x="145" y="36" clip-path="url(#clipPath3)" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAWUlEQVR42mNgGPKA&#13;&#10;EUQoZCz4j0vBgxkJjPgMYIEx7k+Px5BUzFxIuQvwAZDr4C7YUBdAkuaApg2oXgAB&#13;&#10;MV5+kl3BRGksoLiAnZlCA5gZKTWAiQIDYKE6AgEAAu0P6M4KKrgAAAAASUVORK5C&#13;&#10;YII=" xlink:type="simple" xlink:actuate="onLoad" height="16" preserveAspectRatio="none" xlink:show="embed"/>
 <text xml:space="preserve" x="164" y="51" clip-path="url(#clipPath4)" stroke="none">Système</text>
 <rect x="262" y="151" clip-path="url(#clipPath5)" fill="url(#linearGradient2)" width="312" height="59" stroke="none"/>
-<image x="287" y="177" clip-path="url(#clipPath6)" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAArklEQVR42mNgGAWM&#13;&#10;yJwHrz79n7DtEsOFB28YHr/9ysDDwQaX+/LjF4OsMDeDgYIIQ4GXHoOCGB8jigEF&#13;&#10;C47833/1OUOQhSpDoJkCAzsrC4ZtP3//YVh/6gHDuhO3GRy1JRkmJNgwgg1YeezO&#13;&#10;/63nnzBUB5sQ7fTWtWcYvA1lGJhBnDeyTg1dcTYk+d1OS4qhfuUJBiZKA5E6BmS6&#13;&#10;6YD9RAoAqQfpo04sUJIOhgEAAIgcVGy9n9/qAAAAAElFTkSuQmCC" xlink:type="simple" xlink:actuate="onLoad" height="16" preserveAspectRatio="none" xlink:show="embed"/>
-<text xml:space="preserve" x="306" y="192" clip-path="url(#clipPath7)" stroke="none">Générer les menus automatiquement</text>
+<image x="285" y="177" clip-path="url(#clipPath6)" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAArklEQVR42mNgGAWM&#13;&#10;yJwHrz79n7DtEsOFB28YHr/9ysDDwQaX+/LjF4OsMDeDgYIIQ4GXHoOCGB8jigEF&#13;&#10;C47833/1OUOQhSpDoJkCAzsrC4ZtP3//YVh/6gHDuhO3GRy1JRkmJNgwgg1YeezO&#13;&#10;/63nnzBUB5sQ7fTWtWcYvA1lGJhBnDeyTg1dcTYk+d1OS4qhfuUJBiZKA5E6BmS6&#13;&#10;6YD9RAoAqQfpo04sUJIOhgEAAIgcVGy9n9/qAAAAAElFTkSuQmCC" xlink:type="simple" xlink:actuate="onLoad" height="16" preserveAspectRatio="none" xlink:show="embed"/>
+<text xml:space="preserve" x="304" y="192" clip-path="url(#clipPath7)" stroke="none">Élaborer les menus automatiquement</text>
 <rect x="262" y="151" clip-path="url(#clipPath8)" fill="none" width="311" rx="156" ry="29.5" height="58"/>
 <rect x="637" y="200" clip-path="url(#clipPath9)" fill="url(#linearGradient3)" width="204" height="60" stroke="none"/>
 <image x="659" y="227" clip-path="url(#clipPath10)" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAArklEQVR42mNgGAWM&#13;&#10;yJwHrz79n7DtEsOFB28YHr/9ysDDwQaX+/LjF4OsMDeDgYIIQ4GXHoOCGB8jigEF&#13;&#10;C47833/1OUOQhSpDoJkCAzsrC4ZtP3//YVh/6gHDuhO3GRy1JRkmJNgwgg1YeezO&#13;&#10;/63nnzBUB5sQ7fTWtWcYvA1lGJhBnDeyTg1dcTYk+d1OS4qhfuUJBiZKA5E6BmS6&#13;&#10;6YD9RAoAqQfpo04sUJIOhgEAAIgcVGy9n9/qAAAAAElFTkSuQmCC" xlink:type="simple" xlink:actuate="onLoad" height="16" preserveAspectRatio="none" xlink:show="embed"/>
@@ -155,7 +155,7 @@
 <path d="M262 164 L575 164 L575 196 L262 196 L262 164 Z"/>
 </clipPath>
 <clipPath clipPathUnits="userSpaceOnUse" id="clipPath7">
-<path d="M305 174 L552 174 L552 196 L305 196 L305 174 Z"/>
+<path d="M303 174 L554 174 L554 196 L303 196 L303 174 Z"/>
 </clipPath>
 <clipPath clipPathUnits="userSpaceOnUse" id="clipPath8">
 <path d="M261 150 L575 150 L575 211 L261 211 L261 150 Z"/>
@@ -257,16 +257,16 @@
 <path d="M-1 -1 L885 -1 L885 518 L-1 518 L-1 -1 Z"/>
 </clipPath>
 <clipPath clipPathUnits="userSpaceOnUse" id="clipPath41">
-<path d="M485 205 L502 205 L502 221 L485 221 L485 205 Z"/>
-</clipPath>
-<clipPath clipPathUnits="userSpaceOnUse" id="clipPath42">
 <path d="M559 195 L625 195 L625 217 L559 217 L559 195 Z"/>
 </clipPath>
-<clipPath clipPathUnits="userSpaceOnUse" id="clipPath43">
+<clipPath clipPathUnits="userSpaceOnUse" id="clipPath42">
 <path d="M631 205 L650 205 L650 218 L631 218 L631 205 Z"/>
 </clipPath>
-<clipPath clipPathUnits="userSpaceOnUse" id="clipPath44">
+<clipPath clipPathUnits="userSpaceOnUse" id="clipPath43">
 <path d="M304 201 L322 201 L322 217 L304 217 L304 201 Z"/>
+</clipPath>
+<clipPath clipPathUnits="userSpaceOnUse" id="clipPath44">
+<path d="M485 205 L502 205 L502 221 L485 221 L485 205 Z"/>
 </clipPath>
 <clipPath clipPathUnits="userSpaceOnUse" id="clipPath45">
 <path d="M408 208 L427 208 L427 222 L408 222 L408 208 Z"/>
@@ -286,41 +286,41 @@
 </svg>
 <g stroke-width="1.1" font-size="15" font-family="'Segoe UI'" stroke-linecap="butt">
 <text xml:space="preserve" x="52" y="344" clip-path="url(#clipPath39)" stroke="none">Diététicien</text>
-<line clip-path="url(#clipPath40)" fill="none" text-rendering="optimizeLegibility" x1="534" x2="488" y1="280" y2="206"/>
-<polygon fill="white" text-rendering="optimizeLegibility" clip-path="url(#clipPath41)" points=" 488 206 500 210 486 219" stroke="none"/>
-<polygon text-rendering="optimizeLegibility" fill="none" clip-path="url(#clipPath41)" points=" 488 206 500 210 486 219"/>
+<line clip-path="url(#clipPath40)" fill="none" text-rendering="optimizeLegibility" x1="363" x2="418" y1="427" y2="374" stroke-dasharray="6.6,3.3"/>
 <line clip-path="url(#clipPath40)" fill="none" text-rendering="optimizeLegibility" x1="572" x2="648" y1="184" y2="216" stroke-dasharray="5,5,5,5,5,5,5,5,5,5"/>
-<text x="560" y="213" clip-path="url(#clipPath42)" text-rendering="optimizeLegibility" stroke-dasharray="5,5,5,5,5,5,5,5,5,5" stroke="none" xml:space="preserve">«include»</text>
-<line clip-path="url(#clipPath43)" fill="none" text-rendering="optimizeLegibility" x1="632" x2="648" y1="215" y2="216"/>
-<line clip-path="url(#clipPath43)" fill="none" text-rendering="optimizeLegibility" x1="648" x2="636" y1="216" y2="206"/>
+<text x="560" y="213" clip-path="url(#clipPath41)" text-rendering="optimizeLegibility" stroke-dasharray="5,5,5,5,5,5,5,5,5,5" stroke="none" xml:space="preserve">«include»</text>
+<line clip-path="url(#clipPath42)" fill="none" text-rendering="optimizeLegibility" x1="632" x2="648" y1="215" y2="216"/>
+<line clip-path="url(#clipPath42)" fill="none" text-rendering="optimizeLegibility" x1="648" x2="636" y1="216" y2="206"/>
+<line clip-path="url(#clipPath40)" fill="none" text-rendering="optimizeLegibility" x1="769" x2="745" y1="177" y2="200" stroke-dasharray="6.6,3.3"/>
 <line clip-path="url(#clipPath40)" fill="none" text-rendering="optimizeLegibility" x1="271" x2="317" y1="295" y2="202"/>
-<polygon fill="white" text-rendering="optimizeLegibility" clip-path="url(#clipPath44)" points=" 317 202 320 215 305 207" stroke="none"/>
-<polygon text-rendering="optimizeLegibility" fill="none" clip-path="url(#clipPath44)" points=" 317 202 320 215 305 207"/>
+<polygon fill="white" text-rendering="optimizeLegibility" clip-path="url(#clipPath43)" points=" 317 202 320 215 305 207" stroke="none"/>
+<polygon text-rendering="optimizeLegibility" fill="none" clip-path="url(#clipPath43)" points=" 317 202 320 215 305 207"/>
+<line clip-path="url(#clipPath40)" fill="none" text-rendering="optimizeLegibility" x1="308" x2="281" y1="427" y2="353" stroke-dasharray="6.6,3.3"/>
+<line clip-path="url(#clipPath40)" fill="none" text-rendering="optimizeLegibility" x1="534" x2="488" y1="280" y2="206"/>
+<polygon fill="white" text-rendering="optimizeLegibility" clip-path="url(#clipPath44)" points=" 488 206 500 210 486 219" stroke="none"/>
+<polygon text-rendering="optimizeLegibility" fill="none" clip-path="url(#clipPath44)" points=" 488 206 500 210 486 219"/>
+<line clip-path="url(#clipPath40)" fill="none" text-rendering="optimizeLegibility" x1="570" x2="491" y1="119" y2="154" stroke-dasharray="6.6,3.3"/>
 <line clip-path="url(#clipPath40)" fill="none" text-rendering="optimizeLegibility" x1="426" x2="416" y1="315" y2="209"/>
 <polygon fill="white" text-rendering="optimizeLegibility" clip-path="url(#clipPath45)" points=" 416 209 425 218 409 220" stroke="none"/>
 <polygon text-rendering="optimizeLegibility" fill="none" clip-path="url(#clipPath45)" points=" 416 209 425 218 409 220"/>
-<line clip-path="url(#clipPath40)" fill="none" text-rendering="optimizeLegibility" x1="308" x2="281" y1="427" y2="353" stroke-dasharray="6.6,3.3"/>
 <line clip-path="url(#clipPath40)" fill="none" text-rendering="optimizeLegibility" x1="684" x2="623" y1="357" y2="326" stroke-dasharray="6.6,3.3"/>
-<line clip-path="url(#clipPath40)" fill="none" text-rendering="optimizeLegibility" x1="363" x2="418" y1="427" y2="374" stroke-dasharray="6.6,3.3"/>
-<line clip-path="url(#clipPath40)" fill="none" text-rendering="optimizeLegibility" x1="570" x2="491" y1="119" y2="154" stroke-dasharray="6.6,3.3"/>
-<line clip-path="url(#clipPath40)" fill="none" text-rendering="optimizeLegibility" x1="769" x2="745" y1="177" y2="200" stroke-dasharray="6.6,3.3"/>
 <line clip-path="url(#clipPath40)" fill="none" text-rendering="optimizeLegibility" x1="62" x2="262" y1="287" y2="181"/>
 <line clip-path="url(#clipPath40)" fill="none" text-rendering="optimizeLegibility" x1="534" x2="488" y1="280" y2="206"/>
-<polygon fill="white" text-rendering="optimizeLegibility" clip-path="url(#clipPath41)" points=" 488 206 500 210 486 219" stroke="none"/>
-<polygon text-rendering="optimizeLegibility" fill="none" clip-path="url(#clipPath41)" points=" 488 206 500 210 486 219"/>
+<polygon fill="white" text-rendering="optimizeLegibility" clip-path="url(#clipPath44)" points=" 488 206 500 210 486 219" stroke="none"/>
+<polygon text-rendering="optimizeLegibility" fill="none" clip-path="url(#clipPath44)" points=" 488 206 500 210 486 219"/>
 <line clip-path="url(#clipPath40)" fill="none" text-rendering="optimizeLegibility" x1="426" x2="416" y1="315" y2="209"/>
 <polygon fill="white" text-rendering="optimizeLegibility" clip-path="url(#clipPath45)" points=" 416 209 425 218 409 220" stroke="none"/>
 <polygon text-rendering="optimizeLegibility" fill="none" clip-path="url(#clipPath45)" points=" 416 209 425 218 409 220"/>
 <line clip-path="url(#clipPath40)" fill="none" text-rendering="optimizeLegibility" x1="271" x2="317" y1="295" y2="202"/>
-<polygon fill="white" text-rendering="optimizeLegibility" clip-path="url(#clipPath44)" points=" 317 202 320 215 305 207" stroke="none"/>
-<polygon text-rendering="optimizeLegibility" fill="none" clip-path="url(#clipPath44)" points=" 317 202 320 215 305 207"/>
+<polygon fill="white" text-rendering="optimizeLegibility" clip-path="url(#clipPath43)" points=" 317 202 320 215 305 207" stroke="none"/>
+<polygon text-rendering="optimizeLegibility" fill="none" clip-path="url(#clipPath43)" points=" 317 202 320 215 305 207"/>
 <line clip-path="url(#clipPath40)" fill="none" text-rendering="optimizeLegibility" x1="684" x2="623" y1="357" y2="326" stroke-dasharray="6.6,3.3"/>
 <line clip-path="url(#clipPath40)" fill="none" text-rendering="optimizeLegibility" x1="363" x2="418" y1="427" y2="374" stroke-dasharray="6.6,3.3"/>
 <line clip-path="url(#clipPath40)" fill="none" text-rendering="optimizeLegibility" x1="308" x2="281" y1="427" y2="353" stroke-dasharray="6.6,3.3"/>
 <line clip-path="url(#clipPath40)" fill="none" text-rendering="optimizeLegibility" x1="572" x2="648" y1="184" y2="216" stroke-dasharray="5,5,5,5,5,5,5,5,5,5"/>
-<text x="560" y="213" clip-path="url(#clipPath42)" text-rendering="optimizeLegibility" stroke-dasharray="5,5,5,5,5,5,5,5,5,5" stroke="none" xml:space="preserve">«include»</text>
-<line clip-path="url(#clipPath43)" fill="none" text-rendering="optimizeLegibility" x1="632" x2="648" y1="215" y2="216"/>
-<line clip-path="url(#clipPath43)" fill="none" text-rendering="optimizeLegibility" x1="648" x2="636" y1="216" y2="206"/>
+<text x="560" y="213" clip-path="url(#clipPath41)" text-rendering="optimizeLegibility" stroke-dasharray="5,5,5,5,5,5,5,5,5,5" stroke="none" xml:space="preserve">«include»</text>
+<line clip-path="url(#clipPath42)" fill="none" text-rendering="optimizeLegibility" x1="632" x2="648" y1="215" y2="216"/>
+<line clip-path="url(#clipPath42)" fill="none" text-rendering="optimizeLegibility" x1="648" x2="636" y1="216" y2="206"/>
 <line clip-path="url(#clipPath40)" fill="none" text-rendering="optimizeLegibility" x1="769" x2="745" y1="177" y2="200" stroke-dasharray="6.6,3.3"/>
 <line clip-path="url(#clipPath40)" fill="none" text-rendering="optimizeLegibility" x1="570" x2="491" y1="119" y2="154" stroke-dasharray="6.6,3.3"/>
 </g>
