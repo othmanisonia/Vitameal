@@ -20,3 +20,7 @@ distribution des repas en fonctions des profil patients (par l'emmision d'ettiqu
 # Diagramme
 
 ![Use case général](https://seikomi.github.io/Vitameal/Documentation/CasDUtilisations/uc_principal2.png)
+
+#### Remarque
+
+Je n'ai pas trouver de moyen d'intégrer l'admnistrateur du site web pour le moment
