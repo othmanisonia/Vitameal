@@ -20,7 +20,7 @@ REQ_01040</body>
       <body>REQ_01000&#xD;
 REQ_10050</body>
     </ownedComment>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_9A95QDJAEeeh_Y9xP6hzWA" name="Générer les menus automatiquement">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_9A95QDJAEeeh_Y9xP6hzWA" name="Élaborer les menus automatiquement">
       <include xmi:type="uml:Include" xmi:id="_OZZsQDJjEee3KMQLGLArHQ" addition="_D5Xt8DJhEee3KMQLGLArHQ"/>
     </packagedElement>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_D5Xt8DJhEee3KMQLGLArHQ" name="Gérer les grammages"/>
