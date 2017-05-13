@@ -1,0 +1,33 @@
+# Vitameal gitignore 
+
+# Eclipse project  files :
+.settings
+.classpath
+.project
+/target/
+/bin/
+/doc/
+
+# Eclipse GFM views plugin
+*.md.html
+
+# Dia backup files
+*.dia~
+
+# LaTeX compile files
+*.nav
+*.snm
+*.aux
+*.glo
+*.ist
+*.lof
+*.log
+*.lot
+*.out
+*.synctex.gz
+*.toc
+
+#Emacs files
+*.[oa]
+~
+.#
