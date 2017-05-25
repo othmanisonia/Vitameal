@@ -1,0 +1,6 @@
+@import url(Vitameal.css);
+form {
+	position: absolute;
+	top: 40%;
+	left: 40%;
+}
