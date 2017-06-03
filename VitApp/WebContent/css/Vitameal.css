@@ -1,3 +1,31 @@
-body {
-	background-image: url('../images/fond_155.png');
+@import url(Logo.css);
+header { position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 200px;
+	border-style: ridge;
+	border-width: thick;
+	text-align: center;
+}
+nav { display: block;
+	position: absolute;
+	top: 108px;
+	left: 0px;
+	width: 200px;
+	height: 85%;
+	margin: 0px;
+	border-right-style: ridge;
+	border-right-width: thick;
+	padding-left: 4px;
+}
+section {display: block;
+	position: absolute;
+	top: 0px;
+	left: 212px;
+}
+label
+{
+    display: block;
+    width: 150px;
+    float: left;
 }

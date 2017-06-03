@@ -4,7 +4,6 @@ import java.io.IOException;
 
 import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
-import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -20,7 +19,7 @@ public class Connexion extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	private static final String VUE = "/Logging.jsp";
 	private static final String ERREUR = "/LError.jsp";
-	private static final String NAV = "/WEB-INF/Navigation.jsp";
+	private static final String NAV = "/WEB-INF/Accueil.jsp";
     private static final String ATT_USER         = "utilisateur";
     private static final String ATT_FORM         = "form";
     private static final String ATT_SESSION_USER = "utilisateur";

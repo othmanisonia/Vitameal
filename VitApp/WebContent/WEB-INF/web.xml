@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+
   <display-name>VitApp</display-name>
-  
+
   <welcome-file-list>
     <welcome-file>index.html</welcome-file>
     <welcome-file>index.htm</welcome-file>
@@ -12,79 +13,51 @@
   </welcome-file-list>
 
   <servlet>
-  	<description>Pour gérer les sessions de travails des différents intervenants.</description>
-  	<servlet-name>Connexion</servlet-name>
-  	<servlet-class>com.ipstcnam.vitameal.servlets.Connexion</servlet-class>
+    <description>Pour gérer les sessions de travails des différents intervenants.</description>
+    <servlet-name>Connexion</servlet-name>
+    <servlet-class>com.ipstcnam.vitameal.servlets.Connexion</servlet-class>
   </servlet>
-  
+
   <servlet-mapping>
-  	<servlet-name>Connexion</servlet-name>
-  	<url-pattern>/index.html</url-pattern>
-  	<url-pattern>/index.htm</url-pattern>
-  	<url-pattern>/index.jsp</url-pattern>
-  	<url-pattern>/default.html</url-pattern>
-  	<url-pattern>/default.htm</url-pattern>
-  	<url-pattern>/default.jsp</url-pattern>
-  	<url-pattern>/connexion</url-pattern>
+    <servlet-name>Connexion</servlet-name>
+    <url-pattern>/index.html</url-pattern>
+    <url-pattern>/index.htm</url-pattern>
+    <url-pattern>/index.jsp</url-pattern>
+    <url-pattern>/default.html</url-pattern>
+    <url-pattern>/default.htm</url-pattern>
+    <url-pattern>/default.jsp</url-pattern>
+    <url-pattern>/connexion</url-pattern>
   </servlet-mapping>
-    
+
+  <servlet>
+    <description>Pour gérer les profils patients.</description>
+    <servlet-name>ProfilPatient</servlet-name>
+    <servlet-class>com.ipstcnam.vitameal.servlets.ProfilPatient</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>ProfilPatient</servlet-name>
+    <url-pattern>/ProfilPatient</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <description>Pour gérer les plats.</description>
+    <servlet-name>Plats</servlet-name>
+    <servlet-class>com.ipstcnam.vitameal.servlets.Plats</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>Plats</servlet-name>
+    <url-pattern>/Plats</url-pattern>
+  </servlet-mapping>
+
   <session-config>
-  	<session-timeout>5</session-timeout> <!-- En minutes. -->
-  	<cookie-config> <!-- Les cookies doivent être autorisés sur le poste client. -->
-  		<comment>Identifiant de session.</comment>
-  		<max-age>100</max-age> <!-- En secondes. -->
-  	</cookie-config>
-  	<tracking-mode>COOKIE</tracking-mode>
+    <session-timeout>5</session-timeout>
+    <cookie-config>
+      <comment>Identifiant de session.</comment>
+      <max-age>100</max-age>
+    </cookie-config>
+    <tracking-mode>COOKIE</tracking-mode>
   </session-config>
-  
-  <!--
-  <security-constraint>
-    <display-name>
-  		SECURITE_GROUPE_1
-  	</display-name>
-    <web-resource-collection>
-      <web-resource-name>RESSOURCES_PROTEGEES_GROUPE_1</web-resource-name>
-      <description>
-  			Premier ensemble de ressources protégées.
-  		</description>
-      <url-pattern>
-  			/Navigation.jsp
-  		</url-pattern>
-      <http-method>GET</http-method>
-      <http-method>POST</http-method>
-      <http-method>PUT</http-method>
-      <http-method>DELETE</http-method>
-      <http-method>TRACE</http-method>
-      <http-method>OPTIONS</http-method>
-      <http-method>HEAD</http-method>
-      <http-method>CONNECT</http-method>
-    </web-resource-collection>
-    <auth-constraint>
-      <description>
-  			Liste des personnnes autorisées.
-  		</description>
-      <role-name>dieteticien</role-name>
-      <role-name>medecin</role-name>
-    </auth-constraint>
-  </security-constraint>
-  
-  <security-role>
-    <description>Diététiciens.</description>
-    <role-name>dieteticien</role-name>
-  </security-role>
-  <security-role>
-    <description>Médecins.</description>
-    <role-name>medecin</role-name>
-  </security-role>
-  
-  <login-config>
-    <auth-method>FORM</auth-method>
-    <realm-name>Identifiants</realm-name>
-    <form-login-config>
-      <form-login-page>/Logging.jsp</form-login-page>
-      <form-error-page>/LError.jsp</form-error-page>
-    </form-login-config>
-  </login-config>
-  -->
-  
+
 </web-app>
