@@ -8,7 +8,6 @@ Environnement logiciel:
 
 Archives:
 ---------
-VitApp.zip: Projet Eclipse  
 VitApp.war: Application Tomcat. Utilisation:  
 - placer l'archive dans le dossier "webapps" de Tomcat.  
 - lancer le serveur: "bin/startup.bat"  
@@ -22,6 +21,8 @@ Utilisateur reconnus:
 - VitaMed  --> mdp: vitamed
 - Nicolas  --> mdp: nicolas
 - Sonia    --> mdp: sonia
-- Jean-Félix --> mdp: jean-félix  
+- Jean-Felix --> mdp: jeanfelix  
 
 Pour le moment, ces  informations ce trouvent en dur dans le code, voir "ConnexionForm.java".
+
+Le formulaire de saisie du profil patient est disponible. Pour le moment le résultat de la saisie est renvoyé dans la console Eclipse.

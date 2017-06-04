@@ -22,7 +22,7 @@ public class ConnexionForm {
     	        { "VitaMed", "vitamed" }, 
     	        { "Nicolas", "nicolas" },
     	        { "Sonia", "sonia" },
-    	        { "Jean-Félix", "jean-félix" }
+    	        { "Jean-Felix", "jeanfelix" }
     	    }).collect(Collectors.toMap(kv -> kv[0], kv -> kv[1]));
     
     public String getResultat() {
