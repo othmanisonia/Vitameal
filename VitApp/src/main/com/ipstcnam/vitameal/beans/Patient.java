@@ -2,6 +2,9 @@ package com.ipstcnam.vitameal.beans;
 
 import java.io.Serializable;
 
+import javax.persistence.Entity;
+
+@Entity
 public class Patient implements Serializable {
 	private static final long serialVersionUID = 7503530612867464912L;
 	private String prenom;
