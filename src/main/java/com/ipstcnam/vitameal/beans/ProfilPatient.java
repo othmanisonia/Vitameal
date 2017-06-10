@@ -6,12 +6,14 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.SequenceGenerator;
 
 @Entity
-public class Patient implements Serializable {
+public class ProfilPatient implements Serializable {
 	private static final long serialVersionUID = 7503530612867464912L;
 	@Id
-	//@GeneratedValue( strategy = GenerationType.IDENTITY )
+	@GeneratedValue(strategy=GenerationType.SEQUENCE, generator = "id_Sequence")
+	@SequenceGenerator(name = "id_Sequence", sequenceName = "ID_SEQ")
 	private long idPatient;
 	private String prenom;
 	private String nom;
@@ -25,7 +27,7 @@ public class Patient implements Serializable {
 	private boolean colesterol;
 	private boolean hypertension;
 
-	public Patient() {
+	public ProfilPatient() {
 		prenom = "";
 		nom = "";
 		sexe = true; // homme

@@ -2,7 +2,7 @@ package main.java.com.ipstcnam.vitameal.forms;
 
 import javax.servlet.http.HttpServletRequest;
 
-import main.java.com.ipstcnam.vitameal.beans.Patient;
+import main.java.com.ipstcnam.vitameal.beans.ProfilPatient;
 
 public class ProfilPatientForm {
 	private static final String CHAMP_PRENOM  = "p_prenom";
@@ -17,8 +17,8 @@ public class ProfilPatientForm {
 	private static final String CHAMP_COLESTEROL  = "p_colesterol";
 	private static final String CHAMP_HYPERTENSION  = "p_hypertension";
 
-	public Patient unPatient(HttpServletRequest request) {
-		Patient patient = new Patient();
+	public ProfilPatient unPatient(HttpServletRequest request) {
+		ProfilPatient patient = new ProfilPatient();
 		String valParam;
 		patient.setPrenom(request.getParameter(CHAMP_PRENOM));
 		patient.setNom(request.getParameter(CHAMP_NOM));

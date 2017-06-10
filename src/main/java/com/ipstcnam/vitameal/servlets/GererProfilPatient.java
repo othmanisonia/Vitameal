@@ -8,7 +8,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import main.java.com.ipstcnam.vitameal.beans.Patient;
+import main.java.com.ipstcnam.vitameal.beans.ProfilPatient;
 import main.java.com.ipstcnam.vitameal.forms.ProfilPatientForm;
 
 /**
@@ -34,7 +34,7 @@ public class GererProfilPatient extends HttpServlet {
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		ProfilPatientForm ppForm = new ProfilPatientForm();
-		Patient patient = ppForm.unPatient(request);
+		ProfilPatient patient = ppForm.unPatient(request);
 		System.out.println(patient.toString());
 		this.getServletContext().getRequestDispatcher(PROFILP).forward(request, response);
 	}
