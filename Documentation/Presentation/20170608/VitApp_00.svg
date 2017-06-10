@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="297mm"
+   height="210mm"
+   viewBox="0 0 1052.3622 744.09448"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.92.1 r15371"
+   sodipodi:docname="VitApp_00.svg"
+   inkscape:export-filename="C:\Users\jbenitez\iCloudDrive\CNAM\I1_UE\LAAP01\VitApp\VitApp_00.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96">
+  <defs
+     id="defs4">
+    <symbol
+       id="Process">
+      <title
+         id="title6064">Process</title>
+      <desc
+         id="desc6066">Any processing function.</desc>
+      <rect
+         x="15"
+         y="35"
+         width="120"
+         height="80"
+         style="stroke-width:2"
+         id="rect6068" />
+    </symbol>
+    <symbol
+       id="MagneticDisk">
+      <title
+         id="title6254">Magnetic Disk (Database)</title>
+      <desc
+         id="desc6256">A magnetic disk. (ISO)</desc>
+      <path
+         d="m 35,25 a 65,65 0 0 1 80,0 l 0,100 a 65,65 0 0 1 -80,0 z"
+         style="stroke-width:2"
+         id="path6258" />
+      <path
+         d="m 115,25 a 65,65 0 0 1 -80,0"
+         style="fill:none;stroke-width:2;stroke-linecap:butt"
+         id="path6260" />
+      <path
+         d="m 115,40 a 65,65 0 0 1 -80,0"
+         style="fill:none;stroke-width:2;stroke-linecap:butt"
+         id="path6262" />
+      <path
+         d="m 115,55 a 65,65 0 0 1 -80,0"
+         style="fill:none;stroke-width:2;stroke-linecap:butt"
+         id="path6264" />
+    </symbol>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="557.2239"
+     inkscape:cy="391.1593"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1019"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-308.26772)">
+    <g
+       id="g8263"
+       transform="translate(314.55694,363.81293)">
+      <use
+         transform="matrix(0.94164059,0,0,0.37410656,104.7341,29.661355)"
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         xlink:href="#Process"
+         style="fill:#aaccee;stroke:#000000"
+         id="use8243" />
+      <text
+         id="text8259"
+         y="63.179958"
+         x="136.80344"
+         style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="63.179958"
+           x="136.80344"
+           id="tspan8261"
+           sodipodi:role="line"
+           style="font-size:14.66666698px;line-height:1.25">Client web</tspan></text>
+    </g>
+    <g
+       id="g8296"
+       transform="translate(-80.828131,320.93309)">
+      <use
+         transform="matrix(1.3768043,0,0,0.56858863,226.73967,191.86091)"
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         xlink:href="#Process"
+         style="fill:#aaccee;stroke:#000000"
+         id="use8280" />
+      <text
+         id="text8292"
+         y="239.96567"
+         x="262.80762"
+         style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="239.96567"
+           x="262.80762"
+           id="tspan8294"
+           sodipodi:role="line"
+           style="font-size:14.66666698px;line-height:1.25">Servlet Connexion</tspan></text>
+    </g>
+    <g
+       id="g8329"
+       transform="translate(19.171872,315.13214)">
+      <use
+         transform="matrix(0.94455079,0,0,0.60432618,47.015834,293.10917)"
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         xlink:href="#Process"
+         style="fill:#aaccee;stroke:#000000"
+         id="use8313" />
+      <text
+         id="text8325"
+         y="342.2865"
+         x="75.074585"
+         style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="342.2865"
+           x="75.074585"
+           id="tspan8327"
+           sodipodi:role="line"
+           style="font-size:14.66666698px;line-height:1.25">Logging.jsp</tspan></text>
+    </g>
+    <g
+       id="g8358"
+       transform="translate(-92.454761,304.06071)">
+      <g
+         id="g8379"
+         transform="translate(26.428571,-21.428571)">
+        <use
+           id="use8313-4"
+           style="fill:#aaccee;stroke:#000000"
+           xlink:href="#Process"
+           x="0"
+           y="0"
+           width="100%"
+           height="100%"
+           transform="matrix(1.0919376,0,0,0.60292077,334.17611,325.71458)" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="364.36029"
+           y="374.7865"
+           id="text8325-9"><tspan
+             sodipodi:role="line"
+             id="tspan8327-3"
+             x="364.36029"
+             y="374.7865"
+             style="font-size:14.66666698px;line-height:1.25">Bean Logging</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g8452"
+       transform="translate(31.314729,70.710679)">
+      <use
+         transform="matrix(1.6099433,0,0,0.56680182,582.71745,442.21733)"
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         xlink:href="#Process"
+         style="fill:#aaccee;stroke:#000000"
+         id="use8280-2" />
+      <text
+         id="text8292-6"
+         y="490.22388"
+         x="627.66992"
+         style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="490.22388"
+           x="627.66992"
+           id="tspan8294-9"
+           sodipodi:role="line"
+           style="font-size:14.66666698px;line-height:1.25">Servlet Profil Patient</tspan><tspan
+           id="tspan8438"
+           y="508.55722"
+           x="627.66992"
+           sodipodi:role="line"
+           style="font-size:14.66666698px;line-height:1.25"> </tspan><tspan
+           id="tspan8440"
+           y="526.89056"
+           x="627.66992"
+           sodipodi:role="line"
+           style="font-size:14.66666698px;line-height:1.25"> </tspan></text>
+    </g>
+    <g
+       id="g8459"
+       transform="translate(-12.384149,70.710675)">
+      <use
+         transform="matrix(1.483007,0,0,0.60021396,497.06593,537.83905)"
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         xlink:href="#Process"
+         style="fill:#aaccee;stroke:#000000"
+         id="use8313-3" />
+      <text
+         transform="scale(1.1125757,0.89881524)"
+         id="text8325-7"
+         y="653.01294"
+         x="482.24854"
+         style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="653.01294"
+           x="482.24854"
+           id="tspan8327-9"
+           sodipodi:role="line"
+           style="font-size:16.278265px;line-height:1.25">ProfilPatient.jsp</tspan></text>
+    </g>
+    <g
+       id="g8464"
+       transform="translate(31.31477,70.710679)">
+      <use
+         transform="matrix(1.5112454,0,0,0.59977817,722.68902,537.87173)"
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         xlink:href="#Process"
+         style="fill:#aaccee;stroke:#000000"
+         id="use8313-4-8" />
+      <text
+         transform="scale(1.0684947,0.93589607)"
+         id="text8325-9-5"
+         y="628.64117"
+         x="712.2561"
+         style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="628.64117"
+           x="712.2561"
+           id="tspan8327-3-8"
+           sodipodi:role="line"
+           style="font-size:15.64638233px;line-height:1.25">Bean ProfilPatient</tspan></text>
+    </g>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 483.86307,436.16915 c 210.11173,95.96449 211.12188,96.97465 211.12188,96.97465 l -2.0203,0"
+       id="path8469"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 473.76154,435.159 c -220.21325,95.96449 -220.21325,95.96449 -220.21325,95.96449 l 0,0"
+       id="path8471"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 246.47722,579.61081 c -98.99495,49.49748 -98.99495,49.49748 -98.99495,49.49748 l 0,0 0,-2.02031"
+       id="path8473"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 260.61936,577.59051 c 88.89342,54.54824 85.86296,49.49747 85.86296,49.49747"
+       id="path8475"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 717.20831,579.61081 C 597.00016,629.10829 597.00016,628.09814 597.00016,628.09814"
+       id="path8477"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 739.43166,580.62097 c 117.1777,49.49747 119.198,49.49747 119.198,49.49747"
+       id="path8479"
+       inkscape:connector-curvature="0" />
+    <g
+       id="g8558"
+       transform="translate(135.36044,131.82492)">
+      <use
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         transform="matrix(0.54308625,0,0,0.7439442,415.35241,686.95463)"
+         xlink:href="#Process"
+         style="fill:#aaccee;stroke:#000000"
+         id="use8493" />
+      <text
+         id="text8542"
+         y="748.00696"
+         x="443.14313"
+         style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="748.00696"
+           x="443.14313"
+           id="tspan8544"
+           sodipodi:role="line"
+           style="font-size:14.66666698px;line-height:1.25">JTA</tspan></text>
+    </g>
+    <g
+       id="g8563"
+       transform="translate(135.36044,129.29953)">
+      <use
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         transform="translate(682.61441,670.27584)"
+         xlink:href="#MagneticDisk"
+         style="fill:#aaccee;stroke:#000000"
+         id="use8520" />
+      <text
+         id="text8546"
+         y="763.7395"
+         x="740.99268"
+         style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="763.7395"
+           x="740.99268"
+           id="tspan8548"
+           sodipodi:role="line"
+           style="font-size:14.66666698px;line-height:1.25">BDD</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="690.9444"
+       y="872.55505"
+       id="text8550"><tspan
+         sodipodi:role="line"
+         x="690.9444"
+         y="872.55505"
+         id="tspan8554"
+         style="font-size:14.66666698px;line-height:1.25">Hibernate</tspan></text>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 624.27427,877.60581 c 227.28433,1.01016 227.28433,1.01016 227.28433,1.01016"
+       id="path8568"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 352.54324,680.62607 c 228.29447,162.63456 229.30463,162.63456 229.30463,162.63456 l 1.01015,2.0203 -1.01015,-1.01015"
+       id="path8570"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 852.56875,678.60576 C 592.95955,843.26063 592.95955,843.26063 592.95955,843.26063"
+       id="path8572"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

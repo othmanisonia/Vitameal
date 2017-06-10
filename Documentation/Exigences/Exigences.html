@@ -1,890 +1,825 @@
-<!DOCtype HTML SYSTEM "about:legacy-compat"><html lang="fr">
-   <head>
-      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-      <title>Exigences Vitameal</title>
-      <meta charset="utf-8"><style type="text/css">
-    				.bold { font-weight: bold;}
-    				.italic { font-style: italic;}
-    				table { border: 1px solid black;
-    						border-collapse: collapse;
-    						width: 100%}
-    				td { width: 50%;}
-    				thead { border: 1px solid black;
-    					padding: 10px;}
-    				tfoot { border: 1px solid black;
-    					padding: 10px;}
-    			</style></head>
-   <body>
-      <table>
-         <thead>
-            <td colspan="2" style="text-align: left;"><span class="bold">REQ_01000 : </span>3 repas
-            </td>
-         </thead>
-         <tr>
-            <td><span class="italic">Type : </span>Métier
-            </td>
-            <td><span class="italic">Nature : </span>Fonctionnelle
-            </td>
-         </tr>
-         <tr>
-            <td><span class="italic">Origine : </span>N002
-            </td>
-            <td><span class="italic">Liens : </span>REQ_01010 REQ_01050 
-            </td>
-         </tr>
-         <tr>
-            <td><span class="italic">Version : </span>Initiale
-            </td>
-            <td><span class="italic">Validée : </span>Non
-            </td>
-         </tr>
-         <tr>
-            <td><span class="italic">Priorité : </span>Must
-            </td>
-            <td><span class="italic">Test : </span></td>
-         </tr>
-         <tfoot>
-            <td colspan="2" style="text-align: left;">Le système doit permettre de concevoir les 3 repas (petit-déjeuner, déjeuner, dîner)
-               d'une journée.
-            </td>
-         </tfoot>
-      </table><br><table>
-         <thead>
-            <td colspan="2" style="text-align: left;"><span class="bold">REQ_01010 : </span>Petit déjeuner
-            </td>
-         </thead>
-         <tr>
-            <td><span class="italic">Type : </span>Métier
-            </td>
-            <td><span class="italic">Nature : </span>Fonctionnelle
-            </td>
-         </tr>
-         <tr>
-            <td><span class="italic">Origine : </span>N002
-            </td>
-            <td><span class="italic">Liens : </span>REQ_01020 REQ_01030 REQ_01040 
-            </td>
-         </tr>
-         <tr>
-            <td><span class="italic">Version : </span>Initiale
-            </td>
-            <td><span class="italic">Validée : </span>Non
-            </td>
-         </tr>
-         <tr>
-            <td><span class="italic">Priorité : </span>Should
-            </td>
-            <td><span class="italic">Test : </span></td>
-         </tr>
-         <tfoot>
-            <td colspan="2" style="text-align: left;">Le système doit permettre de concevoir un petit-déjeuner composé d'une boisson, d'un
-               aliment céréalier, d'un produit laitier et d'un fruit.
-            </td>
-         </tfoot>
-      </table><br><table>
-         <thead>
-            <td colspan="2" style="text-align: left;"><span class="bold">REQ_01020 : </span>Éléments petit déjeuner
-            </td>
-         </thead>
-         <tr>
-            <td><span class="italic">Type : </span>Métier
-            </td>
-            <td><span class="italic">Nature : </span>Fonctionnelle
-            </td>
-         </tr>
-         <tr>
-            <td><span class="italic">Origine : </span>N002
-            </td>
-            <td><span class="italic">Liens : </span></td>
-         </tr>
-         <tr>
-            <td><span class="italic">Version : </span>Initiale
-            </td>
-            <td><span class="italic">Validée : </span>Non
-            </td>
-         </tr>
-         <tr>
-            <td><span class="italic">Priorité : </span>Must
-            </td>
-            <td><span class="italic">Test : </span></td>
-         </tr>
-         <tfoot>
-            <td colspan="2" style="text-align: left;">Le système doit permettre de rajouter au petit déjeuner un élément lipidique, sucré
-               ou protodique.
-            </td>
-         </tfoot>
-      </table><br><table>
-         <thead>
-            <td colspan="2" style="text-align: left;"><span class="bold">REQ_01030 : </span>Éléments non diététiques
-            </td>
-         </thead>
-         <tr>
-            <td><span class="italic">Type : </span>Métier
-            </td>
-            <td><span class="italic">Nature : </span>Fonctionnelle
-            </td>
-         </tr>
-         <tr>
-            <td><span class="italic">Origine : </span>N002
-            </td>
-            <td><span class="italic">Liens : </span></td>
-         </tr>
-         <tr>
-            <td><span class="italic">Version : </span>Initiale
-            </td>
-            <td><span class="italic">Validée : </span>Non
-            </td>
-         </tr>
-         <tr>
-            <td><span class="italic">Priorité : </span>Should
-            </td>
-            <td><span class="italic">Test : </span></td>
-         </tr>
-         <tfoot>
-            <td colspan="2" style="text-align: left;">Le système doit avertir l'utilisateur de l'usage d'élément non diététique dans un
-               petit déjeuner.
-            </td>
-         </tfoot>
-      </table><br><table>
-         <thead>
-            <td colspan="2" style="text-align: left;"><span class="bold">REQ_01040 : </span>Fréquence éléments non diététiques
-            </td>
-         </thead>
-         <tr>
-            <td><span class="italic">Type : </span>Métier
-            </td>
-            <td><span class="italic">Nature : </span>Fonctionnelle
-            </td>
-         </tr>
-         <tr>
-            <td><span class="italic">Origine : </span>N002
-            </td>
-            <td><span class="italic">Liens : </span></td>
-         </tr>
-         <tr>
-            <td><span class="italic">Version : </span>Initiale
-            </td>
-            <td><span class="italic">Validée : </span>Non
-            </td>
-         </tr>
-         <tr>
-            <td><span class="italic">Priorité : </span>Should
-            </td>
-            <td><span class="italic">Test : </span></td>
-         </tr>
-         <tfoot>
-            <td colspan="2" style="text-align: left;">Le système doit vérifier que la fréquence de l'usage d'élément non diététique des
-               petits déjeuners ne dépasse pas 3 repas sur 20, il avertit l'utilisateur si c'est
-               le cas.
-            </td>
-         </tfoot>
-      </table><br><table>
-         <thead>
-            <td colspan="2" style="text-align: left;"><span class="bold">REQ_01050 : </span>Composition déjeuner
-            </td>
-         </thead>
-         <tr>
-            <td><span class="italic">Type : </span>Métier
-            </td>
-            <td><span class="italic">Nature : </span>Fonctionnelle
-            </td>
-         </tr>
-         <tr>
-            <td><span class="italic">Origine : </span>N002
-            </td>
-            <td><span class="italic">Liens : </span></td>
-         </tr>
-         <tr>
-            <td><span class="italic">Version : </span>Initiale
-            </td>
-            <td><span class="italic">Validée : </span>Non
-            </td>
-         </tr>
-         <tr>
-            <td><span class="italic">Priorité : </span>Must
-            </td>
-            <td><span class="italic">Test : </span></td>
-         </tr>
-         <tfoot>
-            <td colspan="2" style="text-align: left;">Le système doit concevoir un déjeuner et souper composés de 4 ou cinq composantes
-               parmi : entrée, plat protodique, garniture, produit laitier, desserts + de l'eau et
-               du pain (selon le tableau sur la composition du déjeuner en annexe A).
-            </td>
-         </tfoot>
-      </table><br><table>
-         <thead>
-            <td colspan="2" style="text-align: left;"><span class="bold">REQ_01060 : </span>Ajout de plats
-            </td>
-         </thead>
-         <tr>
-            <td><span class="italic">Type : </span>Métier
-            </td>
-            <td><span class="italic">Nature : </span>Fonctionnelle
-            </td>
-         </tr>
-         <tr>
-            <td><span class="italic">Origine : </span>N003
-            </td>
-            <td><span class="italic">Liens : </span></td>
-         </tr>
-         <tr>
-            <td><span class="italic">Version : </span>Initiale
-            </td>
-            <td><span class="italic">Validée : </span>Non
-            </td>
-         </tr>
-         <tr>
-            <td><span class="italic">Priorité : </span>Must
-            </td>
-            <td><span class="italic">Test : </span></td>
-         </tr>
-         <tfoot>
-            <td colspan="2" style="text-align: left;">Le système doit permettre d'ajouter des plats et leurs définitions dans la listes
-               des plats pouvant être préparés.
-            </td>
-         </tfoot>
-      </table><br><table>
-         <thead>
-            <td colspan="2" style="text-align: left;"><span class="bold">REQ_01070 : </span>Description d'un plat
-            </td>
-         </thead>
-         <tr>
-            <td><span class="italic">Type : </span>Métier
-            </td>
-            <td><span class="italic">Nature : </span>Fonctionnelle
-            </td>
-         </tr>
-         <tr>
-            <td><span class="italic">Origine : </span>N003
-            </td>
-            <td><span class="italic">Liens : </span></td>
-         </tr>
-         <tr>
-            <td><span class="italic">Version : </span>Initiale
-            </td>
-            <td><span class="italic">Validée : </span>Non
-            </td>
-         </tr>
-         <tr>
-            <td><span class="italic">Priorité : </span>Must
-            </td>
-            <td><span class="italic">Test : </span></td>
-         </tr>
-         <tfoot>
-            <td colspan="2" style="text-align: left;">Le système doit permettre la description d'un plat avec sa liste d'ingrédients et
-               les quantités nécessaires à sa réalisation.
-            </td>
-         </tfoot>
-      </table><br><table>
-         <thead>
-            <td colspan="2" style="text-align: left;"><span class="bold">REQ_01080 : </span>Fréquence de service
-            </td>
-         </thead>
-         <tr>
-            <td><span class="italic">Type : </span>Métier
-            </td>
-            <td><span class="italic">Nature : </span>Fonctionnelle
-            </td>
-         </tr>
-         <tr>
-            <td><span class="italic">Origine : </span>N004
-            </td>
-            <td><span class="italic">Liens : </span></td>
-         </tr>
-         <tr>
-            <td><span class="italic">Version : </span>Initiale
-            </td>
-            <td><span class="italic">Validée : </span>Non
-            </td>
-         </tr>
-         <tr>
-            <td><span class="italic">Priorité : </span>Must
-            </td>
-            <td><span class="italic">Test : </span></td>
-         </tr>
-         <tfoot>
-            <td colspan="2" style="text-align: left;">Le système doit proposer un plat selon la fréquence de service de ce plat (exemple
-               4 fois tous les 20 repas).
-            </td>
-         </tfoot>
-      </table><br><table>
-         <thead>
-            <td colspan="2" style="text-align: left;"><span class="bold">REQ_04100 : </span>Composants des repas
-            </td>
-         </thead>
-         <tr>
-            <td><span class="italic">Type : </span>Métier
-            </td>
-            <td><span class="italic">Nature : </span>Fonctionnelle
-            </td>
-         </tr>
-         <tr>
-            <td><span class="italic">Origine : </span></td>
-            <td><span class="italic">Liens : </span></td>
-         </tr>
-         <tr>
-            <td><span class="italic">Version : </span>Initiale
-            </td>
-            <td><span class="italic">Validée : </span>Non
-            </td>
-         </tr>
-         <tr>
-            <td><span class="italic">Priorité : </span>Must
-            </td>
-            <td><span class="italic">Test : </span></td>
-         </tr>
-         <tfoot>
-            <td colspan="2" style="text-align: left;">Le système doit permettre d'ajouter et de supprimer des éléments dans les composants
-               des repas.
-            </td>
-         </tfoot>
-      </table><br><table>
-         <thead>
-            <td colspan="2" style="text-align: left;"><span class="bold">REQ_04110 : </span>Listes par défaut
-            </td>
-         </thead>
-         <tr>
-            <td><span class="italic">Type : </span>Métier
-            </td>
-            <td><span class="italic">Nature : </span>Fonctionnelle
-            </td>
-         </tr>
-         <tr>
-            <td><span class="italic">Origine : </span></td>
-            <td><span class="italic">Liens : </span></td>
-         </tr>
-         <tr>
-            <td><span class="italic">Version : </span>Initiale
-            </td>
-            <td><span class="italic">Validée : </span>Non
-            </td>
-         </tr>
-         <tr>
-            <td><span class="italic">Priorité : </span>Should
-            </td>
-            <td><span class="italic">Test : </span></td>
-         </tr>
-         <tfoot>
-            <td colspan="2" style="text-align: left;">Le système doit permettre de revenir aux listes par défaut recommandé par le gouvernement.</td>
-         </tfoot>
-      </table><br><table>
-         <thead>
-            <td colspan="2" style="text-align: left;"><span class="bold">REQ_05000 : </span>Fiche de commande
-            </td>
-         </thead>
-         <tr>
-            <td><span class="italic">Type : </span>Métier
-            </td>
-            <td><span class="italic">Nature : </span>Fonctionnelle
-            </td>
-         </tr>
-         <tr>
-            <td><span class="italic">Origine : </span></td>
-            <td><span class="italic">Liens : </span></td>
-         </tr>
-         <tr>
-            <td><span class="italic">Version : </span>Initiale
-            </td>
-            <td><span class="italic">Validée : </span>Non
-            </td>
-         </tr>
-         <tr>
-            <td><span class="italic">Priorité : </span>Could
-            </td>
-            <td><span class="italic">Test : </span></td>
-         </tr>
-         <tfoot>
-            <td colspan="2" style="text-align: left;">Le système doit permettre, une fois les menus élaborés de générer un fiche de commande
-               au format : à définir.
-            </td>
-         </tfoot>
-      </table><br><table>
-         <thead>
-            <td colspan="2" style="text-align: left;"><span class="bold">REQ_05010 : </span>Publication menus
-            </td>
-         </thead>
-         <tr>
-            <td><span class="italic">Type : </span>Utilisateur
-            </td>
-            <td><span class="italic">Nature : </span>Ergonomie
-            </td>
-         </tr>
-         <tr>
-            <td><span class="italic">Origine : </span>N006
-            </td>
-            <td><span class="italic">Liens : </span></td>
-         </tr>
-         <tr>
-            <td><span class="italic">Version : </span>Initiale
-            </td>
-            <td><span class="italic">Validée : </span>Non
-            </td>
-         </tr>
-         <tr>
-            <td><span class="italic">Priorité : </span>Could
-            </td>
-            <td><span class="italic">Test : </span></td>
-         </tr>
-         <tfoot>
-            <td colspan="2" style="text-align: left;">Le système doit permettre d'afficher les menus sur un site internet.</td>
-         </tfoot>
-      </table><br><table>
-         <thead>
-            <td colspan="2" style="text-align: left;"><span class="bold">REQ_06000 : </span>Validation des repas
-            </td>
-         </thead>
-         <tr>
-            <td><span class="italic">Type : </span>Contrainte
-            </td>
-            <td><span class="italic">Nature : </span>Fonctionnelle
-            </td>
-         </tr>
-         <tr>
-            <td><span class="italic">Origine : </span></td>
-            <td><span class="italic">Liens : </span></td>
-         </tr>
-         <tr>
-            <td><span class="italic">Version : </span>Initiale
-            </td>
-            <td><span class="italic">Validée : </span>Non
-            </td>
-         </tr>
-         <tr>
-            <td><span class="italic">Priorité : </span>Must
-            </td>
-            <td><span class="italic">Test : </span></td>
-         </tr>
-         <tfoot>
-            <td colspan="2" style="text-align: left;">Le système doit gérer un cycle de validation des repas : en cours d'élaboration, en
-               attente de validation, validé.
-            </td>
-         </tfoot>
-      </table><br><table>
-         <thead>
-            <td colspan="2" style="text-align: left;"><span class="bold">REQ_06010 : </span>Droits utilisateurs
-            </td>
-         </thead>
-         <tr>
-            <td><span class="italic">Type : </span>Contrainte
-            </td>
-            <td><span class="italic">Nature : </span>Fonctionnelle
-            </td>
-         </tr>
-         <tr>
-            <td><span class="italic">Origine : </span></td>
-            <td><span class="italic">Liens : </span></td>
-         </tr>
-         <tr>
-            <td><span class="italic">Version : </span>Initiale
-            </td>
-            <td><span class="italic">Validée : </span>Non
-            </td>
-         </tr>
-         <tr>
-            <td><span class="italic">Priorité : </span>Must
-            </td>
-            <td><span class="italic">Test : </span></td>
-         </tr>
-         <tfoot>
-            <td colspan="2" style="text-align: left;">Le système doit permettre de gérer différent droit selon le type d'utilisateur.</td>
-         </tfoot>
-      </table><br><table>
-         <thead>
-            <td colspan="2" style="text-align: left;"><span class="bold">REQ_07000 : </span>Menus à assembler
-            </td>
-         </thead>
-         <tr>
-            <td><span class="italic">Type : </span>Métier
-            </td>
-            <td><span class="italic">Nature : </span>Fonctionnelle
-            </td>
-         </tr>
-         <tr>
-            <td><span class="italic">Origine : </span>N009
-            </td>
-            <td><span class="italic">Liens : </span></td>
-         </tr>
-         <tr>
-            <td><span class="italic">Version : </span>Initiale
-            </td>
-            <td><span class="italic">Validée : </span>Non
-            </td>
-         </tr>
-         <tr>
-            <td><span class="italic">Priorité : </span>Must
-            </td>
-            <td><span class="italic">Test : </span></td>
-         </tr>
-         <tfoot>
-            <td colspan="2" style="text-align: left;">Le système doit afficher les menu à assembler pour un jour donnée et émettre une étiquette
-               au format : à définir.
-            </td>
-         </tfoot>
-      </table><br><table>
-         <thead>
-            <td colspan="2" style="text-align: left;"><span class="bold">REQ_07010 : </span>Limite prix repas
-            </td>
-         </thead>
-         <tr>
-            <td><span class="italic">Type : </span>Contrainte
-            </td>
-            <td><span class="italic">Nature : </span>Fonctionnelle
-            </td>
-         </tr>
-         <tr>
-            <td><span class="italic">Origine : </span>N011
-            </td>
-            <td><span class="italic">Liens : </span></td>
-         </tr>
-         <tr>
-            <td><span class="italic">Version : </span>Initiale
-            </td>
-            <td><span class="italic">Validée : </span>Non
-            </td>
-         </tr>
-         <tr>
-            <td><span class="italic">Priorité : </span>Must
-            </td>
-            <td><span class="italic">Test : </span></td>
-         </tr>
-         <tfoot>
-            <td colspan="2" style="text-align: left;">Le système doit permettre de fixer une limite au prix d'un repas.</td>
-         </tfoot>
-      </table><br><table>
-         <thead>
-            <td colspan="2" style="text-align: left;"><span class="bold">REQ_07020 : </span>Prix repas
-            </td>
-         </thead>
-         <tr>
-            <td><span class="italic">Type : </span>Métier
-            </td>
-            <td><span class="italic">Nature : </span>Fonctionnelle
-            </td>
-         </tr>
-         <tr>
-            <td><span class="italic">Origine : </span></td>
-            <td><span class="italic">Liens : </span></td>
-         </tr>
-         <tr>
-            <td><span class="italic">Version : </span>Initiale
-            </td>
-            <td><span class="italic">Validée : </span>Non
-            </td>
-         </tr>
-         <tr>
-            <td><span class="italic">Priorité : </span>Must
-            </td>
-            <td><span class="italic">Test : </span></td>
-         </tr>
-         <tfoot>
-            <td colspan="2" style="text-align: left;">Le système doit permettre de renseigner le prix des éléments d'un repas.</td>
-         </tfoot>
-      </table><br><table>
-         <thead>
-            <td colspan="2" style="text-align: left;"><span class="bold">REQ_09020 : </span>Profil patient
-            </td>
-         </thead>
-         <tr>
-            <td><span class="italic">Type : </span>Métier
-            </td>
-            <td><span class="italic">Nature : </span>Fonctionnelle
-            </td>
-         </tr>
-         <tr>
-            <td><span class="italic">Origine : </span>N001
-            </td>
-            <td><span class="italic">Liens : </span></td>
-         </tr>
-         <tr>
-            <td><span class="italic">Version : </span>Initiale
-            </td>
-            <td><span class="italic">Validée : </span>Non
-            </td>
-         </tr>
-         <tr>
-            <td><span class="italic">Priorité : </span>Must
-            </td>
-            <td><span class="italic">Test : </span></td>
-         </tr>
-         <tfoot>
-            <td colspan="2" style="text-align: left;">Le système doit permettre de renseigner un profil patient comportant les éléments
-               suivants : regime particulier(liste à définir), allergie(liste à définir), contre-indication
-               (liste à définir).
-            </td>
-         </tfoot>
-      </table><br><table>
-         <thead>
-            <td colspan="2" style="text-align: left;"><span class="bold">REQ_10000 : </span>État civil
-            </td>
-         </thead>
-         <tr>
-            <td><span class="italic">Type : </span>Métier
-            </td>
-            <td><span class="italic">Nature : </span>Fonctionnelle
-            </td>
-         </tr>
-         <tr>
-            <td><span class="italic">Origine : </span></td>
-            <td><span class="italic">Liens : </span></td>
-         </tr>
-         <tr>
-            <td><span class="italic">Version : </span>Initiale
-            </td>
-            <td><span class="italic">Validée : </span>Non
-            </td>
-         </tr>
-         <tr>
-            <td><span class="italic">Priorité : </span>Must
-            </td>
-            <td><span class="italic">Test : </span></td>
-         </tr>
-         <tfoot>
-            <td colspan="2" style="text-align: left;">Le système doit permettre de renseigner l'état civil d'un patient.</td>
-         </tfoot>
-      </table><br><table>
-         <thead>
-            <td colspan="2" style="text-align: left;"><span class="bold">REQ_10010 : </span>Localisation patient
-            </td>
-         </thead>
-         <tr>
-            <td><span class="italic">Type : </span>Métier
-            </td>
-            <td><span class="italic">Nature : </span>Fonctionnelle
-            </td>
-         </tr>
-         <tr>
-            <td><span class="italic">Origine : </span></td>
-            <td><span class="italic">Liens : </span></td>
-         </tr>
-         <tr>
-            <td><span class="italic">Version : </span>Initiale
-            </td>
-            <td><span class="italic">Validée : </span>Non
-            </td>
-         </tr>
-         <tr>
-            <td><span class="italic">Priorité : </span>Must
-            </td>
-            <td><span class="italic">Test : </span></td>
-         </tr>
-         <tfoot>
-            <td colspan="2" style="text-align: left;">Le système doit permettre de renseigner la localisation particulière d'un patient.</td>
-         </tfoot>
-      </table><br><table>
-         <thead>
-            <td colspan="2" style="text-align: left;"><span class="bold">REQ_10020 : </span>Grammages
-            </td>
-         </thead>
-         <tr>
-            <td><span class="italic">Type : </span>Métier
-            </td>
-            <td><span class="italic">Nature : </span>Fonctionnelle
-            </td>
-         </tr>
-         <tr>
-            <td><span class="italic">Origine : </span>N002
-            </td>
-            <td><span class="italic">Liens : </span></td>
-         </tr>
-         <tr>
-            <td><span class="italic">Version : </span>Initiale
-            </td>
-            <td><span class="italic">Validée : </span>Non
-            </td>
-         </tr>
-         <tr>
-            <td><span class="italic">Priorité : </span>Must
-            </td>
-            <td><span class="italic">Test : </span></td>
-         </tr>
-         <tfoot>
-            <td colspan="2" style="text-align: left;">Le système doit permettre de gérer les grammages de plats.</td>
-         </tfoot>
-      </table><br><table>
-         <thead>
-            <td colspan="2" style="text-align: left;"><span class="bold">REQ_10030 : </span>Plateaux repas
-            </td>
-         </thead>
-         <tr>
-            <td><span class="italic">Type : </span>Métier
-            </td>
-            <td><span class="italic">Nature : </span>Fonctionnelle
-            </td>
-         </tr>
-         <tr>
-            <td><span class="italic">Origine : </span>N001
-            </td>
-            <td><span class="italic">Liens : </span></td>
-         </tr>
-         <tr>
-            <td><span class="italic">Version : </span>Initiale
-            </td>
-            <td><span class="italic">Validée : </span>Non
-            </td>
-         </tr>
-         <tr>
-            <td><span class="italic">Priorité : </span>Must
-            </td>
-            <td><span class="italic">Test : </span></td>
-         </tr>
-         <tfoot>
-            <td colspan="2" style="text-align: left;">Le système doit pouvoir gérer des plateaux repas de type : sans régime particulier
-               ou avec régime particulier.
-            </td>
-         </tfoot>
-      </table><br><table>
-         <thead>
-            <td colspan="2" style="text-align: left;"><span class="bold">REQ_10040 : </span>Groupes
-            </td>
-         </thead>
-         <tr>
-            <td><span class="italic">Type : </span>Métier
-            </td>
-            <td><span class="italic">Nature : </span>Fonctionnelle
-            </td>
-         </tr>
-         <tr>
-            <td><span class="italic">Origine : </span>N001
-            </td>
-            <td><span class="italic">Liens : </span></td>
-         </tr>
-         <tr>
-            <td><span class="italic">Version : </span>Initiale
-            </td>
-            <td><span class="italic">Validée : </span>Non
-            </td>
-         </tr>
-         <tr>
-            <td><span class="italic">Priorité : </span>Should
-            </td>
-            <td><span class="italic">Test : </span></td>
-         </tr>
-         <tfoot>
-            <td colspan="2" style="text-align: left;">Le système doit gérer les patients par groupes selon leur régime, exemple le groupe
-               des intolérant au lactose.
-            </td>
-         </tfoot>
-      </table><br><table>
-         <thead>
-            <td colspan="2" style="text-align: left;"><span class="bold">REQ_10050 : </span>Génération automatique
-            </td>
-         </thead>
-         <tr>
-            <td><span class="italic">Type : </span>Métier
-            </td>
-            <td><span class="italic">Nature : </span>Fonctionnelle
-            </td>
-         </tr>
-         <tr>
-            <td><span class="italic">Origine : </span></td>
-            <td><span class="italic">Liens : </span></td>
-         </tr>
-         <tr>
-            <td><span class="italic">Version : </span>Initiale
-            </td>
-            <td><span class="italic">Validée : </span>Non
-            </td>
-         </tr>
-         <tr>
-            <td><span class="italic">Priorité : </span>Must
-            </td>
-            <td><span class="italic">Test : </span></td>
-         </tr>
-         <tfoot>
-            <td colspan="2" style="text-align: left;">Le système doit permettre de générer automatiquement les repas pour un groupe de patients
-               particulier.
-            </td>
-         </tfoot>
-      </table><br><table>
-         <thead>
-            <td colspan="2" style="text-align: left;"><span class="bold">REQ_10060 : </span>Fiches patients
-            </td>
-         </thead>
-         <tr>
-            <td><span class="italic">Type : </span>Utilisateur
-            </td>
-            <td><span class="italic">Nature : </span>Fonctionnelle
-            </td>
-         </tr>
-         <tr>
-            <td><span class="italic">Origine : </span></td>
-            <td><span class="italic">Liens : </span></td>
-         </tr>
-         <tr>
-            <td><span class="italic">Version : </span>Initiale
-            </td>
-            <td><span class="italic">Validée : </span>Non
-            </td>
-         </tr>
-         <tr>
-            <td><span class="italic">Priorité : </span>Must
-            </td>
-            <td><span class="italic">Test : </span></td>
-         </tr>
-         <tfoot>
-            <td colspan="2" style="text-align: left;">le système doit stocker les fiches patients, et permettre de les modifier ou supprimer
-               le cas échéant.
-            </td>
-         </tfoot>
-      </table><br><table>
-         <thead>
-            <td colspan="2" style="text-align: left;"><span class="bold">REQ_10070 : </span>Trier les plats
-            </td>
-         </thead>
-         <tr>
-            <td><span class="italic">Type : </span>Utilisateur
-            </td>
-            <td><span class="italic">Nature : </span>Fonctionnelle
-            </td>
-         </tr>
-         <tr>
-            <td><span class="italic">Origine : </span></td>
-            <td><span class="italic">Liens : </span></td>
-         </tr>
-         <tr>
-            <td><span class="italic">Version : </span>Initiale
-            </td>
-            <td><span class="italic">Validée : </span>Non
-            </td>
-         </tr>
-         <tr>
-            <td><span class="italic">Priorité : </span>Must
-            </td>
-            <td><span class="italic">Test : </span></td>
-         </tr>
-         <tfoot>
-            <td colspan="2" style="text-align: left;">Le système doit permettre de trier les plats par catégories.</td>
-         </tfoot>
-      </table><br><table>
-         <thead>
-            <td colspan="2" style="text-align: left;"><span class="bold">REQ_10080 : </span>Inititulés de plats
-            </td>
-         </thead>
-         <tr>
-            <td><span class="italic">Type : </span>Utilisateur
-            </td>
-            <td><span class="italic">Nature : </span>Fonctionnelle
-            </td>
-         </tr>
-         <tr>
-            <td><span class="italic">Origine : </span></td>
-            <td><span class="italic">Liens : </span></td>
-         </tr>
-         <tr>
-            <td><span class="italic">Version : </span>Initiale
-            </td>
-            <td><span class="italic">Validée : </span>Non
-            </td>
-         </tr>
-         <tr>
-            <td><span class="italic">Priorité : </span>Must
-            </td>
-            <td><span class="italic">Test : </span></td>
-         </tr>
-         <tfoot>
-            <td colspan="2" style="text-align: left;">Le système doit stocker les intitulés des plats, et permettre leur modification ou
-               leur suppression.
-            </td>
-         </tfoot>
-      </table><br></body>
+<!DOCtype HTML SYSTEM "about:legacy-compat">
+<html lang="fr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Exigences Vitameal</title>
+<meta charset="utf-8">
+<style type="text/css">
+.bold {
+	font-weight: bold;
+}
+
+.italic {
+	font-style: italic;
+}
+
+table {
+	border: 1px solid black;
+	border-collapse: collapse;
+	width: 100%
+}
+
+td {
+	width: 50%;
+}
+
+thead {
+	border: 1px solid black;
+	padding: 10px;
+}
+
+tfoot {
+	border: 1px solid black;
+	padding: 10px;
+}
+</style>
+</head>
+<body>
+	<table>
+		<thead>
+			<td colspan="2" style="text-align: left;"><span class="bold">REQ_01000
+					: </span>3 repas</td>
+		</thead>
+		<tr>
+			<td><span class="italic">Type : </span>Métier</td>
+			<td><span class="italic">Nature : </span>Fonctionnelle</td>
+		</tr>
+		<tr>
+			<td><span class="italic">Origine : </span>N002</td>
+			<td><span class="italic">Liens : </span>REQ_01010 REQ_01050</td>
+		</tr>
+		<tr>
+			<td><span class="italic">Version : </span>Initiale</td>
+			<td><span class="italic">Validée : </span>Non</td>
+		</tr>
+		<tr>
+			<td><span class="italic">Priorité : </span>Must</td>
+			<td><span class="italic">Test : </span></td>
+		</tr>
+		<tfoot>
+			<tr>
+				<td colspan="2" style="text-align: left;">Le système doit
+					permettre de concevoir les 3 repas (petit-déjeuner, déjeuner,
+					dîner) d'une journée.</td>
+			</tr>
+		</tfoot>
+	</table>
+	<br>
+	<table>
+		<thead>
+			<tr>
+				<th colspan="2" style="text-align: left;">
+				<span class="bold">REQ_01010:</span> Petit déjeuner
+				</th>
+			<tr>
+		</thead>
+		<tr>
+			<td><span class="italic">Type : </span>Métier</td>
+			<td><span class="italic">Nature : </span>Fonctionnelle</td>
+		</tr>
+		<tr>
+			<td><span class="italic">Origine : </span>N002</td>
+			<td><span class="italic">Liens : </span>REQ_01020 REQ_01030
+				REQ_01040</td>
+		</tr>
+		<tr>
+			<td><span class="italic">Version : </span>Initiale</td>
+			<td><span class="italic">Validée : </span>Non</td>
+		</tr>
+		<tr>
+			<td><span class="italic">Priorité : </span>Should</td>
+			<td><span class="italic">Test : </span></td>
+		</tr>
+		<tfoot>
+			<td colspan="2" style="text-align: left;">Le système doit
+				permettre de concevoir un petit-déjeuner composé d'une boisson, d'un
+				aliment céréalier, d'un produit laitier et d'un fruit.</td>
+		</tfoot>
+	</table>
+	<br>
+	<table>
+		<thead>
+			<td colspan="2" style="text-align: left;"><span class="bold">REQ_01020
+					: </span>Éléments petit déjeuner</td>
+		</thead>
+		<tr>
+			<td><span class="italic">Type : </span>Métier</td>
+			<td><span class="italic">Nature : </span>Fonctionnelle</td>
+		</tr>
+		<tr>
+			<td><span class="italic">Origine : </span>N002</td>
+			<td><span class="italic">Liens : </span></td>
+		</tr>
+		<tr>
+			<td><span class="italic">Version : </span>Initiale</td>
+			<td><span class="italic">Validée : </span>Non</td>
+		</tr>
+		<tr>
+			<td><span class="italic">Priorité : </span>Must</td>
+			<td><span class="italic">Test : </span></td>
+		</tr>
+		<tfoot>
+			<td colspan="2" style="text-align: left;">Le système doit
+				permettre de rajouter au petit déjeuner un élément lipidique, sucré
+				ou protodique.</td>
+		</tfoot>
+	</table>
+	<br>
+	<table>
+		<thead>
+			<td colspan="2" style="text-align: left;"><span class="bold">REQ_01030
+					: </span>Éléments non diététiques</td>
+		</thead>
+		<tr>
+			<td><span class="italic">Type : </span>Métier</td>
+			<td><span class="italic">Nature : </span>Fonctionnelle</td>
+		</tr>
+		<tr>
+			<td><span class="italic">Origine : </span>N002</td>
+			<td><span class="italic">Liens : </span></td>
+		</tr>
+		<tr>
+			<td><span class="italic">Version : </span>Initiale</td>
+			<td><span class="italic">Validée : </span>Non</td>
+		</tr>
+		<tr>
+			<td><span class="italic">Priorité : </span>Should</td>
+			<td><span class="italic">Test : </span></td>
+		</tr>
+		<tfoot>
+			<td colspan="2" style="text-align: left;">Le système doit
+				avertir l'utilisateur de l'usage d'élément non diététique dans un
+				petit déjeuner.</td>
+		</tfoot>
+	</table>
+	<br>
+	<table>
+		<thead>
+			<td colspan="2" style="text-align: left;"><span class="bold">REQ_01040
+					: </span>Fréquence éléments non diététiques</td>
+		</thead>
+		<tr>
+			<td><span class="italic">Type : </span>Métier</td>
+			<td><span class="italic">Nature : </span>Fonctionnelle</td>
+		</tr>
+		<tr>
+			<td><span class="italic">Origine : </span>N002</td>
+			<td><span class="italic">Liens : </span></td>
+		</tr>
+		<tr>
+			<td><span class="italic">Version : </span>Initiale</td>
+			<td><span class="italic">Validée : </span>Non</td>
+		</tr>
+		<tr>
+			<td><span class="italic">Priorité : </span>Should</td>
+			<td><span class="italic">Test : </span></td>
+		</tr>
+		<tfoot>
+			<td colspan="2" style="text-align: left;">Le système doit
+				vérifier que la fréquence de l'usage d'élément non diététique des
+				petits déjeuners ne dépasse pas 3 repas sur 20, il avertit
+				l'utilisateur si c'est le cas.</td>
+		</tfoot>
+	</table>
+	<br>
+	<table>
+		<thead>
+			<td colspan="2" style="text-align: left;"><span class="bold">REQ_01050
+					: </span>Composition déjeuner</td>
+		</thead>
+		<tr>
+			<td><span class="italic">Type : </span>Métier</td>
+			<td><span class="italic">Nature : </span>Fonctionnelle</td>
+		</tr>
+		<tr>
+			<td><span class="italic">Origine : </span>N002</td>
+			<td><span class="italic">Liens : </span></td>
+		</tr>
+		<tr>
+			<td><span class="italic">Version : </span>Initiale</td>
+			<td><span class="italic">Validée : </span>Non</td>
+		</tr>
+		<tr>
+			<td><span class="italic">Priorité : </span>Must</td>
+			<td><span class="italic">Test : </span></td>
+		</tr>
+		<tfoot>
+			<td colspan="2" style="text-align: left;">Le système doit
+				concevoir un déjeuner et souper composés de 4 ou cinq composantes
+				parmi : entrée, plat protodique, garniture, produit laitier,
+				desserts + de l'eau et du pain (selon le tableau sur la composition
+				du déjeuner en annexe A).</td>
+		</tfoot>
+	</table>
+	<br>
+	<table>
+		<thead>
+			<td colspan="2" style="text-align: left;"><span class="bold">REQ_01060
+					: </span>Ajout de plats</td>
+		</thead>
+		<tr>
+			<td><span class="italic">Type : </span>Métier</td>
+			<td><span class="italic">Nature : </span>Fonctionnelle</td>
+		</tr>
+		<tr>
+			<td><span class="italic">Origine : </span>N003</td>
+			<td><span class="italic">Liens : </span></td>
+		</tr>
+		<tr>
+			<td><span class="italic">Version : </span>Initiale</td>
+			<td><span class="italic">Validée : </span>Non</td>
+		</tr>
+		<tr>
+			<td><span class="italic">Priorité : </span>Must</td>
+			<td><span class="italic">Test : </span></td>
+		</tr>
+		<tfoot>
+			<td colspan="2" style="text-align: left;">Le système doit
+				permettre d'ajouter des plats et leurs définitions dans la listes
+				des plats pouvant être préparés.</td>
+		</tfoot>
+	</table>
+	<br>
+	<table>
+		<thead>
+			<td colspan="2" style="text-align: left;"><span class="bold">REQ_01070
+					: </span>Description d'un plat</td>
+		</thead>
+		<tr>
+			<td><span class="italic">Type : </span>Métier</td>
+			<td><span class="italic">Nature : </span>Fonctionnelle</td>
+		</tr>
+		<tr>
+			<td><span class="italic">Origine : </span>N003</td>
+			<td><span class="italic">Liens : </span></td>
+		</tr>
+		<tr>
+			<td><span class="italic">Version : </span>Initiale</td>
+			<td><span class="italic">Validée : </span>Non</td>
+		</tr>
+		<tr>
+			<td><span class="italic">Priorité : </span>Must</td>
+			<td><span class="italic">Test : </span></td>
+		</tr>
+		<tfoot>
+			<td colspan="2" style="text-align: left;">Le système doit
+				permettre la description d'un plat avec sa liste d'ingrédients et
+				les quantités nécessaires à sa réalisation.</td>
+		</tfoot>
+	</table>
+	<br>
+	<table>
+		<thead>
+			<td colspan="2" style="text-align: left;"><span class="bold">REQ_01080
+					: </span>Fréquence de service</td>
+		</thead>
+		<tr>
+			<td><span class="italic">Type : </span>Métier</td>
+			<td><span class="italic">Nature : </span>Fonctionnelle</td>
+		</tr>
+		<tr>
+			<td><span class="italic">Origine : </span>N004</td>
+			<td><span class="italic">Liens : </span></td>
+		</tr>
+		<tr>
+			<td><span class="italic">Version : </span>Initiale</td>
+			<td><span class="italic">Validée : </span>Non</td>
+		</tr>
+		<tr>
+			<td><span class="italic">Priorité : </span>Must</td>
+			<td><span class="italic">Test : </span></td>
+		</tr>
+		<tfoot>
+			<td colspan="2" style="text-align: left;">Le système doit
+				proposer un plat selon la fréquence de service de ce plat (exemple 4
+				fois tous les 20 repas).</td>
+		</tfoot>
+	</table>
+	<br>
+	<table>
+		<thead>
+			<td colspan="2" style="text-align: left;"><span class="bold">REQ_04100
+					: </span>Composants des repas</td>
+		</thead>
+		<tr>
+			<td><span class="italic">Type : </span>Métier</td>
+			<td><span class="italic">Nature : </span>Fonctionnelle</td>
+		</tr>
+		<tr>
+			<td><span class="italic">Origine : </span></td>
+			<td><span class="italic">Liens : </span></td>
+		</tr>
+		<tr>
+			<td><span class="italic">Version : </span>Initiale</td>
+			<td><span class="italic">Validée : </span>Non</td>
+		</tr>
+		<tr>
+			<td><span class="italic">Priorité : </span>Must</td>
+			<td><span class="italic">Test : </span></td>
+		</tr>
+		<tfoot>
+			<td colspan="2" style="text-align: left;">Le système doit
+				permettre d'ajouter et de supprimer des éléments dans les composants
+				des repas.</td>
+		</tfoot>
+	</table>
+	<br>
+	<table>
+		<thead>
+			<td colspan="2" style="text-align: left;"><span class="bold">REQ_04110
+					: </span>Listes par défaut</td>
+		</thead>
+		<tr>
+			<td><span class="italic">Type : </span>Métier</td>
+			<td><span class="italic">Nature : </span>Fonctionnelle</td>
+		</tr>
+		<tr>
+			<td><span class="italic">Origine : </span></td>
+			<td><span class="italic">Liens : </span></td>
+		</tr>
+		<tr>
+			<td><span class="italic">Version : </span>Initiale</td>
+			<td><span class="italic">Validée : </span>Non</td>
+		</tr>
+		<tr>
+			<td><span class="italic">Priorité : </span>Should</td>
+			<td><span class="italic">Test : </span></td>
+		</tr>
+		<tfoot>
+			<td colspan="2" style="text-align: left;">Le système doit
+				permettre de revenir aux listes par défaut recommandé par le
+				gouvernement.</td>
+		</tfoot>
+	</table>
+	<br>
+	<table>
+		<thead>
+			<td colspan="2" style="text-align: left;"><span class="bold">REQ_05000
+					: </span>Fiche de commande</td>
+		</thead>
+		<tr>
+			<td><span class="italic">Type : </span>Métier</td>
+			<td><span class="italic">Nature : </span>Fonctionnelle</td>
+		</tr>
+		<tr>
+			<td><span class="italic">Origine : </span></td>
+			<td><span class="italic">Liens : </span></td>
+		</tr>
+		<tr>
+			<td><span class="italic">Version : </span>Initiale</td>
+			<td><span class="italic">Validée : </span>Non</td>
+		</tr>
+		<tr>
+			<td><span class="italic">Priorité : </span>Could</td>
+			<td><span class="italic">Test : </span></td>
+		</tr>
+		<tfoot>
+			<td colspan="2" style="text-align: left;">Le système doit
+				permettre, une fois les menus élaborés de générer un fiche de
+				commande au format : à définir.</td>
+		</tfoot>
+	</table>
+	<br>
+	<table>
+		<thead>
+			<td colspan="2" style="text-align: left;"><span class="bold">REQ_05010
+					: </span>Publication menus</td>
+		</thead>
+		<tr>
+			<td><span class="italic">Type : </span>Utilisateur</td>
+			<td><span class="italic">Nature : </span>Ergonomie</td>
+		</tr>
+		<tr>
+			<td><span class="italic">Origine : </span>N006</td>
+			<td><span class="italic">Liens : </span></td>
+		</tr>
+		<tr>
+			<td><span class="italic">Version : </span>Initiale</td>
+			<td><span class="italic">Validée : </span>Non</td>
+		</tr>
+		<tr>
+			<td><span class="italic">Priorité : </span>Could</td>
+			<td><span class="italic">Test : </span></td>
+		</tr>
+		<tfoot>
+			<td colspan="2" style="text-align: left;">Le système doit
+				permettre d'afficher les menus sur un site internet.</td>
+		</tfoot>
+	</table>
+	<br>
+	<table>
+		<thead>
+			<td colspan="2" style="text-align: left;"><span class="bold">REQ_06000
+					: </span>Validation des repas</td>
+		</thead>
+		<tr>
+			<td><span class="italic">Type : </span>Contrainte</td>
+			<td><span class="italic">Nature : </span>Fonctionnelle</td>
+		</tr>
+		<tr>
+			<td><span class="italic">Origine : </span></td>
+			<td><span class="italic">Liens : </span></td>
+		</tr>
+		<tr>
+			<td><span class="italic">Version : </span>Initiale</td>
+			<td><span class="italic">Validée : </span>Non</td>
+		</tr>
+		<tr>
+			<td><span class="italic">Priorité : </span>Must</td>
+			<td><span class="italic">Test : </span></td>
+		</tr>
+		<tfoot>
+			<td colspan="2" style="text-align: left;">Le système doit gérer
+				un cycle de validation des repas : en cours d'élaboration, en
+				attente de validation, validé.</td>
+		</tfoot>
+	</table>
+	<br>
+	<table>
+		<thead>
+			<td colspan="2" style="text-align: left;"><span class="bold">REQ_06010
+					: </span>Droits utilisateurs</td>
+		</thead>
+		<tr>
+			<td><span class="italic">Type : </span>Contrainte</td>
+			<td><span class="italic">Nature : </span>Fonctionnelle</td>
+		</tr>
+		<tr>
+			<td><span class="italic">Origine : </span></td>
+			<td><span class="italic">Liens : </span></td>
+		</tr>
+		<tr>
+			<td><span class="italic">Version : </span>Initiale</td>
+			<td><span class="italic">Validée : </span>Non</td>
+		</tr>
+		<tr>
+			<td><span class="italic">Priorité : </span>Must</td>
+			<td><span class="italic">Test : </span></td>
+		</tr>
+		<tfoot>
+			<td colspan="2" style="text-align: left;">Le système doit
+				permettre de gérer différent droit selon le type d'utilisateur.</td>
+		</tfoot>
+	</table>
+	<br>
+	<table>
+		<thead>
+			<td colspan="2" style="text-align: left;"><span class="bold">REQ_07000
+					: </span>Menus à assembler</td>
+		</thead>
+		<tr>
+			<td><span class="italic">Type : </span>Métier</td>
+			<td><span class="italic">Nature : </span>Fonctionnelle</td>
+		</tr>
+		<tr>
+			<td><span class="italic">Origine : </span>N009</td>
+			<td><span class="italic">Liens : </span></td>
+		</tr>
+		<tr>
+			<td><span class="italic">Version : </span>Initiale</td>
+			<td><span class="italic">Validée : </span>Non</td>
+		</tr>
+		<tr>
+			<td><span class="italic">Priorité : </span>Must</td>
+			<td><span class="italic">Test : </span></td>
+		</tr>
+		<tfoot>
+			<td colspan="2" style="text-align: left;">Le système doit
+				afficher les menu à assembler pour un jour donnée et émettre une
+				étiquette au format : à définir.</td>
+		</tfoot>
+	</table>
+	<br>
+	<table>
+		<thead>
+			<td colspan="2" style="text-align: left;"><span class="bold">REQ_07010
+					: </span>Limite prix repas</td>
+		</thead>
+		<tr>
+			<td><span class="italic">Type : </span>Contrainte</td>
+			<td><span class="italic">Nature : </span>Fonctionnelle</td>
+		</tr>
+		<tr>
+			<td><span class="italic">Origine : </span>N011</td>
+			<td><span class="italic">Liens : </span></td>
+		</tr>
+		<tr>
+			<td><span class="italic">Version : </span>Initiale</td>
+			<td><span class="italic">Validée : </span>Non</td>
+		</tr>
+		<tr>
+			<td><span class="italic">Priorité : </span>Must</td>
+			<td><span class="italic">Test : </span></td>
+		</tr>
+		<tfoot>
+			<td colspan="2" style="text-align: left;">Le système doit
+				permettre de fixer une limite au prix d'un repas.</td>
+		</tfoot>
+	</table>
+	<br>
+	<table>
+		<thead>
+			<td colspan="2" style="text-align: left;"><span class="bold">REQ_07020
+					: </span>Prix repas</td>
+		</thead>
+		<tr>
+			<td><span class="italic">Type : </span>Métier</td>
+			<td><span class="italic">Nature : </span>Fonctionnelle</td>
+		</tr>
+		<tr>
+			<td><span class="italic">Origine : </span></td>
+			<td><span class="italic">Liens : </span></td>
+		</tr>
+		<tr>
+			<td><span class="italic">Version : </span>Initiale</td>
+			<td><span class="italic">Validée : </span>Non</td>
+		</tr>
+		<tr>
+			<td><span class="italic">Priorité : </span>Must</td>
+			<td><span class="italic">Test : </span></td>
+		</tr>
+		<tfoot>
+			<td colspan="2" style="text-align: left;">Le système doit
+				permettre de renseigner le prix des éléments d'un repas.</td>
+		</tfoot>
+	</table>
+	<br>
+	<table>
+		<thead>
+			<td colspan="2" style="text-align: left;"><span class="bold">REQ_09020
+					: </span>Profil patient</td>
+		</thead>
+		<tr>
+			<td><span class="italic">Type : </span>Métier</td>
+			<td><span class="italic">Nature : </span>Fonctionnelle</td>
+		</tr>
+		<tr>
+			<td><span class="italic">Origine : </span>N001</td>
+			<td><span class="italic">Liens : </span></td>
+		</tr>
+		<tr>
+			<td><span class="italic">Version : </span>Initiale</td>
+			<td><span class="italic">Validée : </span>Non</td>
+		</tr>
+		<tr>
+			<td><span class="italic">Priorité : </span>Must</td>
+			<td><span class="italic">Test : </span></td>
+		</tr>
+		<tfoot>
+			<td colspan="2" style="text-align: left;">Le système doit
+				permettre de renseigner un profil patient comportant les éléments
+				suivants : regime particulier(liste à définir), allergie(liste à
+				définir), contre-indication (liste à définir).</td>
+		</tfoot>
+	</table>
+	<br>
+	<table>
+		<thead>
+			<td colspan="2" style="text-align: left;"><span class="bold">REQ_10000
+					: </span>État civil</td>
+		</thead>
+		<tr>
+			<td><span class="italic">Type : </span>Métier</td>
+			<td><span class="italic">Nature : </span>Fonctionnelle</td>
+		</tr>
+		<tr>
+			<td><span class="italic">Origine : </span></td>
+			<td><span class="italic">Liens : </span></td>
+		</tr>
+		<tr>
+			<td><span class="italic">Version : </span>Initiale</td>
+			<td><span class="italic">Validée : </span>Non</td>
+		</tr>
+		<tr>
+			<td><span class="italic">Priorité : </span>Must</td>
+			<td><span class="italic">Test : </span></td>
+		</tr>
+		<tfoot>
+			<td colspan="2" style="text-align: left;">Le système doit
+				permettre de renseigner l'état civil d'un patient.</td>
+		</tfoot>
+	</table>
+	<br>
+	<table>
+		<thead>
+			<td colspan="2" style="text-align: left;"><span class="bold">REQ_10010
+					: </span>Localisation patient</td>
+		</thead>
+		<tr>
+			<td><span class="italic">Type : </span>Métier</td>
+			<td><span class="italic">Nature : </span>Fonctionnelle</td>
+		</tr>
+		<tr>
+			<td><span class="italic">Origine : </span></td>
+			<td><span class="italic">Liens : </span></td>
+		</tr>
+		<tr>
+			<td><span class="italic">Version : </span>Initiale</td>
+			<td><span class="italic">Validée : </span>Non</td>
+		</tr>
+		<tr>
+			<td><span class="italic">Priorité : </span>Must</td>
+			<td><span class="italic">Test : </span></td>
+		</tr>
+		<tfoot>
+			<td colspan="2" style="text-align: left;">Le système doit
+				permettre de renseigner la localisation particulière d'un patient.</td>
+		</tfoot>
+	</table>
+	<br>
+	<table>
+		<thead>
+			<td colspan="2" style="text-align: left;"><span class="bold">REQ_10020
+					: </span>Grammages</td>
+		</thead>
+		<tr>
+			<td><span class="italic">Type : </span>Métier</td>
+			<td><span class="italic">Nature : </span>Fonctionnelle</td>
+		</tr>
+		<tr>
+			<td><span class="italic">Origine : </span>N002</td>
+			<td><span class="italic">Liens : </span></td>
+		</tr>
+		<tr>
+			<td><span class="italic">Version : </span>Initiale</td>
+			<td><span class="italic">Validée : </span>Non</td>
+		</tr>
+		<tr>
+			<td><span class="italic">Priorité : </span>Must</td>
+			<td><span class="italic">Test : </span></td>
+		</tr>
+		<tfoot>
+			<td colspan="2" style="text-align: left;">Le système doit
+				permettre de gérer les grammages de plats.</td>
+		</tfoot>
+	</table>
+	<br>
+	<table>
+		<thead>
+			<td colspan="2" style="text-align: left;"><span class="bold">REQ_10030
+					: </span>Plateaux repas</td>
+		</thead>
+		<tr>
+			<td><span class="italic">Type : </span>Métier</td>
+			<td><span class="italic">Nature : </span>Fonctionnelle</td>
+		</tr>
+		<tr>
+			<td><span class="italic">Origine : </span>N001</td>
+			<td><span class="italic">Liens : </span></td>
+		</tr>
+		<tr>
+			<td><span class="italic">Version : </span>Initiale</td>
+			<td><span class="italic">Validée : </span>Non</td>
+		</tr>
+		<tr>
+			<td><span class="italic">Priorité : </span>Must</td>
+			<td><span class="italic">Test : </span></td>
+		</tr>
+		<tfoot>
+			<td colspan="2" style="text-align: left;">Le système doit
+				pouvoir gérer des plateaux repas de type : sans régime particulier
+				ou avec régime particulier.</td>
+		</tfoot>
+	</table>
+	<br>
+	<table>
+		<thead>
+			<td colspan="2" style="text-align: left;"><span class="bold">REQ_10040
+					: </span>Groupes</td>
+		</thead>
+		<tr>
+			<td><span class="italic">Type : </span>Métier</td>
+			<td><span class="italic">Nature : </span>Fonctionnelle</td>
+		</tr>
+		<tr>
+			<td><span class="italic">Origine : </span>N001</td>
+			<td><span class="italic">Liens : </span></td>
+		</tr>
+		<tr>
+			<td><span class="italic">Version : </span>Initiale</td>
+			<td><span class="italic">Validée : </span>Non</td>
+		</tr>
+		<tr>
+			<td><span class="italic">Priorité : </span>Should</td>
+			<td><span class="italic">Test : </span></td>
+		</tr>
+		<tfoot>
+			<td colspan="2" style="text-align: left;">Le système doit gérer
+				les patients par groupes selon leur régime, exemple le groupe des
+				intolérant au lactose.</td>
+		</tfoot>
+	</table>
+	<br>
+	<table>
+		<thead>
+			<td colspan="2" style="text-align: left;"><span class="bold">REQ_10050
+					: </span>Génération automatique</td>
+		</thead>
+		<tr>
+			<td><span class="italic">Type : </span>Métier</td>
+			<td><span class="italic">Nature : </span>Fonctionnelle</td>
+		</tr>
+		<tr>
+			<td><span class="italic">Origine : </span></td>
+			<td><span class="italic">Liens : </span></td>
+		</tr>
+		<tr>
+			<td><span class="italic">Version : </span>Initiale</td>
+			<td><span class="italic">Validée : </span>Non</td>
+		</tr>
+		<tr>
+			<td><span class="italic">Priorité : </span>Must</td>
+			<td><span class="italic">Test : </span></td>
+		</tr>
+		<tfoot>
+			<td colspan="2" style="text-align: left;">Le système doit
+				permettre de générer automatiquement les repas pour un groupe de
+				patients particulier.</td>
+		</tfoot>
+	</table>
+	<br>
+	<table>
+		<thead>
+			<td colspan="2" style="text-align: left;"><span class="bold">REQ_10060
+					: </span>Fiches patients</td>
+		</thead>
+		<tr>
+			<td><span class="italic">Type : </span>Utilisateur</td>
+			<td><span class="italic">Nature : </span>Fonctionnelle</td>
+		</tr>
+		<tr>
+			<td><span class="italic">Origine : </span></td>
+			<td><span class="italic">Liens : </span></td>
+		</tr>
+		<tr>
+			<td><span class="italic">Version : </span>Initiale</td>
+			<td><span class="italic">Validée : </span>Non</td>
+		</tr>
+		<tr>
+			<td><span class="italic">Priorité : </span>Must</td>
+			<td><span class="italic">Test : </span></td>
+		</tr>
+		<tfoot>
+			<td colspan="2" style="text-align: left;">le système doit
+				stocker les fiches patients, et permettre de les modifier ou
+				supprimer le cas échéant.</td>
+		</tfoot>
+	</table>
+	<br>
+	<table>
+		<thead>
+			<td colspan="2" style="text-align: left;"><span class="bold">REQ_10070
+					: </span>Trier les plats</td>
+		</thead>
+		<tr>
+			<td><span class="italic">Type : </span>Utilisateur</td>
+			<td><span class="italic">Nature : </span>Fonctionnelle</td>
+		</tr>
+		<tr>
+			<td><span class="italic">Origine : </span></td>
+			<td><span class="italic">Liens : </span></td>
+		</tr>
+		<tr>
+			<td><span class="italic">Version : </span>Initiale</td>
+			<td><span class="italic">Validée : </span>Non</td>
+		</tr>
+		<tr>
+			<td><span class="italic">Priorité : </span>Must</td>
+			<td><span class="italic">Test : </span></td>
+		</tr>
+		<tfoot>
+			<td colspan="2" style="text-align: left;">Le système doit
+				permettre de trier les plats par catégories.</td>
+		</tfoot>
+	</table>
+	<br>
+	<table>
+		<thead>
+			<td colspan="2" style="text-align: left;"><span class="bold">REQ_10080
+					: </span>Inititulés de plats</td>
+		</thead>
+		<tr>
+			<td><span class="italic">Type : </span>Utilisateur</td>
+			<td><span class="italic">Nature : </span>Fonctionnelle</td>
+		</tr>
+		<tr>
+			<td><span class="italic">Origine : </span></td>
+			<td><span class="italic">Liens : </span></td>
+		</tr>
+		<tr>
+			<td><span class="italic">Version : </span>Initiale</td>
+			<td><span class="italic">Validée : </span>Non</td>
+		</tr>
+		<tr>
+			<td><span class="italic">Priorité : </span>Must</td>
+			<td><span class="italic">Test : </span></td>
+		</tr>
+		<tfoot>
+			<td colspan="2" style="text-align: left;">Le système doit
+				stocker les intitulés des plats, et permettre leur modification ou
+				leur suppression.</td>
+		</tfoot>
+	</table>
+	<br>
+</body>
 </html>
