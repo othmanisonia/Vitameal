@@ -3,6 +3,7 @@ package com.ipstcnam.vitameal.forms;
 import javax.servlet.http.HttpServletRequest;
 
 import com.ipstcnam.vitameal.beans.ProfilPatient;
+import com.ipstcnam.vitameal.beans.ProfilPatientDAO;
 
 public class ProfilPatientForm {
 	private static final String CHAMP_PRENOM  = "p_prenom";
@@ -16,6 +17,11 @@ public class ProfilPatientForm {
 	private static final String CHAMP_DIABETE  = "p_diabete";
 	private static final String CHAMP_COLESTEROL  = "p_colesterol";
 	private static final String CHAMP_HYPERTENSION  = "p_hypertension";
+	private ProfilPatientDAO leppDAO;
+	
+	public ProfilPatientForm(ProfilPatientDAO unppDAO) {
+		leppDAO = unppDAO;
+	}
 
 	public ProfilPatient unPatient(HttpServletRequest request) {
 		ProfilPatient patient = new ProfilPatient();
@@ -72,6 +78,7 @@ public class ProfilPatientForm {
 		} else {
 			patient.setHypertension(false);
 		}
+		leppDAO.creer(patient);
 
 		return patient;
 	}
