@@ -1,0 +1,67 @@
+%-*- coding: utf-8 -*-
+\documentclass[11pt,a4paper,french,twoside,openright]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}%pour insérer images et pdf entre autres
+	\graphicspath{{images/}}%pour spécifier le chemin d'accès aux images
+\usepackage[left=2.5cm,right=2.5cm,top=2.5cm,bottom=2.5cm]{geometry}%réglages des marges du document selon vos préférences ou celles de votre établissemant
+\usepackage[Lenny]{fncychap}%pour de jolis titres de chapitres voir la doc pour d'autres styles.
+\usepackage{babel}
+\usepackage[babel=true]{csquotes} % csquotes va utiliser la langue définie dans babel
+
+\usepackage{fancyhdr}%pour les entêtes et pieds de pages
+	\setlength{\headheight}{14.2pt}% hauteur de l'entête
+        \chead{\textbf{VITAMEAL}}
+        \lhead{}
+        \rhead{}
+	\cfoot{Formation Ingénieur Informatique en alternance - Première année}
+	\lfoot{\textbf{CNAM}}%
+  	\rfoot{\textbf{\thepage/\pageref{LastPage}}}
+ 	\renewcommand{\headrulewidth}{0.4pt}%trait horizontal pour l'entête
+  	\renewcommand{\footrulewidth}{0.4pt}%trait horizontal pour les pieds de pages
+
+\usepackage[french]{nomencl}
+\makenomenclature
+\usepackage{hyperref}
+\usepackage{mathtools}
+\begin{document}
+\pagestyle{fancy}
+
+\begin{center}\bfseries\Huge
+COMPTE RENDU DE TÉLÉCONFÉRENCE
+\end{center}
+
+\textbf{Du      :} dimanche 11/06/2017 à 20h30
+
+\textbf{Objet   :} Avancement projet VITAMEAL
+
+\textbf{Présents:} Nicolas SYMPHORIEN, Sonia OTHMANI, Jean-Félix BENITEZ
+
+\textbf{Absent :} Personne.
+
+\textbf{Diffusion:} Nicolas SYMPHORIEN, Sonia OTHMANI, Jean-Félix BENITEZ
+
+\hrulefill
+
+\section{Cas d'utilisations}
+
+Nous avons convenu:
+\begin{itemize}
+\item d'utiliser \href{http://www.lucidchart.com}{Lucidchart} pour faire nos diagrammes UML.
+\item de remonter sous GitHub les différents diagrammes que nous avons fait pour compléter la conception des cas d'utilisations que nous avons en charge.
+\item d'enrichir le rapport avec ces diagrammes et leur description.
+\item que Sonia devait mettre à jour sa configuration de travail de manière à pouvoir faire fonctionner l'application dans l'état où elle est. Nicolas et Jean-Félix son disponible le soir à travers Skype ou TeamViewer en cas de besoin.
+\item que Jean-Félix doit mettre à jour le document décrivant la configuration permettant de faire fonctionner l'application.
+\end{itemize}
+
+Références du livre utilisé pour mettre en place les premiers éléments de l'application:
+\begin{description}
+\item[Titre]: Java EE, Développez des applications web en Java
+\item[Auteur]: Thierry RICHARD
+\item[Éditeur]: Éditions eni
+\end{description}
+
+Prochain rendez-vous: \textbf{mercredi 14/06/2017 20h30 sous Skype.}
+
+\label{LastPage}
+\end{document}
