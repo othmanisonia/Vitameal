@@ -1,4 +1,4 @@
-package main.java.com.ipstcnam.vitameal.servlets;
+package com.ipstcnam.vitameal.servlets;
 
 import java.io.IOException;
 
@@ -9,8 +9,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-import main.java.com.ipstcnam.vitameal.beans.Utilisateur;
-import main.java.com.ipstcnam.vitameal.forms.ConnexionForm;
+import com.ipstcnam.vitameal.beans.Utilisateur;
+import com.ipstcnam.vitameal.forms.ConnexionForm;
 
 /**
  * Servlet implementation class Connexion

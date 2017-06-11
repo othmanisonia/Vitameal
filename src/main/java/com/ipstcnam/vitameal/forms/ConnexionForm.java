@@ -1,4 +1,4 @@
-package main.java.com.ipstcnam.vitameal.forms;
+package com.ipstcnam.vitameal.forms;
 
 import java.util.Arrays;
 import java.util.HashMap;
@@ -7,7 +7,7 @@ import java.util.stream.Collectors;
 
 import javax.servlet.http.HttpServletRequest;
 
-import main.java.com.ipstcnam.vitameal.beans.Utilisateur;
+import com.ipstcnam.vitameal.beans.Utilisateur;
 
 public class ConnexionForm {
     private static final String CHAMP_NOM  = "j_username";

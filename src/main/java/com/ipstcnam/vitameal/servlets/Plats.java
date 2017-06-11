@@ -1,4 +1,4 @@
-package main.java.com.ipstcnam.vitameal.servlets;
+package com.ipstcnam.vitameal.servlets;
 
 import java.io.IOException;
 

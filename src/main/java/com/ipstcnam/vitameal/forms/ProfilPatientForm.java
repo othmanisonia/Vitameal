@@ -1,8 +1,8 @@
-package main.java.com.ipstcnam.vitameal.forms;
+package com.ipstcnam.vitameal.forms;
 
 import javax.servlet.http.HttpServletRequest;
 
-import main.java.com.ipstcnam.vitameal.beans.ProfilPatient;
+import com.ipstcnam.vitameal.beans.ProfilPatient;
 
 public class ProfilPatientForm {
 	private static final String CHAMP_PRENOM  = "p_prenom";

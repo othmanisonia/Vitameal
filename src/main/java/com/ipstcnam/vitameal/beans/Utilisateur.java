@@ -1,4 +1,4 @@
-package main.java.com.ipstcnam.vitameal.beans;
+package com.ipstcnam.vitameal.beans;
 
 import java.io.Serializable;
 

@@ -1,4 +1,4 @@
-package main.java.com.ipstcnam.vitameal.servlets;
+package com.ipstcnam.vitameal.servlets;
 
 import java.io.IOException;
 
@@ -8,8 +8,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import main.java.com.ipstcnam.vitameal.beans.ProfilPatient;
-import main.java.com.ipstcnam.vitameal.forms.ProfilPatientForm;
+import com.ipstcnam.vitameal.beans.ProfilPatient;
+import com.ipstcnam.vitameal.forms.ProfilPatientForm;
 
 /**
  * Servlet implementation class ProfilPatient

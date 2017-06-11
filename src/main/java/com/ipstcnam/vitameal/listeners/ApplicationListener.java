@@ -1,4 +1,4 @@
-package main.java.com.ipstcnam.vitameal.listeners;
+package com.ipstcnam.vitameal.listeners;
 
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
