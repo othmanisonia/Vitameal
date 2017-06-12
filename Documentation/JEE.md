@@ -18,23 +18,24 @@ VitApp.war: Application Tomcat. Utilisation:
 
 Installation du pilote JDBC Oracle:
 -----------------------------------
-- Télécharger "ojdbc6.jar" depuis le lien précédent.  
-- déplacer ce fichier dans: C:\Program Files\Java\jre1.8.0_121\lib\ext\ojdbc6.jar  
-- Dans Eclipse, faire un clic droit sur le projet, puis sélectionner: Build Path / Configure Build Path / onglet "Libraries" / Add Library / Connectivity Driver Definition / New Driver Definition / Vendor Filter / Oracle / Oracle Thin Driver | system version 11 / JAR list tab / ojdbc?.jar / Edit JAR / Select ojdbc6.jar / Properties tab /  
-    - Catalog: USER  
-    - Connection URL: jdbc:oracle:thin:@localhost:1521:xe  
-    - Database Name: xe  
-    - Driver Class: oracle.jdbc.OracleDriver  
+* Télécharger "ojdbc6.jar" depuis le lien précédent.  
+* déplacer ce fichier dans: <chemin d'accès au jre>\lib\ext\ojdbc6.jar  
+* Dans Eclipse, faire un clic droit sur le projet, puis sélectionner: Build Path / Configure Build Path / onglet "Libraries" / Add Library / Connectivity Driver Definition / New Driver Definition / Vendor Filter / Oracle / Oracle Thin Driver | system version 11 / JAR list tab / ojdbc?.jar / Edit JAR / Select ojdbc6.jar / Properties tab /  
+    * Catalog: USER  
+    * Connection URL: jdbc:oracle:thin:@localhost:1521:xe  
+    * Database Name: xe  
+    * Driver Class: oracle.jdbc.OracleDriver  
 
 puis "OK".  
 Window -> Preferences -> Validation, JPA Validator, turn off for Build.
 
 MAVEN:
 ------
-mvn install:install-file -Dfile=C:\Program Files\Java\jre1.8.0_121\lib\ext\ojdbc6.jar -DgroupId=com.oracle -DartifactId=ojdbc6 -Dversion=11.2.0.4 -Dpackaging=jar
+mvn install:install-file -Dfile=<chemin d'accès au jre>\lib\ext\ojdbc6.jar -DgroupId=com.oracle -DartifactId=ojdbc6 -Dversion=11.2.0.4 -Dpackaging=jar
 
 Oracle:
 -------
+En "_SQL command line_":  
 create user VitUse identified by xxxxxxx;
 
 grant CREATE SESSION, ALTER SESSION, CREATE DATABASE LINK, -
@@ -43,10 +44,10 @@ grant CREATE SESSION, ALTER SESSION, CREATE DATABASE LINK, -
   CREATE TRIGGER, CREATE TYPE, CREATE VIEW, UNLIMITED TABLESPACE -
   to VitUse;
 
-*Remplacer le port 8080:*
-connect;
-SYSTEM + mdp
-Exec DBMS_XDB.SETHTTPPORT(3010);
+_Pour remplacer le port 8080 (en confli avec Tomcat):_  
+connect;  
+SYSTEM + mdp  
+Exec DBMS_XDB.SETHTTPPORT(3010);  
 
 Périmètre:
 ----------

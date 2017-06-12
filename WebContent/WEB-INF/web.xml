@@ -37,7 +37,7 @@
 
   <servlet-mapping>
     <servlet-name>GererProfilPatient</servlet-name>
-    <url-pattern>/GererProfilPatient</url-pattern>
+    <url-pattern>/ProfilPatient</url-pattern>
   </servlet-mapping>
 
   <servlet>
