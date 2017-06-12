@@ -9,11 +9,11 @@ import javax.persistence.Id;
 import javax.persistence.SequenceGenerator;
 
 @Entity
+@SequenceGenerator(name = "id_Sequence") // Portée globale (persistence unit) --> ne pas dupliquer.
 public class ProfilPatient implements Serializable {
 	private static final long serialVersionUID = 7503530612867464912L;
 	@Id
 	@GeneratedValue(strategy=GenerationType.SEQUENCE, generator = "id_Sequence")
-	@SequenceGenerator(name = "id_Sequence", sequenceName = "ID_SEQ")
 	private long idPatient;
 	private String prenom;
 	private String nom;
