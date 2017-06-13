@@ -31,6 +31,8 @@ Window -> Preferences -> Validation, JPA Validator, turn off for Build.
 
 MAVEN:
 ------
+Ajouter le chemin d'accès à MAVEN dans le "PATH": <chemin maven>\apache-maven-3.5.0\bin  
+Puis taper, en ligne de commande:  
 mvn install:install-file -Dfile=<chemin d'accès au jre>\lib\ext\ojdbc6.jar -DgroupId=com.oracle -DartifactId=ojdbc6 -Dversion=11.2.0.4 -Dpackaging=jar
 
 Oracle:
