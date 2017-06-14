@@ -1,0 +1,66 @@
+%-*- coding: utf-8 -*-
+\documentclass[11pt,a4paper,french,twoside,openright]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}%pour insérer images et pdf entre autres
+	\graphicspath{{images/}}%pour spécifier le chemin d'accès aux images
+\usepackage[left=2.5cm,right=2.5cm,top=2.5cm,bottom=2.5cm]{geometry}%réglages des marges du document selon vos préférences ou celles de votre établissemant
+\usepackage[Lenny]{fncychap}%pour de jolis titres de chapitres voir la doc pour d'autres styles.
+\usepackage{babel}
+\usepackage[babel=true]{csquotes} % csquotes va utiliser la langue définie dans babel
+
+\usepackage{fancyhdr}%pour les entêtes et pieds de pages
+	\setlength{\headheight}{14.2pt}% hauteur de l'entête
+        \chead{\textbf{VITAMEAL}}
+        \lhead{}
+        \rhead{}
+	\cfoot{Formation Ingénieur Informatique en alternance - Première année}
+	\lfoot{\textbf{CNAM}}%
+  	\rfoot{\textbf{\thepage/\pageref{LastPage}}}
+ 	\renewcommand{\headrulewidth}{0.4pt}%trait horizontal pour l'entête
+  	\renewcommand{\footrulewidth}{0.4pt}%trait horizontal pour les pieds de pages
+
+\usepackage[french]{nomencl}
+\makenomenclature
+\usepackage{hyperref}
+\usepackage{mathtools}
+\begin{document}
+\pagestyle{fancy}
+
+\begin{center}\bfseries\Huge
+COMPTE RENDU DE TÉLÉCONFÉRENCE
+\end{center}
+
+\textbf{Du      :} mercredi 14/06/2017 à 20h30
+
+\textbf{Objet   :} Avancement projet VITAMEAL
+
+\textbf{Présents:} Nicolas SYMPHORIEN, Sonia OTHMANI, Jean-Félix BENITEZ
+
+\textbf{Absent :} Personne.
+
+\textbf{Diffusion:} Nicolas SYMPHORIEN, Sonia OTHMANI, Jean-Félix BENITEZ
+
+\hrulefill
+
+\section{Cas d'utilisations}
+
+Nous avons convenu:
+\begin{itemize}
+\item que chacun va prendre connaissance du travail des autres, afin de
+  \begin{itemize}
+  \item comprendre ce travail, et d'avoir un regard critique dessus (poser des questions, faire part de désaccord, ...).
+  \item garder une vue d'ensemble exhaustive du projet et de son avancement.
+  \end{itemize}
+\item de finaliser la description des cas d'utilisations dans le rapport ainsi que des diagrammes de séquences qui vont avec, pour Sonia et Jean-Félix.
+\item que Sonia devait finir de mettre à jour sa configuration de travail de manière à pouvoir commencer les développements. Nicolas et Jean-Félix sont disponible le soir à travers Skype ou TeamViewer en cas de besoin.
+\item de faire la conception détaillée de chaque cas d'utilisation, afin de pouvoir commencer les développements.
+\item de faire le schéma de la base de données à partir du modèle du domaine fait le week-end dernier. Travail à rendre à M MALLAK la semaine prochaine.
+\item de continuer d'utiliser les figures flotantes de Latex, en mettant des références à ces figures dans le texte descriptif.
+\item que Jean-Félix doit supprimer de la gestion de configuration le dossier ``.metadata'' de MenuGen des CasDUtilisations.
+\end{itemize}
+
+Prochain rendez-vous: \textbf{dimanche 18/06/2017 20h30 sous Skype.}
+
+\label{LastPage}
+\end{document}
