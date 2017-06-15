@@ -1,26 +1,36 @@
 %-*- coding: utf-8 -*-
-\subsubsection{Élaboration automatique des menus}
-\begin{figure}[H]
-\label{MenuGen}
+\subsubsection{Élaboration des menus}
+\begin{figure}
   \centering
-      \includegraphics[width=1.00\textwidth]{../../CasDUtilisations/MenuGen/MenuGen.png} %
-\caption{Élaboration automatique des menus}
+      \includegraphics[width=1.00\textwidth]{../../CasDUtilisations/MenuGen/CasDUtilisation/MenuGen.png} %
+\caption{Cas d'utilisation élaboration des menus}
+\label{MenuGenCU}
 \end{figure}
 
 \begin{description}
-\item[Nom:] Élaboration automatique des menus.
+\item[Nom:] Élaboration des menus (Figure \ref{MenuGenCU}).
 \item[ID:] UC300
-\item[Description:] Permet l'élaboration automatique des menus.
+\item[Description:] Permet l'élaboration des menus.
 \item[Auteur:] Jean-Félix BENITEZ.
-\item[Date:] 07/05/2017
+\item[Date:] 15/06/2017
 \item[Acteurs:] Diététiciens.
 \item[Pré-Conditions:] Le diététicien s'est connecté au système.
-\item[Scénario principal:]
+\item[Scénario principal:] Figure \ref{MenuGenSeq}
   \begin{enumerate}
   \item Le diététicien sélectionne le groupe de patients pour lequel il veut générer les menus,
-  \item ensuite il lance l'élaboration automatique.
-  \item l'élaboration automatique ce déroule en prenant en compte les grammages.
+  \item \label{LanceElab}ensuite il lance l'élaboration des menus.
+  \item L'élaboration automatique ce déroule en prenant en compte les grammages.
+  \item Lorsque les menus sont élaborés, s'il estime l'élaboration correcte, il la valide.
+  \item S'il estime l'élaboration incorrecte, il peut la rejeter, auquel cas il reviens à l'étape \ref{LanceElab}
+  \item S'il estime l'élaboration incorrecte, il peut aussi la modifier manuellement.
   \end{enumerate}
 \item[Scénario alternatif:] Aucun.
 \item[Post-Conditions:] Les menus sont générés.
 \end{description}
+
+\begin{figure}
+  \centering
+      \includegraphics[width=1.00\textwidth]{../../CasDUtilisations/MenuGen/Sequence/ElaborationMenus.png} %
+\caption{Séquence élaboration des menus}
+\label{MenuGenSeq}
+\end{figure}
