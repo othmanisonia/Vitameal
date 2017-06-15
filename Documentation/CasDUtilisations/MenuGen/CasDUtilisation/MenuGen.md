@@ -1,22 +1,27 @@
-Génération automatique des menus
---------------------------------
+### Élaboration des menus
 
-![Génération automatique des menus](https://seikomi.github.io/Vitameal/Documentation/CasDUtilisations/MenuGen/MenuGen.png)  
+![Cas d’utilisation élaboration des menus](MenuGen.svg)
 
-**Nom:** Génération automatique des menus.  
-**ID:** UC300  
-**Description:** Permet la génération automatique des menus.  
-**Auteur:** Jean-Félix BENITEZ.  
-**Date:** 07/05/2017  
-**Acteurs:** Diététiciens.  
-**Pré-Conditions:** Le diététicien s’est connecté au système.  
-**Scénario principal:**  
+* **Nom:** Élaboration des menus (Figure \[MenuGenCU\]).
+* **ID:** UC300
+* **Description:** Permet l’élaboration des menus.
+* **Auteur:** Jean-Félix BENITEZ.
+* **Date:** 15/06/2017
+* **Acteurs:** Diététiciens.
+* **Pré-Conditions:** Le diététicien s’est connecté au système.
+* **Scénario principal:**
     1.  Le diététicien sélectionne le groupe de patients pour lequel il
         veut générer les menus,  
-    2.  ensuite il lance la génération automatique.  
-    3.  la génération automatique ce déroule en prenant en compte les
+    2.  ensuite il lance l’élaboration des menus.  
+    3.  L’élaboration automatique ce déroule en prenant en compte les
         grammages.  
-**Scénario alternatif:** Aucun.  
-**Post-Conditions:** Les menus sont générés.  
+    4.  Lorsque les menus sont élaborés, s’il estime l’élaboration
+        correcte, il la valide.  
+    5.  S’il estime l’élaboration incorrecte, il peut la rejeter, auquel
+        cas il reviens à l’étape 2 
+    6.  S’il estime l’élaboration incorrecte, il peut aussi la modifier
+        manuellement.  
+* **Scénario alternatif:** Aucun.
+* **Post-Conditions:** Les menus sont générés.
 
-
+![Séquence élaboration des menus](../Sequence/ElaborationMenus.svg)
