@@ -1,0 +1,39 @@
+%-*- coding: utf-8 -*-
+\documentclass[11pt,a4paper,twoside,openright]{article}
+
+\usepackage[utf8]{inputenc}
+%\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[francais]{babel}
+\usepackage[babel=true]{csquotes} % csquotes va utiliser la langue définie dans babel
+\usepackage{hyperref}
+	\hypersetup{colorlinks,%
+	citecolor=black,%
+	filecolor=black,%
+	linkcolor=black,%
+	urlcolor=blue}
+\usepackage{graphicx}
+	\graphicspath{{images/}}
+\usepackage[left=2.0cm,right=2.0cm,top=2.0cm,bottom=2.0cm]{geometry}
+\setcounter{secnumdepth}{-1}
+
+\usepackage{LastPage}
+\usepackage[table, dvipsnames]{xcolor}
+
+\usepackage{mathtools}
+\usepackage{amssymb}
+
+% Pour les entêtes et pieds de pages
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+
+\chead{\textbf{VITAMEAL -}}
+\cfoot{Nicolas SYMPHORIEN, Sonia OTHMANI, Jean-Félix BENITEZ}
+\rfoot{\textbf{CNAM}}%
+\lfoot{\textbf{\thepage/\pageref{LastPage}}}
+\renewcommand{\headrulewidth}{0.4pt}%trait horizontal pour l'entête
+\renewcommand{\footrulewidth}{0.4pt}%trait horizontal pour les pieds de pages
+
+\begin{document}
+\input{ModeleDuDomaine}
+\end{document}
