@@ -17,7 +17,7 @@ Le modèle du domaine est représenté \autoref{ModeleDuDomaine}. Ce projet ayan
 
 Les aliments étant à la base de la composition des plats constituant les menus, c'est la classe \classe{Ingrédient} qui les décrit. Les noms des attributs de cette classe parlent d'eux même; nous allons cependant expliquer l'attribut \attribut{texture} qui est un terme métier pour dire si l'on travaille avec des \href{http://plone.vermeil.org:8080/ehpad/Bibliotheque/Memoires/annee-2012-2013/07 - Les textures modifiees et le plaisir de manger de Jacques Caby.pdf}{aliments à texture modifiée} (mixés) ou à texture maintenue (entiers). Cette classe définit l'ensemble des aliments qu'ils soient de base (le blé, l'eau le sel) ou non (le pain). L'attribut \attribut{alimentDeBase} indique que l'on a à faire à un aliment de base (lorsqu'il est vrai). Un \classe{Menu} est constitué de \classe{Plat}, composés d'\classe{Ingredient}; les quantités misent en oeuvre sont décrites dans la classe~association \classe{Part}.
 
-\subsubsection{Modèle Conceptuel de Données}
+\subsubsection{Modèle Logique de Données}
 Le dictionnaire est décrit \autoref{DictionnaireMDD}.
 \begin{description}
 \item[Règle 1:] classe = relation, si héritage, les classes filles contiennent l'identifiant de la classe mère comme clè étrangère.

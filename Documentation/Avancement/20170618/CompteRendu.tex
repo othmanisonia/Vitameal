@@ -1,0 +1,68 @@
+%-*- coding: utf-8 -*-
+\documentclass[11pt,a4paper,french,twoside,openright]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}%pour insérer images et pdf entre autres
+	\graphicspath{{images/}}%pour spécifier le chemin d'accès aux images
+\usepackage[left=2.5cm,right=2.5cm,top=2.5cm,bottom=2.5cm]{geometry}%réglages des marges du document selon vos préférences ou celles de votre établissemant
+\usepackage[Lenny]{fncychap}%pour de jolis titres de chapitres voir la doc pour d'autres styles.
+\usepackage{babel}
+\usepackage[babel=true]{csquotes} % csquotes va utiliser la langue définie dans babel
+
+\usepackage{fancyhdr}%pour les entêtes et pieds de pages
+	\setlength{\headheight}{14.2pt}% hauteur de l'entête
+        \chead{\textbf{VITAMEAL}}
+        \lhead{}
+        \rhead{}
+	\cfoot{Formation Ingénieur Informatique en alternance - Première année}
+	\lfoot{\textbf{CNAM}}%
+  	\rfoot{\textbf{\thepage/\pageref{LastPage}}}
+ 	\renewcommand{\headrulewidth}{0.4pt}%trait horizontal pour l'entête
+  	\renewcommand{\footrulewidth}{0.4pt}%trait horizontal pour les pieds de pages
+
+\usepackage[french]{nomencl}
+\makenomenclature
+\usepackage{hyperref}
+\usepackage{mathtools}
+\begin{document}
+\pagestyle{fancy}
+
+\begin{center}\bfseries\Huge
+COMPTE RENDU DE TÉLÉCONFÉRENCE
+\end{center}
+
+\textbf{Du      :} dimanche 18/06/2017 à 20h30
+
+\textbf{Objet   :} Avancement projet VITAMEAL
+
+\textbf{Présents:} Nicolas SYMPHORIEN, Sonia OTHMANI, Jean-Félix BENITEZ
+
+\textbf{Absent :} Personne.
+
+\textbf{Diffusion:} Nicolas SYMPHORIEN, Sonia OTHMANI, Jean-Félix BENITEZ
+
+\hrulefill
+
+\section{Cas d'utilisations}
+Les diagrammes de cas d'utilisations, avec leurs descriptions et avec les diagrammes de séquences sont terminés.
+Sonia et Nicolas, doivent renseigner la partie évolution du rapport, sur le travail qu'ils ont remontés.
+La prochaine étape est la conception de ces cas d'utilisation avant le codage.
+
+Nous allons \enquote{tagger} le dépôt avant de commencer les développements $\rightarrow$ Jean-Félix
+
+\section{Modèle du domaine}
+Le modèle du domaine tel qu'il a été fait est adopté; il faut juste remplacer \enquote{Modéle Conceptuel de Données} par \enquote{Modèle Logique de Données} $\rightarrow$ Jean-Félix
+
+\section{Environnement de développement}
+Sonia doit finaliser l'installation de son environnement de développement.
+
+\section{Architecture logicielle}
+Elle doit être affinée; Nicolas regarde cela en tâche de fond.
+La mise en oeuvre d'\emph{Hibernate} est plus délicate que prévue. Doit-on continuer à l'utiliser ou bien doit-on passer à quelque chose de plus simple, comme le modèle \emph{DAO} ?
+Nous nous efforcerons de répondre à cette question dans le courant de la semaine qui viens.
+
+\section{Prochain rendez-vous}
+\textbf{mercredi 21/06/2017 20h30 après les cours.}
+
+\label{LastPage}
+\end{document}
