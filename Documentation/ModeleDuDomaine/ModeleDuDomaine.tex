@@ -27,7 +27,7 @@ Le dictionnaire est décrit \autoref{DictionnaireMDD}.
 
 Ingredient(\underline{id}, nom, famille, composition, texture, forme, alimentDeBase)
 
-Plat(\underline{id}, nom)
+Plat(\underline{id}, nom, categorie, nbServices, periode, minMax)
 
 Menu(\underline{id}, date, \regleD{GroupePatients.id\#})
 
@@ -65,7 +65,11 @@ GroupePatients(\underline{id}, nom)
   Ingredient & forme & Forme de l'ingredient & Formes & \\
   Ingredient & alimentBase & Indique s'il sagit d'un aliment de base & Boolean & \\ \hline
   Plat & id & Clé primaire & Integer & Identifiant \\
-  Plat & nom & Nom du plat & String & \\ \hline
+  Plat & nom & Nom du plat & String & \\
+  Plat & categorie & Entrée, plat ,dessert, ... & String & \\
+  Plat & nbServices & Fréquence de service & Integer & \\
+  Plat & periode & Période de la fréquence de service & Integer & \\
+  Plat & minMax & Fréquence de service min ou max & Boolean & \\ \hline
   Menu & id & Clé primaire & Integer & Identifiant \\
   Menu & date & Date du repas & Date & \\
   Menu & GroupePatient.id &  Groupe de patients auquels est destiné le menu & Integer & Clé étrangère \\ \hline
