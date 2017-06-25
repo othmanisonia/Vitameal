@@ -1,0 +1,55 @@
+%-*- coding: utf-8 -*-
+\documentclass[11pt,a4paper,french,twoside,openright]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}%pour insérer images et pdf entre autres
+	\graphicspath{{images/}}%pour spécifier le chemin d'accès aux images
+\usepackage[left=2.5cm,right=2.5cm,top=2.5cm,bottom=2.5cm]{geometry}%réglages des marges du document selon vos préférences ou celles de votre établissemant
+\usepackage[Lenny]{fncychap}%pour de jolis titres de chapitres voir la doc pour d'autres styles.
+\usepackage{babel}
+\usepackage[babel=true]{csquotes} % csquotes va utiliser la langue définie dans babel
+
+\usepackage{fancyhdr}%pour les entêtes et pieds de pages
+	\setlength{\headheight}{14.2pt}% hauteur de l'entête
+        \chead{\textbf{VITAMEAL}}
+        \lhead{}
+        \rhead{}
+	\cfoot{Formation Ingénieur Informatique en alternance - Première année}
+	\lfoot{\textbf{CNAM}}%
+  	\rfoot{\textbf{\thepage/\pageref{LastPage}}}
+ 	\renewcommand{\headrulewidth}{0.4pt}%trait horizontal pour l'entête
+  	\renewcommand{\footrulewidth}{0.4pt}%trait horizontal pour les pieds de pages
+
+\usepackage[french]{nomencl}
+\makenomenclature
+\usepackage{hyperref}
+\usepackage{mathtools}
+\begin{document}
+\pagestyle{fancy}
+
+\begin{center}\bfseries\Huge
+COMPTE RENDU DE TÉLÉCONFÉRENCE
+\end{center}
+
+\textbf{Du      :} dimanche 25/06/2017 à 20h30
+
+\textbf{Objet   :} Avancement projet VITAMEAL
+
+\textbf{Présents:} Nicolas SYMPHORIEN, Sonia OTHMANI, Jean-Félix BENITEZ
+
+\textbf{Absent :} Personne.
+
+\textbf{Diffusion:} Nicolas SYMPHORIEN, Sonia OTHMANI, Jean-Félix BENITEZ
+
+\hrulefill
+
+\section{Conception}
+La conception globale des différentes parties que chacun a en charge est presque terminée. Il nous reste à rentrer dans les détails. \emph{Sonia} doit faire le diagramme de séquence détaillé du profil patient, avant d'aller plus loin; \emph{Nicolas} vas détailler la conception d'un de ses cas d'utilisation et \emph{Jean-Félix} doit davantage détailler le diagramme de séquence de l'élaboration des menus, avant de décrire l'élaboration des menus elle même.
+
+Durant la semaine qui viens, nous allons nous concentrer sur la conception et le code. Nous travaillerons le rapport et la présentation en fin de semaine prochaine.
+
+\section{Prochain rendez-vous}
+\textbf{mercredi 28/06/2017 20h30}
+
+\label{LastPage}
+\end{document}
