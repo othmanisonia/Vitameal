@@ -6,14 +6,12 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.persistence.SequenceGenerator;
 
 @Entity
-@SequenceGenerator(name = "id_Sequence") // Portée globale (persistence unit) --> ne pas dupliquer.
 public class ProfilPatient implements Serializable {
 	private static final long serialVersionUID = 7503530612867464912L;
 	@Id
-	@GeneratedValue(strategy=GenerationType.SEQUENCE, generator = "id_Sequence")
+	@GeneratedValue(strategy=GenerationType.SEQUENCE)
 	private long idPatient;
 	private String prenom;
 	private String nom;
@@ -40,15 +38,15 @@ public class ProfilPatient implements Serializable {
 		colesterol = false;
 		hypertension = false;
 	}
-	
+
 	public void setIdPatient(long unId) {
 		idPatient = unId;
 	}
-	
+
 	public void setPrenom(String unPrenom) {
 		prenom = unPrenom;
 	}
-	
+
 	public void setNom(String unNom) {
 		nom = unNom;
 	}
@@ -92,7 +90,7 @@ public class ProfilPatient implements Serializable {
 	public long getIdPatient() {
 		return idPatient;
 	}
-	
+
 	public String getPrenom() {
 		return prenom;
 	}
@@ -136,7 +134,7 @@ public class ProfilPatient implements Serializable {
 	public boolean gethypertension() {
 		return hypertension;
 	}
-	
+
 	public String toString() {
 		String patients = prenom + " " + nom + " ";
 		if (sexe) {
@@ -144,7 +142,8 @@ public class ProfilPatient implements Serializable {
 		} else {
 			patients += "femme ";
 		}
-		patients += age + " ans " + poids + " Kg " + taille + " cm\nAllergies: " + allergies + " Contre Indications: " + contreIndications + "\n";
+		patients += age + " ans " + poids + " Kg " + taille + " cm\nAllergies: " + allergies + " Contre Indications: "
+				+ contreIndications + "\n";
 		patients += "Diabète: " + diabete + " Colestérol: " + colesterol + " Hypertension: " + hypertension + "\n";
 		return patients;
 	}
