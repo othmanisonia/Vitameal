@@ -9,6 +9,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
+import org.apache.logging.log4j.*;
+
 import com.ipstcnam.vitameal.beans.Utilisateur;
 import com.ipstcnam.vitameal.forms.ConnexionForm;
 
@@ -24,17 +26,24 @@ public class Connexion extends HttpServlet {
     private static final String ATT_FORM         = "form";
     private static final String ATT_SESSION_USER = "utilisateur";
 
+    private static final Logger logger = LogManager.getLogger(Connexion.class);
 	/**
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
+    @Override
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		ServletContext currentContext = this.getServletContext();
-		currentContext.getRequestDispatcher(VUE).forward(request, response);
+		try {
+			currentContext.getRequestDispatcher(VUE).forward(request, response);
+		} catch (Exception e) {
+			logger.error(e.getLocalizedMessage());
+		}
 	}
 
 	/**
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
 	 */
+    @Override
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         /* Préparation de l'objet formulaire */
         ConnexionForm form = new ConnexionForm();
@@ -53,12 +62,16 @@ public class Connexion extends HttpServlet {
          * Si aucune erreur de validation n'a eu lieu, alors ajout du bean
          * Utilisateur à la session, sinon suppression du bean de la session.
          */
-        if ( form.getErreurs().isEmpty() ) {
-            session.setAttribute( ATT_SESSION_USER, utilisateur.getNom() );
-            this.getServletContext().getRequestDispatcher( NAV ).forward( request, response );
-        } else {
-            session.setAttribute( ATT_SESSION_USER, null );
-            this.getServletContext().getRequestDispatcher( ERREUR ).forward( request, response );
+        try {
+	        if ( form.getErreurs().isEmpty() ) {
+	            session.setAttribute( ATT_SESSION_USER, utilisateur.getNom() );
+	            this.getServletContext().getRequestDispatcher( NAV ).forward( request, response );
+	        } else {
+	            session.setAttribute( ATT_SESSION_USER, null );
+	            this.getServletContext().getRequestDispatcher( ERREUR ).forward( request, response );
+	        }
+        } catch (Exception e) {
+			logger.error(e.getLocalizedMessage());
         }
 
 	}

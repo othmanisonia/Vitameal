@@ -51,6 +51,11 @@ connect;
 SYSTEM + mdp  
 Exec DBMS_XDB.SETHTTPPORT(3010);  
 
+Log4j:
+------
+[Apache Log4j 2.8.2](https://logging.apache.org/log4j/2.x/)  
+Normalement, c'est géré par MAVEN (pom.xml à jour.)
+
 Périmètre:
 ----------
 Logging utilisateurs et accès à la page de travail.  

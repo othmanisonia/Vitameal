@@ -7,6 +7,9 @@ import java.util.stream.Collectors;
 
 import javax.servlet.http.HttpServletRequest;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import com.ipstcnam.vitameal.beans.Utilisateur;
 
 public class ConnexionForm {
@@ -14,7 +17,7 @@ public class ConnexionForm {
     private static final String CHAMP_PASS   = "j_password";
 
     private String              resultat;
-    private Map<String, String> erreurs      = new HashMap<String, String>();
+    private Map<String, String> erreurs      = new HashMap<>();
 
     private static final Map<String, String> REGISTRED_USERS =
     	    Arrays.stream(new String[][] {
@@ -24,6 +27,8 @@ public class ConnexionForm {
     	        { "Sonia", "sonia" },
     	        { "Jean-Felix", "jeanfelix" }
     	    }).collect(Collectors.toMap(kv -> kv[0], kv -> kv[1]));
+    
+    private static final Logger logger = LogManager.getLogger(ConnexionForm.class);
     
     public String getResultat() {
         return resultat;
@@ -38,16 +43,22 @@ public class ConnexionForm {
         String nom = getValeurChamp( request, CHAMP_NOM );
         String unMotDePasse = getValeurChamp( request, CHAMP_PASS );
 
+        logger.info("Utilisateur {} demande une connexion avec le mdp {}.", nom, unMotDePasse);
+        
         Utilisateur utilisateur = new Utilisateur();
 
-    	if (REGISTRED_USERS.containsKey(nom)) {
+        if (REGISTRED_USERS.containsKey(nom)) {
     		String mdp = REGISTRED_USERS.get(nom);
-        	if (unMotDePasse.equals(mdp)) {
+    		if ((unMotDePasse != null) && (unMotDePasse.equals(mdp))) {
         		utilisateur.setNom(nom);
         		utilisateur.setMotDePasse(unMotDePasse);
-        	}
+    		} else {
+    			setErreur( CHAMP_PASS, "Mot de passe incorrect." );
+    			logger.info("Mot de passe incorrect.");
+    		}
     	} else {
-    		setErreur( CHAMP_PASS, "Nom ou mot de passe incorrect." );
+    		setErreur( CHAMP_NOM, "Nom incorrect." );
+    		logger.info("Nom incorrect.");
     	}
 
         /* Initialisation du résultat global de la validation. */
@@ -56,6 +67,8 @@ public class ConnexionForm {
         } else {
             resultat = "Échec de la connexion.";
         }
+        
+        logger.info("Résultat de la connexion : {}", resultat);
 
         return utilisateur;
     }

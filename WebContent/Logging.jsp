@@ -10,8 +10,8 @@
 	<form method="post" action="connexion"> <!-- j_security_check -->
 		<fieldset>
 			<legend>Vitameal Connexion</legend>
-			Nom ............ : <input type="text" name="j_username"><br>
-			Mot de passe : <input type="password" name="j_password"><br>
+			Nom ............ : <input type="text" name="j_username" required><br>
+			Mot de passe : <input type="password" name="j_password" required><br>
 			<input type="submit" value="Valider">
 		</fieldset>
 	</form>
