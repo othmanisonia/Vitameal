@@ -1,12 +1,28 @@
-package com.ipstcnam.vitameal.beans;
+package com.ipstcnam.vitameal.entity;
 
 import java.io.Serializable;
 
-import javax.persistence.Embeddable;
 import javax.persistence.EmbeddedId;
 import javax.persistence.Entity;
-import javax.persistence.ManyToOne;
 
+import com.ipstcnam.vitameal.entity.pk.ComposantPlatPK;
+
+/**
+ * <p>
+ * Cette classe représente un composant d'un plat. Elle correspond à une
+ * association entre un plat et un ingrédient et donne la quantité en une unité
+ * de mesure de cet ingrédient dans le plat.
+ * </p>
+ * <p>
+ * L'identifiant de cette entité une clé composite entre un plat et un
+ * ingrédient ({@link ComposantPlatPK}).
+ * </p>
+ * 
+ * @see Ingredient
+ * @see Plat
+ * 
+ * @author Nicolas Symphorien
+ */
 @Entity
 public class ComposantPlat implements Serializable {
 
@@ -40,35 +56,6 @@ public class ComposantPlat implements Serializable {
 
 	public void setUnite(String unite) {
 		this.unite = unite;
-	}
-
-	@Embeddable
-	public class ComposantPlatPK implements Serializable {
-
-		private static final long serialVersionUID = 91100405592885502L;
-		
-		@ManyToOne
-		private Plat plat;
-		
-		@ManyToOne
-		private Ingredient ingredient;
-
-		public Plat getPlat() {
-			return plat;
-		}
-
-		public void setPlat(Plat plat) {
-			this.plat = plat;
-		}
-
-		public Ingredient getIngredient() {
-			return ingredient;
-		}
-
-		public void setIngredient(Ingredient ingredient) {
-			this.ingredient = ingredient;
-		}
-
 	}
 
 }
