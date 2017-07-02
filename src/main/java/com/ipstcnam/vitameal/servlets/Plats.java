@@ -43,7 +43,7 @@ public class Plats extends HttpServlet {
 					getServletContext().getRequestDispatcher(PLATS_JSP).forward(request, response);
 				}
 			} else {
-				doGet(request, response);
+				super.doGet(request, response);
 			}
 		} catch (IOException | ServletException ex) {
 			System.err.println(ex.getMessage());
@@ -81,7 +81,7 @@ public class Plats extends HttpServlet {
 		if (platsControleur == null) {
 			platsControleur = new PlatsControleur();
 		}
-		request.getSession().setAttribute("platsControleur", platsControleur);
+
 		return platsControleur;
 	}
 

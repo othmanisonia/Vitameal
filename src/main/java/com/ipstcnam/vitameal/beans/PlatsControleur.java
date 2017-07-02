@@ -55,7 +55,7 @@ public class PlatsControleur implements Serializable {
 	}
 
 	public boolean isCreerMode() {
-		return ActionPlatEnum.cree.equals(action);
+		return ActionPlatEnum.creer.equals(action);
 	}
 	
 	public Plat findPlat(Integer idPlat) {

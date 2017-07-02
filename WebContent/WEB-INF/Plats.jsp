@@ -16,12 +16,11 @@
 	<!-- Récupération du controleur et des plats-->
 	
 	<jsp:useBean id="platsControleur" scope="session" class="com.ipstcnam.vitameal.beans.PlatsControleur" />
-	<c:set var="plats" value="${platsControleur.findAllPlats()}" />
 	
 	<section>
 		<h1>Plats</h1>
 		<table>
-			<c:forEach var="plat" items="plats">
+			<c:forEach var="plat" items="${platsControleur.findAllPlats()}">
 				<tr>
 					<td>${plat.nom}</td>
 					<td>${plat.idPlat}</td>

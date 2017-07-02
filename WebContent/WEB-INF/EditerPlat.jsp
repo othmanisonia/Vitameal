@@ -13,8 +13,6 @@
 	<jsp:include page="/WEB-INF/Fragments/Header.jsp" />
 	<jsp:include page="/WEB-INF/Fragments/Navigation.jsp" />
 	
-	<!-- Récupération du controleur et des information sur le plat en cas d'édition -->
-	
 	<jsp:useBean id="platsControleur" scope="session" class="com.ipstcnam.vitameal.beans.PlatsControleur" />	
 	<c:if test="${platsControleur.isEditerMode()}">
 		<c:set var="plat" value="${platsControleur.findPlat(platsControleur.idPlat)}" />
@@ -22,9 +20,6 @@
 	</c:if>
 	
 	<section>
-	
-		<!-- Formulaire en mode création -->
-		
 		<c:choose>
 			<c:when test="${platsControleur.isCreerMode()}">
 				<h1>Crée un nouveau plats</h1>
@@ -57,8 +52,6 @@
 				</form>
 			</c:when>
 			
-			<!-- Formulaire en mode édition -->
-			
 			<c:when test="${platsControleur.isEditerMode()}">
 				<h1>Editer le plat ${plat.nom}</h1>
 				
@@ -86,7 +79,7 @@
 
 					</fieldset>
 			
-					<input type="submit" value="Valider">
+					<input type="submit" value="Valider" disabled> NOT YET IMPLEMENTED
 				</form>
 			</c:when>
 		</c:choose>

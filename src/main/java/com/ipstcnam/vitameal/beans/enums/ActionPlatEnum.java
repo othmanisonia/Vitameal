@@ -1,7 +1,7 @@
 package com.ipstcnam.vitameal.beans.enums;
 
 public enum ActionPlatEnum {
-	consulter, cree, editer, supprimer;
+	consulter, creer, editer, supprimer;
 	
 	public static boolean contains(String value) {
 		for (ActionPlatEnum enumValue : ActionPlatEnum.values()) {

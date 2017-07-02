@@ -32,7 +32,7 @@ public class PlatForm {
 	}
 	
 	private void createIngredient(HttpServletRequest request) {
-		Ingredient ingredient = new Ingredient();
+		ingredient = new Ingredient();
 		ingredient.setNom(request.getParameter("p_nomIngredient"));
 	}
 
