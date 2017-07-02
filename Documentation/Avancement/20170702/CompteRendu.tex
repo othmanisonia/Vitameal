@@ -1,0 +1,66 @@
+%-*- coding: utf-8 -*-
+\documentclass[11pt,a4paper,french,twoside,openright]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}%pour insérer images et pdf entre autres
+	\graphicspath{{images/}}%pour spécifier le chemin d'accès aux images
+\usepackage[left=2.5cm,right=2.5cm,top=2.5cm,bottom=2.5cm]{geometry}%réglages des marges du document selon vos préférences ou celles de votre établissemant
+\usepackage[Lenny]{fncychap}%pour de jolis titres de chapitres voir la doc pour d'autres styles.
+\usepackage{babel}
+\usepackage[babel=true]{csquotes} % csquotes va utiliser la langue définie dans babel
+\usepackage{LastPage}
+
+\usepackage{fancyhdr}%pour les entêtes et pieds de pages
+	\setlength{\headheight}{14.2pt}% hauteur de l'entête
+        \chead{\textbf{VITAMEAL}}
+        \lhead{}
+        \rhead{}
+	\cfoot{Formation Ingénieur Informatique en alternance - Première année}
+	\lfoot{\textbf{CNAM}}%
+  	\rfoot{\textbf{\thepage/\pageref{LastPage}}}
+ 	\renewcommand{\headrulewidth}{0.4pt}%trait horizontal pour l'entête
+  	\renewcommand{\footrulewidth}{0.4pt}%trait horizontal pour les pieds de pages
+
+\usepackage[french]{nomencl}
+\makenomenclature
+\usepackage{hyperref}
+\usepackage{mathtools}
+\begin{document}
+\pagestyle{fancy}
+
+\begin{center}\bfseries\Huge
+COMPTE RENDU DE TÉLÉCONFÉRENCE
+\end{center}
+
+\textbf{Du      :} dimanche 02/07/2017 à 20h30
+
+\textbf{Objet   :} Avancement projet VITAMEAL
+
+\textbf{Présents:} Nicolas SYMPHORIEN, Sonia OTHMANI, Jean-Félix BENITEZ
+
+\textbf{Absent :} Personne.
+
+\textbf{Diffusion:} Nicolas SYMPHORIEN, Sonia OTHMANI, Jean-Félix BENITEZ
+
+\hrulefill
+
+\section{Conception}
+Avancement du travail de Sonia:
+Diagrammes de cas d'utilisation, séquence système et séquence détaillé faits et à jours. Reste à détailler le diagramme de classes avant de passer au codage.
+
+Avancement du travail de Nicolas:
+Conception terminées dans les grandes lignes. Codage de \enquote{consulter un plat} fait, \enquote{Créer un plat} en cours; reste à coder \enquote{supprimer un plat} et \enquote{éditer un plat}.
+
+Avancement du travail Jean-Félix:
+Diagramme des classes de l'élaboration des menus fait. Description écrite de l'algorithme d'élaboration des menus fait. Reste à passer au codage.
+
+\section{Rapport}
+Nous avons convenu de renommer le chapitre actuel \enquote{Initialisation}. Le nouveau nom devra évoquer la description du problème. Nous le feront suivre par un chapitre consacré à la conception, qui ce trouvera avant le chapitre \enquote{Élaboration}. Ce changement interviendra dès que  nous aurons trouvé un nouveau nom pour le chapitre (pas forcément pour la prochaine présentation).
+
+\section{Présentation}
+On garde la structure actuelle, chacun va venir ajouter / mettre à jour les diagrammes dont il a la charge. Mettre en place des vues plein écran pour les diagrammes (sans le menu): Jean-Félix.
+
+\section{Prochain rendez-vous}
+\textbf{mercredi 05/07/2017 17h00 après les cours}
+
+\end{document}
