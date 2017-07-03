@@ -107,7 +107,11 @@ Chaque exigence est composée de 11 champs:
 
 \begin{frame}
 \frametitle{Cas d'Utilisations}
-\input{../CasDUtilisations/uc_principal.tex}
+\begin{figure}[H]
+\label{schema}
+  \centering
+      \includegraphics[scale=0.4]{../CasDUtilisations/diagramme_cas_utilisation.png}
+\end{figure}
 \end{frame}
 
 \subsection{Profil patient}
@@ -117,9 +121,76 @@ Chaque exigence est composée de 11 champs:
 \end{frame}
 
 \subsection{Composer un plat}
-\begin{frame}
-\frametitle{Composer un plat}
-\input{../CasDUtilisations/CompositionPlat/uc_composer_un_plat}
+
+\begin{frame}[plain]{}
+\begin{figure}
+\centering
+\includegraphics[scale=0.125]{../CasDUtilisations/CompositionPlat/sequence_UC_ComposerPlat.png}
+\end{figure}
+\end{frame}
+
+\begin{frame}[plain]{}
+\begin{figure}
+\centering
+\includegraphics[scale=0.4]{../CasDUtilisations/CompositionPlat/maquette_EcranConsulterPlats.png}
+\caption{Maquette de consultation d'un plat}
+\label{MaquetteConsultationPlat}
+\end{figure}
+\end{frame}
+
+\begin{frame}[plain]{}
+\begin{figure}
+\centering
+\includegraphics[scale=0.4]{../CasDUtilisations/CompositionPlat/maquette_EcranCreationPlat.png}
+\caption{Maquette de la création d'un plat}
+\label{MaquetteCreationPlat}
+\end{figure}
+\end{frame}
+
+\begin{frame}[plain]{}
+\begin{figure}
+\centering
+\includegraphics[scale=0.4]{../CasDUtilisations/CompositionPlat/maquette_EcranEditionPlat.png}
+\caption{Maquette de l'édition d'un plat}
+\label{MaquetteEditionPlat}
+\end{figure}
+\end{frame}
+
+\begin{frame}[plain]{}
+\begin{figure}
+\centering
+\includegraphics[scale=0.4]{../CasDUtilisations/CompositionPlat/maquette_MessageSupressionPlat.png}
+\caption{Maquette de suppression d'un plat}
+\label{MaquetteSuppressionPlat}
+\end{figure}
+\end{frame}
+
+\begin{frame}[plain]{}
+\begin{figure}
+\centering
+\includegraphics[scale=0.11]{../CasDUtilisations/CompositionPlat/sequence_InitialisationPlatControleur.png}
+\end{figure}
+\end{frame}
+
+\begin{frame}[plain]{}
+\begin{figure}
+\centering
+\includegraphics[scale=0.325]{../CasDUtilisations/CompositionPlat/sequence_CreerPlat.png}
+\end{figure}
+\end{frame}
+
+\begin{frame}[plain]{}
+\begin{figure}
+\centering
+\includegraphics[scale=0.275]{../CasDUtilisations/CompositionPlat/sequence_EditerPlat.png}
+\end{figure}
+\end{frame}
+
+\begin{frame}[plain]{}
+\begin{figure}
+\centering
+\includegraphics[scale=0.175]{../CasDUtilisations/CompositionPlat/classDiagram_ComposerPlat.png}
+\end{figure}
 \end{frame}
 
 \subsection{Génération des menus}
