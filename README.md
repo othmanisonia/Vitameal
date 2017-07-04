@@ -37,7 +37,7 @@ https://pro.anses.fr/TableCIQUAL/
 | 6 | mercredi 26 avril     |    26 |     0.2 |
 | 5 | vendredi 12 mai       |    16 |     0.3 |
 | 4 | jeudi     8 juin      |    27 |         |
-| 3 | vendredi  6 juillet   |    28 |         |
+| 3 | jeudi     6 juillet   |    28 |         |
 | 2 | mercredi 19 juillet   |    13 |         |
 | 1 | vendredi 21 juillet   |     2 |         |
 | 0 | mercredi 13 septembre |    54 |         |
@@ -56,6 +56,12 @@ La colonne "Jours" donne le nombre de jours d'une date à la précedente.
 [Avancement au 28 avril 2017](Documentation/Avancement/20170428/CompteRendu.md)  
 [Avancement au 03 mai 2017](Documentation/Avancement/20170503/CompteRendu.md)  
 [Avancement au 06 mai 2017](Documentation/Avancement/20170506/CompteRendu.md)  
+[Avancement au 11 juin 2017](Documentation/Avancement/20170611/CompteRendu.md)  
+[Avancement au 14 juin 2017](Documentation/Avancement/20170614/CompteRendu.md)  
+[Avancement au 18 juin 2017](Documentation/Avancement/20170618/CompteRendu.md)  
+[Avancement au 25 juin 2017](Documentation/Avancement/20170625/CompteRendu.md)  
+[Avancement au 28 juin 2017](Documentation/Avancement/20170628/CompteRendu.md)  
+[Avancement au 02 juillet 2017](Documentation/Avancement/20170702/CompteRendu.md)  
 
 ## Guides du développeur
 

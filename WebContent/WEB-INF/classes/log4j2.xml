@@ -10,7 +10,7 @@
     </File> 
   </Appenders>
   <Loggers>
-    <Root level="error"> <!-- "trace", "debug", "info", "warn", "error" -->
+    <Root level="info"> <!-- "trace", "debug", "info", "warn", "error" -->
       <AppenderRef ref="Console"/>
       <AppenderRef ref="VitAppLog"/>
     </Root>
